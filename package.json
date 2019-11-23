@@ -1,9 +1,8 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "ths-international-reception",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Oscar Synnemar <oscar@synnemar.com>",
   "dependencies": {
     "gatsby": "^2.18.2",
     "gatsby-image": "^2.2.33",
@@ -36,14 +35,9 @@
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "serve": "gatsby serve"
   },
   "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "type": "git"
   }
 }
