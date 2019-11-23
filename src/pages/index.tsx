@@ -59,6 +59,7 @@ const Title2 = styled.h2`
 `
 
 const H1 = styled.h1`
+  margin-top: 0;
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
   color: #1E1D22;
