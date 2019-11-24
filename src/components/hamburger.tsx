@@ -1,13 +1,18 @@
 import React from "react"
 import "./hamburger.css"
 
-
-export default function hamburger() {
+const hamburger = ({ setIsActive, isActive }) => {
   return (
-    <div className="hamburger">
-      <div className="hamburger-box">
-        <div className="hamburger-inner"></div>
+    <>
+      <div
+        onClick={() => setIsActive(!isActive)}
+        className={"hamburger hamburger--3dy " + (isActive ? "is-active" : "")}
+      >
+        <div className="hamburger-box">
+          <div className="hamburger-inner"></div>
+        </div>
       </div>
-    </div>
+    </>
   )
 }
+export default hamburger

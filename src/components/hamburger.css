@@ -1,4 +1,5 @@
 .hamburger {
+  z-index: 2;
   padding-top: 5px;
   display: inline-block;
   cursor: pointer;
@@ -22,7 +23,7 @@
 .hamburger.is-active .hamburger-inner,
 .hamburger.is-active .hamburger-inner::before,
 .hamburger.is-active .hamburger-inner::after {
-  background-color: #000;
+  background-color: #FFF;
 }
 
 .hamburger-box {
@@ -42,7 +43,7 @@
 .hamburger-inner::after {
   width: 40px;
   height: 4px;
-  background-color: #A91717;
+  background-color: #a91717;
   border-radius: 4px;
   position: absolute;
   transition-property: transform;
@@ -59,4 +60,28 @@
 }
 .hamburger-inner::after {
   bottom: -10px;
+}
+
+.hamburger--3dy .hamburger-box {
+  perspective: 80px;
+}
+
+.hamburger--3dy .hamburger-inner {
+  transition: transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1),
+    background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.hamburger--3dy .hamburger-inner::before,
+.hamburger--3dy .hamburger-inner::after {
+  transition: transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.hamburger--3dy.is-active .hamburger-inner {
+  background-color: transparent !important;
+  transform: rotateX(-180deg);
+}
+.hamburger--3dy.is-active .hamburger-inner::before {
+  transform: translate3d(0, 10px, 0) rotate(45deg);
+}
+.hamburger--3dy.is-active .hamburger-inner::after {
+  transform: translate3d(0, -10px, 0) rotate(-45deg);
 }
