@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import React, { useState } from "react"
 import Hamburger from "./hamburger"
 import styled from "styled-components"
 import LogoRed from "../images/logored.png"
@@ -20,18 +20,11 @@ const LogoComp = styled.img`
 const Header: React.FC<{ siteTitle: string }> = ({ siteTitle }) => {
   const [isActive, setIsActive] = useState(false)
 
-  useEffect(() => {
-    if (isActive) {
-      document.getElementById("myNav").style.width = "100%"
-    } else {
-      document.getElementById("myNav").style.width = "0%"
-    }
-  }, [isActive])
   return (
     <HeaderBox>
       <LogoComp src={isActive ? LogoWhite : LogoRed} />
       <Hamburger isActive={isActive} setIsActive={setIsActive} />
-      <Drawer/>
+      <Drawer isOpen={isActive}/>
     </HeaderBox>
   )
 }
