@@ -4,6 +4,17 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import styled from "styled-components"
+import Kth from "../images/kth.png"
+
+const KthPicture = styled.img`
+
+
+  z-index: 1;
+  width: 100%;
+  clip-path: polygon(0 0, 0 90%, 100% 60%, 100% 0);
+
+
+`
 
 const Button = styled(Link)`
   line-height: 45px;
@@ -70,12 +81,16 @@ const H1 = styled.h1`
 const IndexPage: React.FC = () => (
   <Layout>
     <SEO title="Home" />
-    <H1>THS International Reception</H1>
-    <Text>
+    {/* <H1>THS International Reception</H1> */}
+
+    <KthPicture src={Kth}></KthPicture>
+
+
+    {/* <Text>
       Be apart of KTH’s largest student reception! We are welcomming all
       international students to KTH and make them a part of our commmunity.
       Don’t miss our upcomming events!
-    </Text>
+    </Text> */}
     <Aline>
       <Button1 to="/">Get involved</Button1>
       <Button2 to="/">Events</Button2>
