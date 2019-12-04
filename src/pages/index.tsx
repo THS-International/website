@@ -8,8 +8,8 @@ import Kth from "../images/kth.png"
 
 const KthPicture = styled.img`
 
-
-  z-index: 1;
+  position: relative
+  z-index: 2;
   width: 100%;
   clip-path: polygon(0 0, 0 90%, 100% 60%, 100% 0);
 
@@ -23,7 +23,7 @@ const Button = styled(Link)`
   display: inline-block;
   font-size: 20px;
   margin: 8px;
-  border-radius: 20px;
+  border-radius: 4px;
   height: 45px;
   font-family: sans-serif;
 `
@@ -32,19 +32,28 @@ const Button1 = styled(Button)`
   background: #A91717;
   color: white;
   font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0,0,0,.4);
+  width: 70%;
 `
 
 const Button2 = styled(Button)`
   color: hsla(0, 0%, 0%, 0.8);
   color: hsla(0, 0%, 0%, 0.8);
-  border: 2px solid #000;
+  border: 1px solid #000;
+  width: 70%;
 `
 
 const Aline = styled.div`
+  position: relative;
   display: flex;
   flex-direction: column;
   margin-bottom: 30px;
   margin-right: 25%;
+  margin-top: -70px;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 `
 
 const Text = styled.p`
@@ -84,13 +93,6 @@ const IndexPage: React.FC = () => (
     {/* <H1>THS International Reception</H1> */}
 
     <KthPicture src={Kth}></KthPicture>
-
-
-    {/* <Text>
-      Be apart of KTH’s largest student reception! We are welcomming all
-      international students to KTH and make them a part of our commmunity.
-      Don’t miss our upcomming events!
-    </Text> */}
     <Aline>
       <Button1 to="/">Get involved</Button1>
       <Button2 to="/">Events</Button2>
