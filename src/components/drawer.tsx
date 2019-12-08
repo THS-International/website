@@ -6,10 +6,10 @@ const Overlay = styled.div`
   height: 100%;
   width: ${({ width }: { width: string }) => width};
   position: fixed;
-  z-index: 1;
+  z-index: 3;
   top: 0;
   left: 0;
-  background-color: rgb(169, 23, 23, 0.95);
+  background-color: rgb(169, 23, 23, 1);
   overflow-x: hidden;
   transition: 0.05s;
   a {
@@ -31,20 +31,38 @@ const Overlay = styled.div`
 const OverlayContent = styled.div`
   position: relative;
   top: 10%;
-  width: 100%;
-  text-align: center;
+  width: 95%;
+  text-align: right;
   margin-top: 30px;
+`
+
+const HeadLink = styled(Link)`
+font-size: 30px;
+color: blue;
+`
+const SubLink = styled(Link)`
+font-size: 20px;
 `
 
 const drawer: React.FC<{ isOpen: boolean }> = ({ isOpen }) => {
   return (
     <Overlay width={isOpen ? "100%" : "0%"}>
       <OverlayContent >
-        <Link to="/">Home</Link>
-        <Link to="/">Reception 2020</Link>
-        <Link to="/">Team</Link>
-        <Link to="/">News</Link>
-        <Link to="/">Contact</Link>
+        <HeadLink to="/">Home</HeadLink>
+        <HeadLink to="/">For New Students</HeadLink>
+          <SubLink to="/">Events</SubLink>
+          <SubLink to="/">Guide for new students</SubLink>
+        <HeadLink to="/">About us</HeadLink>
+          <SubLink to="/">Mission & Vision</SubLink>
+          <SubLink to="/">Archive</SubLink>
+        <HeadLink to="/">The Team</HeadLink>
+          <SubLink to="/">Buddies</SubLink>
+          <SubLink to="/">Project Team</SubLink>
+          <SubLink to="/">Project Manager</SubLink>
+          <SubLink to="/">Join Us</SubLink>
+        <HeadLink to="/">News</HeadLink>
+        <HeadLink to="/">Contact</HeadLink>
+        <HeadLink to="/">Partners</HeadLink>
       </OverlayContent>
     </Overlay>
   )

@@ -4,12 +4,12 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import styled from "styled-components"
-import Kth from "../images/kth.png"
+import Kth from "../images/kthred.png"
 
 const KthPicture = styled.img`
 
-  position: relative
-  z-index: 2;
+  position: relative;
+  z-index: 1;
   width: 100%;
   clip-path: polygon(0 0, 0 90%, 100% 60%, 100% 0);
 
