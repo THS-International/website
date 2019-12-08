@@ -49,16 +49,16 @@ const drawer: React.FC<{ isOpen: boolean }> = ({ isOpen }) => {
       <OverlayContent>
         <HeadLink to="/">Home</HeadLink>
         <HeadLink to="/">For New Students</HeadLink>
-        <SubLink to="/">Events</SubLink>
-        <SubLink to="/">Guide for new students</SubLink>
-        <HeadLink to="/">About us</HeadLink>
-        <SubLink to="/">Mission & Vision</SubLink>
-        <SubLink to="/">Archive</SubLink>
-        <HeadLink to="/">The Team</HeadLink>
-        <SubLink to="/">Buddies</SubLink>
-        <SubLink to="/">Project Team</SubLink>
-        <SubLink to="/">Project Manager</SubLink>
-        <SubLink to="/">Join Us</SubLink>
+          <SubLink to="/events">Events</SubLink>
+          <SubLink to="/guide">Guide for new students</SubLink>
+        <HeadLink to="/about">About us</HeadLink>
+          <SubLink to="/vision">Mission & Vision</SubLink>
+          <SubLink to="/archive">Archive</SubLink>
+        <HeadLink to="/team">The Team</HeadLink>
+          <SubLink to="/buddies">Buddies</SubLink>
+          <SubLink to="/">Project Team</SubLink>
+          <SubLink to="/">Project Manager</SubLink>
+          <SubLink to="/join-us">Join Us</SubLink>
         <HeadLink to="/">News</HeadLink>
         <HeadLink to="/">Contact</HeadLink>
         <HeadLink to="/">Partners</HeadLink>
