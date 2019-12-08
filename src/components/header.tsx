@@ -12,7 +12,7 @@ const HeaderBox = styled.header`
 `
 
 const LogoComp = styled.img`
-  z-index: 2;
+  z-index: 3;
   height: 40px;
   width: 40px;
 `
