@@ -5,15 +5,43 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import styled from "styled-components"
 import Kth from "../images/kthred.png"
+import kthnews from "../images/kthnews.png"
+import kthstockholm from "../images/stockholm.png"
+
+import Newscard from "../components/newscard"
 
 const KthPicture = styled.img`
-
   position: relative;
   z-index: 1;
   width: 100%;
   clip-path: polygon(0 0, 0 90%, 100% 60%, 100% 0);
+`
 
+const News = styled.div`
+  margin-top: 10%; 
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+`
 
+const PictureFrame = styled.div`
+  position: relative;
+  text-align: center;
+`
+
+const MainTitle = styled.div`
+  z-index: 2;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 36px;
+  font-family: 'Open sans';
+  font-weight: bold;
 `
 
 const Button = styled(Link)`
@@ -25,7 +53,7 @@ const Button = styled(Link)`
   margin: 8px;
   border-radius: 4px;
   height: 45px;
-  font-family: sans-serif;
+  font-family: 'Open sans';
 `
 
 const Button1 = styled(Button)`
@@ -37,9 +65,8 @@ const Button1 = styled(Button)`
 `
 
 const Button2 = styled(Button)`
-  color: hsla(0, 0%, 0%, 0.8);
-  color: hsla(0, 0%, 0%, 0.8);
-  border: 1px solid #000;
+  color: rgba(61, 45, 45, 0.7);
+  border: 1px solid rgba(61, 45, 45, 0.7);
   width: 70%;
 `
 
@@ -56,56 +83,52 @@ const Aline = styled.div`
   width: 100%;
 `
 
-const Text = styled.p`
-  font-size: 22px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: lighter;
-  color: #1C1C1C;
+const Subtitle = styled.div`
+margin-top: 10%;
+margin-right: 10%;
+margin-left: 10%;
+text-align: center;
+font-family: 'Open sans';
+font-size: 18px;
+color: rgba(61, 45, 45, 1);
 `
 
-const Box = styled.div`
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
-  height: 200px;
-  width: 100%;
-  margin: auto;
-  margin-top: 16px;
-  margin-bottom: 16px;
-  padding: 8px;
-`
 
-const Title2 = styled.h2`
-  color: #750505;
-  margin-bottom: 8px;
-`
-
-const H1 = styled.h1`
-  margin-top: 0;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 900;
-  color: #1E1D22;
-  font-size: 38px;
-  line-height: 0.95;
-`
 
 const IndexPage: React.FC = () => (
   <Layout>
     <SEO title="Home" />
-    {/* <H1>THS International Reception</H1> */}
 
-    <KthPicture src={Kth}></KthPicture>
+    <PictureFrame>
+      <MainTitle>We are the international reception</MainTitle>
+      <KthPicture src={Kth}></KthPicture>
+    </PictureFrame>
     <Aline>
       <Button1 to="/">Get involved</Button1>
       <Button2 to="/">Events</Button2>
+
+        <Subtitle>
+        Be apart of KTH’s largest student reception!
+        We are welcomming all international students!
+        </Subtitle>
+
+    <News>
+        <Newscard 
+          date="2019-12-11" 
+          title="What's next?" 
+          description="Take a sneak peak at what we’re working with.." 
+          image={kthnews}></Newscard>
+    
+        <Newscard 
+          date="2019-10-11" 
+          title="New Project Group" 
+          description="The international reception has a new project group!" 
+          image={kthstockholm}></Newscard>
+    </News>
+
     </Aline>
-    <H1>News</H1>
-    <Box>
-      <Title2>New Project Group </Title2>
-      <p>The international reception has a new project group!</p>
-    </Box>
-    <Box>
-      <Title2>What is next?</Title2>
-      <p>Take a sneak peak at what we’re working with..</p>
-    </Box>
+    
+    
   </Layout>
 )
 

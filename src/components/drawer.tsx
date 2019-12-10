@@ -6,7 +6,7 @@ const Overlay = styled.div`
   height: 100%;
   width: ${({ width }: { width: string }) => width};
   position: fixed;
-  z-index: 2;
+  z-index: 3;
   top: 0;
   left: 0;
   background-color: rgb(169, 23, 23, 1);
