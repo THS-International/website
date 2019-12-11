@@ -2,6 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import './normalize.css'
+import styled from "styled-components"
 
 const Layout: React.FC = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -14,6 +15,12 @@ const Layout: React.FC = ({ children }) => {
     }
   `)
 
+const Footer = styled.footer`
+background-color: red;
+height: 3rem;
+
+`
+
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
@@ -24,11 +31,12 @@ const Layout: React.FC = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
+        {/* <footer>
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+        </footer> */}
+        <Footer>Footer</Footer>
       </div>
     </>
   )
