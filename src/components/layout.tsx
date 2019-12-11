@@ -16,8 +16,13 @@ const Layout: React.FC = ({ children }) => {
   `)
 
 const Footer = styled.footer`
-background-color: red;
+background-color: #750505;
 height: 3rem;
+padding: 1rem;
+font-size: 12px;
+font-weight: 600;
+align-self: center;
+color: rgba(255,255,255,.9);
 
 `
 
@@ -36,7 +41,7 @@ height: 3rem;
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer> */}
-        <Footer>Footer</Footer>
+        <Footer>International reception 2019</Footer>
       </div>
     </>
   )

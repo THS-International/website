@@ -60,7 +60,7 @@ const Description = styled.div`
 const Readmore = styled.button`
   border: none;
   height: 1.7rem;
-  background: rgb(169, 23, 23, 1);
+  background: #750505;
   color: rgba(255, 255, 255, 0.9);
   width: 40%;
   font-family: "Roboto";
