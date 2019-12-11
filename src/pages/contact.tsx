@@ -3,6 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import styled from "styled-components"
+import FaqCard from "../components/FaqCard"
 
 const Title = styled.div`
 font-size: 36px;
@@ -17,6 +18,7 @@ const Contact: React.FC = () => (
   <Layout>
     <SEO title="Contact" />
     <Title>FAQ</Title>
+    <FaqCard title="Test" description="bla bla"></FaqCard>
     </Layout>
 )
 
