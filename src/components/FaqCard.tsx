@@ -25,6 +25,17 @@ const Title = styled.div`
 
   margin-left: 5%;
 `
+const Title2 = styled.div`
+  height: 5%;
+  width: 100%;
+
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: rgba(61, 45, 45, 0.9);
+
+  
+`
 const Description = styled.div`
   height: 10%;
   width: 100%;
@@ -39,7 +50,7 @@ const FaqCard = ({ title, description}) => {
   return (
       <>
         <Accordion.Toggle as={Card.Header} eventKey="0">
-          <Title>{title}</Title>
+          <Title2>{title}</Title2>
         </Accordion.Toggle>
         <Accordion.Collapse eventKey="0">
           <Card.Body>
