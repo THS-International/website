@@ -35,10 +35,9 @@ const Description = styled.div`
   margin-left: 5%;
 `
 
-const FaqCard = ({ title, description }) => {
+const FaqCard = ({ title, description}) => {
   return (
-    <Accordion defaultActiveKey="0">
-      <Card>
+      <>
         <Accordion.Toggle as={Card.Header} eventKey="0">
           <Title>{title}</Title>
         </Accordion.Toggle>
@@ -47,8 +46,7 @@ const FaqCard = ({ title, description }) => {
             <Description>{description}</Description>
           </Card.Body>
         </Accordion.Collapse>
-      </Card>
-    </Accordion>
+    </>
   )
 }
 export default FaqCard

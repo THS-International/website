@@ -1,18 +1,11 @@
 import React from "react"
 import styled from "styled-components"
 import { Accordion, Card, Button } from "react-bootstrap"
+import FaqCard from "../components/FaqCard"
+import { useStaticQuery, graphql } from "gatsby"
 
-const Container = styled.div`
-  margin-top: 20px;
-  margin-bottom: 20px;
+var bool = true;
 
-  background-color: white;
-  width: 90%;
-  height: 330px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-  display: flex;
-  flex-wrap: wrap;
-`
 const Title = styled.div`
   height: 5%;
   width: 100%;
@@ -23,27 +16,42 @@ const Title = styled.div`
   color: rgba(61, 45, 45, 0.9);
 
   margin-left: 5%;
-
-  font-size: 12px;
-  font-family: "Open Sans", sans-serif;
-  color: rgba(61, 45, 45, 0.3);
-  margin-left: 5%;
-`
-const Description = styled.div`
-  height: 10%;
-  width: 100%;
-
-  font-size: 18px;
-  font-family: "Roboto", sans-serif;
-  color: rgba(61, 45, 45, 0.7);
-  margin-left: 5%;
 `
 
-const FaqBox = ({ title, FaqCardList }) => {
-  return (
-    <Container>
-        
-    </Container>
-  )
+const FaqBox = ({category}) => {
+  const data = useStaticQuery(graphql`
+    query MyQuery {
+      allFile {
+        edges {
+          node {
+            name
+            id
+            relativePath
+          }
+        }
+      }
+    }
+  `)
+  console.log(data)
+  function Category(cat, id, index){
+    if(cat == category){
+      console.log("lyckades")
+      return (
+        <Accordion defaultActiveKey={index}>
+            <Card key={category}>
+              <FaqCard title={cat} description={id}></FaqCard>
+            </Card>
+          </Accordion>
+      )
+    }
+  }
+    return (
+      <>
+        <Title key={category}>{category}</Title>
+        {data.allFile.edges.map(({ node }, index) => (
+          Category(node.name, node.id, index)   
+        ))}
+      </>
+    )
 }
 export default FaqBox
