@@ -44,7 +44,7 @@ const MainTitle = styled.div`
   font-weight: bold;
 `
 
-const Button = styled(Link)`
+const MainButton = styled(Link)`
   line-height: 45px;
   text-align: center;
   text-decoration: none;
@@ -54,21 +54,36 @@ const Button = styled(Link)`
   border-radius: 4px;
   height: 45px;
   font-family: 'Open sans';
+
+  &:focus, &:hover, &:visited, &:link, &:active {
+        text-decoration: none;
+    }
 `
 
-const Button1 = styled(Button)`
+const Button1 = styled(MainButton)`
   /* background: #A91717; */
   background: #750505;
   color: white;
   font-weight: bold;
   box-shadow: 0 2px 4px rgba(0,0,0,.4);
   width: 70%;
+  text-decoration: none;
+  &:focus, &:hover, &:visited, &:link, &:active {
+        text-decoration: none;
+        color: white;
+    }
 `
 
-const Button2 = styled(Button)`
+const Button2 = styled(MainButton)`
   color: rgba(61, 45, 45, 0.7);
   border: 1px solid rgba(61, 45, 45, 0.7);
   width: 70%;
+  text-decoration: none;
+  &:focus, &:hover, &:visited, &:link, &:active {
+        text-decoration: none;
+        color: rgba(61, 45, 45, 0.7);
+    }
+  
 `
 
 const Aline = styled.div`
