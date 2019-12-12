@@ -6,7 +6,7 @@ const Overlay = styled.div`
   height: 100%;
   width: ${({ width }: { width: string }) => width};
   position: fixed;
-  z-index: 2;
+  z-index: 3;
   top: 0;
   left: 0;
   background-color: rgb(169, 23, 23, 1);
@@ -59,8 +59,8 @@ const drawer: React.FC<{ isOpen: boolean }> = ({ isOpen }) => {
           <SubLink to="/">Project Team</SubLink>
           <SubLink to="/">Project Manager</SubLink>
           <SubLink to="/join-us">Join Us</SubLink>
-        <HeadLink to="/">News</HeadLink>
-        <HeadLink to="/">Contact</HeadLink>
+        <HeadLink to="/news">News</HeadLink>
+        <HeadLink to="/contact">Contact</HeadLink>
         <HeadLink to="/">Partners</HeadLink>
       </OverlayContent>
     </Overlay>
