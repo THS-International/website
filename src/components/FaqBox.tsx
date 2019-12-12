@@ -8,7 +8,7 @@ var bool = true;
 
 const Title = styled.div`
   height: 5%;
-  width: 100%;
+  width: 95%;
 
   font-size: 25px;
   font-family: "Open Sans", sans-serif;
