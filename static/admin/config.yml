@@ -1,15 +1,18 @@
 backend:
   name: github
   repo: oscsyn/ths-international-reception
-media_folder: static/assets
-public_folder: assets
+media_folder: static/uploads
+public_folder: uploads
+
 collections:
-  - name: blog
-    label: Blog
-    folder: blog
+  - name: "addFaq"
+    label: "Add Faq"
+    folder: "src/pages/faqs"
     create: true
+    slug: "{{year}}-{{slug}}"
     fields:
-      - { name: path, label: Path }
-      - { name: date, label: Date, widget: datetime }
-      - { name: title, label: Title }
-      - { name: body, label: Body, widget: markdown }
+      - { name: "category", label: "Category", widget: "string", required: true }
+      - { name: "title", label: "Title", widget: "string", required: true }
+      - { name: "description", label: "Description", widget: "string", required: true }
+      - { name: "type", label: "Type", widget: hidden, default: "faq"}
+
