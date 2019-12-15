@@ -20,26 +20,28 @@ const Title = styled.div`
 
 const FaqBox = ({category}) => {
   const data = useStaticQuery(graphql`
-    query MyQuery {
-      allFile {
-        edges {
-          node {
-            name
-            id
-            relativePath
+  query MyQuery {
+    allMarkdownRemark {
+      edges {
+        node {
+          frontmatter {
+            category
+            description
+            title
           }
         }
       }
     }
+  }
   `)
-  console.log(data)
-  function Category(cat, id, index){
+  console.log(data.allMarkdownRemark.edges)
+  function Category(cat, description, title, index){
     if(cat == category){
       console.log("lyckades")
       return (
         <Accordion defaultActiveKey={index}>
             <Card key={category}>
-              <FaqCard title={cat} description={id}></FaqCard>
+              <FaqCard title={title} description={description}></FaqCard>
             </Card>
           </Accordion>
       )
@@ -48,8 +50,8 @@ const FaqBox = ({category}) => {
     return (
       <>
         <Title key={category}>{category}</Title>
-        {data.allFile.edges.map(({ node }, index) => (
-          Category(node.name, node.id, index)   
+        {data.allMarkdownRemark.edges.map(({ node }, index) => (
+          Category(node.frontmatter.category, node.frontmatter.description, node.frontmatter.title, index)   
         ))}
       </>
     )

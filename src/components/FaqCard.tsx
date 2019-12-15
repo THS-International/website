@@ -29,7 +29,7 @@ const Title2 = styled.div`
   height: 5%;
   width: 100%;
 
-  font-size: 20px;
+  font-size: 15px;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   color: rgba(61, 45, 45, 0.9);

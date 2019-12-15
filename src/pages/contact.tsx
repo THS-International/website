@@ -16,23 +16,26 @@ const Title = styled.div`
 
 const Contact: React.FC = ({ children }) => {
   const data = useStaticQuery(graphql`
-    query MyQuery2 {
-      allFile {
-        edges {
-          node {
-            name
+  query MyQuery2 {
+    allMarkdownRemark {
+      edges {
+        node {
+          frontmatter {
+            category
+            description
+            title
           }
         }
-        distinct(field: name)
       }
+      distinct(field: frontmatter___category)
     }
+  }
   `)
-  console.log(data.allFile.distinct);
   return(
     <Layout>
       <SEO title="Contact" />
       <Title>FAQ</Title>
-      {data.allFile.distinct.map((index) => (
+      {data.allMarkdownRemark.distinct.map((index) => (
             <FaqBox category={index} ></FaqBox>   
           ))}
     </Layout>
