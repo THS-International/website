@@ -7,4 +7,4 @@ We recommend to check the sign up page frequently since some students will unreg
 
 Please note that if you have already paid for an event there will be no refund. 
 
-You cannot join a full event, regardless of your motivation for it. The event limitations are in place due to restrictions in the size of the event location, available material (like Kayaks) and our own organisational capacity. If you join a full event without our explicit consent, we will remove you from the event. In severe cases we ban you from attending further events in the reception.
+You cannot join a full event, regardless of your motivation for it. The event limitations are in place due to restrictions in the size of the event location, available material (like Kayaks) and our own organisational capacity. If you join a full event without our explicit consent, we will remove you from the event. In severe cases we ban you from attending further events in the reception.
