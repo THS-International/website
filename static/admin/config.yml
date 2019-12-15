@@ -13,6 +13,6 @@ collections:
     fields:
       - { name: "category", label: "Category", widget: "string", required: true }
       - { name: "title", label: "Title", widget: "string", required: true }
-      - { name: "description", label: "Description", widget: "markdown", required: true }
+      - { name: "body", label: "Description", widget: "markdown", required: true }
       - { name: "type", label: "Type", widget: hidden, default: "faq"}
 
