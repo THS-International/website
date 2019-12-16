@@ -42,7 +42,8 @@ console.log(data);
     while (a < limit) {
       news.push(
         <Newscard
-          image={require("../images/" + data.allFile.edges[a].node.relativePath)}
+          //image={require("../images/" + data.allFile.edges[a].node.relativePath)}
+          image ="image"
           date="2000-10-10"
           title={data.allFile.edges[a].node.name}
           description={data.allFile.edges[a].node.id}
