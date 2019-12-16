@@ -24,21 +24,22 @@ const Title = styled.div`
 
 const FaqBox = ({ category }) => {
   const data = useStaticQuery(graphql`
-    query MyQuery {
-      allMarkdownRemark {
-        edges {
-          node {
-            frontmatter {
-              question {
-                description
-                title
-              }
-              category
+  query MyQuery {
+    allMarkdownRemark(filter: {frontmatter: {type: {eq: "faq"}}}) {
+      edges {
+        node {
+          frontmatter {
+            question {
+              description
+              title
             }
+            category
+            type
           }
         }
       }
     }
+  }
   `)
   function Category(cat, description, title, index) {
     if (cat == category) {

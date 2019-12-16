@@ -18,11 +18,12 @@ const Title = styled.div`
 const Contact: React.FC = ({ children }) => {
   const data = useStaticQuery(graphql`
   query MyQuery2 {
-    allMarkdownRemark {
+    allMarkdownRemark(filter: {frontmatter: {type: {eq: "faq"}}}) {
       edges {
         node {
           frontmatter {
             category
+            type
           }
         }
       }

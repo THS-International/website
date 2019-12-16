@@ -26,7 +26,7 @@ collections:
     create: true
     identifier_field: title
     fields:
-      - { name: "type", label: "Type", widget: "hidden", default: "news"}
       - { name: "title", label: "Title", widget: "string", required: true }
       - { name: "thumbnail", label: "Featured Image", widget: "image", default:"/uploads/kthnews.png" }
       - { name: "description", label: "Description", widget: "markdown", required: true }
+      - { name: "type", label: "Type", widget: "hidden", default: "news"}
