@@ -48,13 +48,15 @@ const FaqBox = ({category}) => {
       )
     }
   }
+  let cat;
     return (
       <>
         <Title key={category}>{category}</Title>
         {data.allMarkdownRemark.edges.map(({ node }, index) => (
-          console.log("in box"),
-          console.log(node.frontmatter),
-          Category(node.frontmatter.category, node.frontmatter.question.description, node.frontmatter.question.title, index)   
+          cat = node.frontmatter.category,
+          node.frontmatter.question.map(({description,title}, index2) => (
+          Category(cat, description, title, index)
+          ))   
         ))}
       </>
     )
