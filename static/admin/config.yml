@@ -9,6 +9,7 @@ collections:
     label: "Add Faq"
     folder: "src/markdown-pages/faqs"
     create: true
+    identifier_field: category
     fields:
       - { name: "category", label: "Category", widget: "string", required: true }
       - label: Question
