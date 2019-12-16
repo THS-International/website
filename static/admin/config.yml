@@ -19,13 +19,12 @@ collections:
           - { name: "title", label: "Title", widget: "string", required: true }
           - { name: "description", label: "Description", widget: "markdown", required: true }
 
-collections:
   - name: "addNews"
     label: "News"
     folder: "src/markdown-pages/news"
     create: true
     identifier_field: title
-      fields:
-        - { name: "title", label: "Title", widget: "string", required: true }
-        - { name: "thumbnail", label: "Featured Image", widget: "image", default:"/uploads/kthnews.png" }
-        - { name: "description", label: "Description", widget: "markdown", required: true }
+    fields:
+      - { name: "title", label: "Title", widget: "string", required: true }
+      - { name: "thumbnail", label: "Featured Image", widget: "image", default:"/uploads/kthnews.png" }
+      - { name: "description", label: "Description", widget: "markdown", required: true }
