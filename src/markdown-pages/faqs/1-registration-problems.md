@@ -11,7 +11,7 @@ question:
       seconds after loading the page, sometimes the drop down menu shows up
       after a few seconds.
 
-      2. Use a different web browser.
+      2. Use a different web browser
 
 
       If it still is not working try this:
