@@ -1,6 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import { Accordion, Card, Button } from "react-bootstrap"
+import Markdown from 'react-markdown'
 
 
 const Container = styled.div`
@@ -40,10 +41,10 @@ const Description = styled.div`
   height: 10%;
   width: 100%;
 
-  font-size: 18px;
+  font-size: 13px;
   font-family: "Roboto", sans-serif;
   color: rgba(61, 45, 45, 0.7);
-  margin-left: 5%;
+  margin-right: 5%;
 `
 
 const FaqCard = ({ title, description}) => {
@@ -54,7 +55,7 @@ const FaqCard = ({ title, description}) => {
         </Accordion.Toggle>
         <Accordion.Collapse eventKey="0">
           <Card.Body>
-            <Description>{description}</Description>
+            <Description><Markdown source={description}/></Description>
           </Card.Body>
         </Accordion.Collapse>
     </>
