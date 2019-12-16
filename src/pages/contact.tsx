@@ -12,6 +12,7 @@ const Title = styled.div`
   font-weight: 600;
   margin-left: 5%;
   margin-top: 5%;
+  margin-bottom: 5%;
 `
 
 const Contact: React.FC = ({ children }) => {
