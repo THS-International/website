@@ -22,12 +22,9 @@ const Contact: React.FC = ({ children }) => {
         node {
           frontmatter {
             category
-            description
-            title
           }
         }
       }
-      distinct(field: frontmatter___category)
     }
   }
   `)
@@ -35,8 +32,8 @@ const Contact: React.FC = ({ children }) => {
     <Layout>
       <SEO title="Contact" />
       <Title>FAQ</Title>
-      {data.allMarkdownRemark.distinct.map((index) => (
-            <FaqBox category={index} ></FaqBox>   
+      {data.allMarkdownRemark.edges.map(({node}) => (
+            <FaqBox category={node.frontmatter.category} ></FaqBox>   
           ))}
     </Layout>
   )

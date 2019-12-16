@@ -25,16 +25,17 @@ const FaqBox = ({category}) => {
       edges {
         node {
           frontmatter {
+            question {
+              description
+              title
+            }
             category
-            description
-            title
           }
         }
       }
     }
   }
   `)
-  console.log(data.allMarkdownRemark.edges)
   function Category(cat, description, title, index){
     if(cat == category){
       console.log("lyckades")
@@ -51,7 +52,9 @@ const FaqBox = ({category}) => {
       <>
         <Title key={category}>{category}</Title>
         {data.allMarkdownRemark.edges.map(({ node }, index) => (
-          Category(node.frontmatter.category, node.frontmatter.description, node.frontmatter.title, index)   
+          console.log("in box"),
+          console.log(node.frontmatter),
+          Category(node.frontmatter.category, node.frontmatter.question.description, node.frontmatter.question.title, index)   
         ))}
       </>
     )
