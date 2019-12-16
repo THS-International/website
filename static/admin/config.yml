@@ -9,10 +9,13 @@ collections:
     label: "Add Faq"
     folder: "src/markdown-pages/faqs"
     create: true
-    slug: "{{year}}-{{slug}}"
+    identifier_field: category
     fields:
       - { name: "category", label: "Category", widget: "string", required: true }
-      - { name: "title", label: "Title", widget: "string", required: true }
-      - { name: "description", label: "Description", widget: "text", required: true }
-      - { name: "type", label: "Type", widget: hidden, default: "faq"}
+      - label: Question
+        name: question
+        widget: list
+        fields:
+          - { name: "title", label: "Title", widget: "string", required: true }
+          - { name: "description", label: "Description", widget: "text", required: true }
 
