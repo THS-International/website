@@ -1,7 +1,9 @@
 import React, { useState } from "react"
 import Hamburger from "./hamburger"
 import styled from "styled-components"
+//@ts-ignore
 import LogoRed from "../images/logored.png"
+//@ts-ignore
 import LogoWhite from "../images/logowhite.png"
 import Drawer from "./drawer"
 
@@ -17,7 +19,7 @@ const LogoComp = styled.img`
   width: 40px;
 `
 
-const Header: React.FC<{ siteTitle: string }> = ({ siteTitle }) => {
+const Header: React.FC = () => {
   const [isActive, setIsActive] = useState(false)
 
   return (

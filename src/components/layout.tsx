@@ -1,5 +1,4 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import "./normalize.css"
 import styled from "styled-components"
@@ -20,19 +19,9 @@ const Main = styled.main`
 `
 
 const Layout: React.FC = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <Header />
       <Main>{children}</Main>
       <Footer>International reception 2019</Footer>
     </>
