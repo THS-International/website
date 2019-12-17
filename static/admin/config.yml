@@ -1,8 +1,8 @@
 backend:
   name: github
   repo: oscsyn/ths-international-reception
-media_folder: static/uploads
-public_folder: uploads
+media_folder: src/images
+public_folder: images
 
 collections:
   - name: "addFaq"

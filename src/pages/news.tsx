@@ -18,7 +18,7 @@ const News: React.FC = () => (
     <SEO title="Join" />
     <h1>News</h1>
 
-    <NewsGenerator limit="all"></NewsGenerator>
+    <NewsGenerator limit="1"></NewsGenerator>
 
   </Layout>
 )

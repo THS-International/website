@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import Newscard from "../components/newscard"
 import { useStaticQuery, graphql } from "gatsby"
+import images from 
 
 const Title = styled.div`
   height: 5%;
@@ -17,37 +18,45 @@ const Title = styled.div`
 
 const NewsGenerator = ({ limit }) => {
   const data = useStaticQuery(graphql`
-    query News {
-      allFile {
-        edges {
-          node {
-            name
-            id
-            relativePath
+  query newsQuery {
+    allMarkdownRemark(filter: {frontmatter: {type: {eq: "news"}}}) {
+      edges {
+        node {
+          frontmatter {
+            type
+            title
+            description
+            thumbnail
+            preview
           }
         }
       }
     }
+  }
   `)
-console.log(data);
+// console.log(data);
 
-  const CardGen = () => {
-    let news = []
-    let a = 0
-
-    if(limit == "all"){
-        limit = data.allFile.edges.length
-    }
-
-    while (a < limit) {
-      news.push(
-        <Newscard
-          //image={require("../images/" + data.allFile.edges[a].node.relativePath)}
-          image ="image"
+const CardGen = () => {
+  let news = []
+  let a = 0
+  
+  if(limit == "all"){
+    console.log(data.allMarkdownRemark.edges.length)
+    limit = data.allMarkdownRemark.edges.length
+  }
+  
+  
+  while (a < limit) {
+    console.log(a);
+    news.push(
+      <Newscard
+          //var img = require( "../../static" + data.allMarkdownRemark.edges[0].node.frontmatter.thumbnail)
+          image={( "../../static" + data.allMarkdownRemark.edges[0].node.frontmatter.thumbnail)}
+          // image ={"img"}
           date="2000-10-10"
-          title={data.allFile.edges[a].node.name}
-          description={data.allFile.edges[a].node.id}
-          content={data.allFile.edges[a].node.relativePath}
+          title={data.allMarkdownRemark.edges[a].node.frontmatter.title}
+          description={data.allMarkdownRemark.edges[a].node.frontmatter.preview}
+          content={data.allMarkdownRemark.edges[a].node.frontmatter.description}
         ></Newscard>
       )
       a++;

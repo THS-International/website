@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import styled from "styled-components"
+import Img from "gatsby-image"
 
 const Container = styled.div`
   margin-top: 20px;
@@ -12,7 +13,7 @@ const Container = styled.div`
   flex-wrap: wrap;
 `
 
-const Image = styled.img`
+const Image = styled(Img)`
   max-width: 100%;
   max-height: 100%;
   display: block;
@@ -82,7 +83,7 @@ const newscard = ({ image, date, title, description, content }) => {
   return (
     <Container>
       <ImageContainer>
-        <Image src={image}></Image>
+        <Image fixed={image}></Image>
       </ImageContainer>
 
       <Date>{date}</Date>
