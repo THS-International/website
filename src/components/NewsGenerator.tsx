@@ -48,7 +48,7 @@ const CardGen = () => {
   while (a < limit) {
     console.log(a);
     var str = (data.allMarkdownRemark.edges[0].node.frontmatter.thumbnail)
-    var imageLink = str.substring(str.indexOf("/uploads/") + 9);
+    var imageLink = str.substring(8);
     news.push(
       <Newscard
           //var img = require( "../../static" + data.allMarkdownRemark.edges[0].node.frontmatter.thumbnail)
@@ -71,7 +71,7 @@ const CardGen = () => {
   return (
 
     <div>
-        {/* {CardGen()} */}
+        {CardGen()}
     </div>
   )
 }

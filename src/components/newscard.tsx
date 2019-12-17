@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import styled from "styled-components"
 import Img from "gatsby-image"
+import ImageLoader from "../components/ImageLoader"
 
 const Container = styled.div`
   margin-top: 20px;
@@ -9,11 +10,11 @@ const Container = styled.div`
   background-color: white;
   width: 90%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
 `
 
-const Image = styled(Img)`
+const Image = styled(ImageLoader)`
   max-width: 100%;
   max-height: 100%;
   display: block;
@@ -22,7 +23,7 @@ const Image = styled(Img)`
 const ImageContainer = styled.div`
   width: 100%;
   height: 50%;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
 `
@@ -83,7 +84,7 @@ const newscard = ({ image, date, title, description, content }) => {
   return (
     <Container>
       <ImageContainer>
-        <Image fixed={image}></Image>
+        <Image filename={image}></Image>
       </ImageContainer>
 
       <Date>{date}</Date>

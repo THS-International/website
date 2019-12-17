@@ -25,7 +25,7 @@ const ImageLoader = props => (
       
       `}
       render={data => {
-        console.log("Input" + props.filename)
+        console.log("Input " + props.filename)
         const image = data.allFile.edges.find(n => {
           return n.node.relativePath.includes(props.filename);
         });
