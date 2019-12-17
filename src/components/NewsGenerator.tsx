@@ -2,7 +2,6 @@ import React from "react"
 import styled from "styled-components"
 import Newscard from "../components/newscard"
 import { useStaticQuery, graphql } from "gatsby"
-import images from 
 
 const Title = styled.div`
   height: 5%;
@@ -48,10 +47,14 @@ const CardGen = () => {
   
   while (a < limit) {
     console.log(a);
+    var str = (data.allMarkdownRemark.edges[0].node.frontmatter.thumbnail)
+    var imageLink = str.substring(str.indexOf("/uploads/") + 9);
     news.push(
       <Newscard
           //var img = require( "../../static" + data.allMarkdownRemark.edges[0].node.frontmatter.thumbnail)
-          image={( "../../static" + data.allMarkdownRemark.edges[0].node.frontmatter.thumbnail)}
+          
+          
+          image={imageLink}
           // image ={"img"}
           date="2000-10-10"
           title={data.allMarkdownRemark.edges[a].node.frontmatter.title}
@@ -68,7 +71,7 @@ const CardGen = () => {
   return (
 
     <div>
-        {CardGen()}
+        {/* {CardGen()} */}
     </div>
   )
 }
