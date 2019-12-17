@@ -32,13 +32,13 @@ const Description = styled.div`
   margin-right: 5%;
 `
 
-const FaqCard = ({ title, description }) => {
+const FaqCard = ({ title, description, index }) => {
   return (
     <>
-      <Accordion.Toggle as={Card.Header} eventKey="0">
+      <Accordion.Toggle as={Card.Header} eventKey={index}>
         <Title2>{title}</Title2>
       </Accordion.Toggle>
-      <Accordion.Collapse eventKey="0">
+      <Accordion.Collapse eventKey={index}>
         <Card.Body>
           <Description>
             <Markdown source={description} />

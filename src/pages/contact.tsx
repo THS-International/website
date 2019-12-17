@@ -1,10 +1,10 @@
 import React from "react"
-
-import Layout from "../components/layout"
-import SEO from "../components/seo"
 import styled from "styled-components"
 import FaqBox from "../components/FaqBox"
-import { useStaticQuery, graphql } from "gatsby"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+import { graphql, useStaticQuery } from "gatsby"
+
 
 const Title = styled.div`
   font-size: 36px;
@@ -15,29 +15,32 @@ const Title = styled.div`
   margin-bottom: 5%;
 `
 
-const Contact: React.FC = ({ children }) => {
+const ContactPage: React.FC = () => {
   const data = useStaticQuery(graphql`
-  query MyQuery2 {
-    allMarkdownRemark(filter: {frontmatter: {type: {eq: "faq"}}}) {
-      edges {
-        node {
-          frontmatter {
+    query {
+      markdownRemark(frontmatter: { type: { eq: "faq-page" } }) {
+        frontmatter {
+          title
+          categories {
             category
-            type
+            question {
+              description
+              title
+            }
           }
         }
       }
     }
-  }
-  `)
-  return(
+  `).markdownRemark.frontmatter.categories
+  return (
     <Layout>
       <SEO title="Contact" />
       <Title>FAQ</Title>
-      {data.allMarkdownRemark.edges.map(({node}) => (
-            <FaqBox category={node.frontmatter.category} ></FaqBox>   
-          ))}
+      {data.map(category => (
+        <FaqBox category={category} />
+      ))}
     </Layout>
   )
 }
-export default Contact
+
+export default ContactPage
