@@ -71,6 +71,22 @@ const Readmore = styled.button`
   text-decoration: none;
 `
 
+const StyledMarkdown = styled(Markdown)`
+padding: 0;
+margin: 0;
+margin-block-start: 0;
+margin-block-end: 0;
+
+p {
+  padding: 0;
+  margin: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+`
+
+
+
 // const Content = styled.div`
 //   display: ${({ display }: { display: boolean }) =>
 //   display ? "inline" : "none"};
@@ -88,10 +104,10 @@ const newscard = ({ image, date, title, description, content }) => {
 
       <Date>{date}</Date>
       <Title>
-        <Markdown source={title} />
+        <StyledMarkdown source={title} />
       </Title>
       <Description>
-        <Markdown source={isOpen ? content : description} />
+        <StyledMarkdown source={isOpen ? content : description} />
       </Description>
       <Readmore onClick={() => setIsOpen(!isOpen)}>
         {!isOpen ? "Read more" : "See less"}
