@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import styled from "styled-components"
-import Img from "gatsby-image"
 import ImageLoader from "../components/ImageLoader"
+import Markdown from "react-markdown"
 
 const Container = styled.div`
   margin-top: 20px;
@@ -49,7 +49,7 @@ const Date = styled.div`
 `
 
 const Description = styled.div`
-  margin: .5rem 0 0 0;
+  margin: 0.5rem 0 0 0;
   width: 90%;
 
   font-size: 18px;
@@ -66,7 +66,7 @@ const Readmore = styled.button`
   width: 40%;
   font-family: "Roboto";
   font-size: 13px;
-  margin: .5rem 0 1rem 5%;
+  margin: 0.5rem 0 1rem 5%;
   border-radius: 4px;
   text-decoration: none;
 `
@@ -87,12 +87,15 @@ const newscard = ({ image, date, title, description, content }) => {
       </ImageContainer>
 
       <Date>{date}</Date>
-      <Title>{title}</Title>
-      <Description>{isOpen ? content : description}</Description>
+      <Title>
+        <Markdown source={title} />
+      </Title>
+      <Description>
+        <Markdown source={isOpen ? content : description} />
+      </Description>
       <Readmore onClick={() => setIsOpen(!isOpen)}>
         {!isOpen ? "Read more" : "See less"}
       </Readmore>
-     
     </Container>
   )
 }
