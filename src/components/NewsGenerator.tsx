@@ -47,7 +47,7 @@ const CardGen = () => {
   
   while (a < limit) {
     console.log(a);
-    var str = (data.allMarkdownRemark.edges[0].node.frontmatter.thumbnail)
+    var str = (data.allMarkdownRemark.edges[a].node.frontmatter.thumbnail)
     var imageLink = str.substring(8);
     news.push(
       <Newscard
