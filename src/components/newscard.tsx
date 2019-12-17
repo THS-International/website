@@ -6,12 +6,11 @@ import ImageLoader from "../components/ImageLoader"
 const Container = styled.div`
   margin-top: 20px;
   margin-bottom: 20px;
-
+  width: 100%;
   background-color: white;
-  width: 90%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-  /* display: flex; */
-  /* flex-wrap: wrap; */
+  display: flex;
+  flex-wrap: wrap;
 `
 
 const Image = styled(ImageLoader)`
@@ -94,7 +93,6 @@ const newscard = ({ image, date, title, description, content }) => {
         {!isOpen ? "Read more" : "See less"}
       </Readmore>
      
-      {/* <Content display={isOpen}>{content}</Content> */}
     </Container>
   )
 }

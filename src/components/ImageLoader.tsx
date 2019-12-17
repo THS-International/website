@@ -25,7 +25,7 @@ const ImageLoader = props => (
       
       `}
       render={data => {
-        console.log("Input " + props.filename)
+        // console.log("Input " + props.filename)
         const image = data.allFile.edges.find(n => {
           return n.node.relativePath.includes(props.filename);
         });
@@ -34,7 +34,7 @@ const ImageLoader = props => (
         }
   
         //const imageSizes = image.node.childImageSharp.sizes; sizes={imageSizes}
-        console.log(image.node.childImageSharp.fluid);
+        // console.log(image.node.childImageSharp.fluid);
         return <Img fluid={image.node.childImageSharp.fluid} />;
       }}
     />

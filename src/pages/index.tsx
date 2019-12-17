@@ -5,10 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import styled from "styled-components"
 import Kth from "../images/kthred.png"
-import kthnews from "../images/kthnews.png"
-import kthstockholm from "../images/stockholm.png"
-
-import Newscard from "../components/newscard"
+import NewsGenerator from "../components/NewsGenerator"
 
 const KthPicture = styled.img`
   position: relative;
@@ -19,7 +16,8 @@ const KthPicture = styled.img`
 
 const News = styled.div`
   margin-top: 10%; 
-  width: 100%;
+  width: 90%;
+  margin: 5%;
   position: relative;
   display: flex;
   align-items: center;
@@ -129,20 +127,7 @@ const IndexPage: React.FC = () => (
         </Subtitle>
 
     <News>
-        <Newscard 
-          date="2019-12-11" 
-          title="What's next?" 
-          description="Take a sneak peak at what we’re working with.." 
-          image={kthnews}
-          content="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos quiratione voluptatem sequi nesciunt."
-          ></Newscard>
-    
-        <Newscard 
-          date="2019-10-11" 
-          title="New Project Group" 
-          description="The international reception has a new project group!" 
-          image={kthstockholm}
-          content="Here is some news"></Newscard>
+        <NewsGenerator limit="2"></NewsGenerator>
     </News>
 
     </Aline>
