@@ -23,7 +23,7 @@ const ContactPage: React.FC = () => {
           title
           categories {
             category
-            question {
+            questions {
               description
               title
             }

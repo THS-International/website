@@ -19,14 +19,14 @@ const Title = styled.div`
   margin-left: 5%;
 `
 
-const FaqBox: React.FC<any> = ({ category: { category, question } }) => {
+const FaqBox: React.FC<any> = ({ category: { category, questions } }) => {
   return (
     <>
       <Title>{category}</Title>
       <Container>
         <Accordion>
           <Card>
-            {question.map(({ title, description }, index) => (
+            {questions.map(({ title, description }, index) => (
               <FaqCard title={title} description={description} index={index} />
             ))}
           </Card>
