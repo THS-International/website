@@ -73,13 +73,16 @@ const Container = styled.span`
                 padding: 2%;
                 padding-left: 15px;
                 padding-right: 10px;
+                transition: padding-left .15s ease-in-out;
 
                 :hover ${SubLink} {
-                    color: #750505;
+                    /* color: #750505; */
+                    color: #c7b7b7;
                 }
 
                 :hover{
-                    background: #faf5e8;
+                    /* background: #f5eeed; */
+                    padding-left: 20px;
                 }
             }
         }
