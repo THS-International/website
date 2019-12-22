@@ -5,15 +5,8 @@ import SEO from "../components/seo"
 import styled from "styled-components"
 import NewsGenerator from "../components/NewsGenerator"
 
-const Title = styled.div`
-font-size: 36px;
-font-family: 'Open sans';
-font-weight: 600;
-margin-left: 5%;
-margin-top: 5%;
-`
 const NewsBlock = styled.div`
-  margin-top: 10%; 
+  margin-top: 10%;
   width: 90%;
   margin: 5%;
   position: relative;
@@ -29,9 +22,8 @@ const News: React.FC = () => (
     <h1>News</h1>
 
     <NewsBlock>
-        <NewsGenerator limit="all"></NewsGenerator>
+      <NewsGenerator />
     </NewsBlock>
-
   </Layout>
 )
 
