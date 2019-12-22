@@ -39,7 +39,7 @@ collections:
         label: "faq-markdown"
         name: faq
         fields:
-          - { label: "type", name: "templateKey", widget: "hidden", default: "faq-page" }
+          - { name: "type", label: "Type", widget: "hidden", default: "faq-page"}
           - label: Categories
             name: categories
             widget: list

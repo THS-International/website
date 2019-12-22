@@ -5,7 +5,6 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { graphql, useStaticQuery } from "gatsby"
 
-
 const Title = styled.div`
   font-size: 36px;
   font-family: "Open sans";
@@ -15,23 +14,26 @@ const Title = styled.div`
   margin-bottom: 5%;
 `
 
-const ContactPage: React.FC = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      markdownRemark(frontmatter: { type: { eq: "faq-page" } }) {
-        frontmatter {
-          title
-          categories {
-            category
-            questions {
-              description
-              title
-            }
+const query = graphql`
+  query {
+    markdownRemark(frontmatter: { type: { eq: "faq-page" } }) {
+      frontmatter {
+        title
+        categories {
+          category
+          questions {
+            description
+            title
           }
         }
       }
     }
-  `).markdownRemark.frontmatter.categories
+  }
+`
+
+const ContactPage: React.FC = () => {
+  const queryResult = useStaticQuery(query)
+  const data = queryResult.markdownRemark.frontmatter.categories
   return (
     <Layout>
       <SEO title="Contact" />

@@ -1,4 +1,5 @@
 ---
+type: faq-page
 categories:
   - category: test
     questions:
