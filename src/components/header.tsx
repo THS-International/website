@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import Hamburger from "./hamburger"
+import { navigate } from "gatsby"
 import styled from "styled-components"
 //@ts-ignore
 import LogoRed from "../images/logored.png"
@@ -38,6 +39,10 @@ const LogoComp = styled.img`
     width: 35px;
     padding: 3px;
   }
+
+  :hover {
+    cursor: pointer;
+  }
 `
 
 const Header: React.FC = () => {
@@ -46,13 +51,13 @@ const Header: React.FC = () => {
   return (
     <>
     <HeaderBoxMobile>
-      <LogoComp src={isActive ? LogoWhite : LogoRed} />
+      <LogoComp onClick={() => {navigate("/")}} src={isActive ? LogoWhite : LogoRed} />
       <Hamburger isActive={isActive} setIsActive={setIsActive} />
       <Drawer isOpen={isActive}/>
     </HeaderBoxMobile>
 
     <HeaderBoxDesktop>
-      <LogoComp src={LogoWhite} />
+      <LogoComp onClick={() => {navigate("/")}} src={LogoWhite} />
       <DesktopMenu />
     </HeaderBoxDesktop>
 
