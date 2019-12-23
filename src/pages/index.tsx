@@ -177,6 +177,10 @@ const Subtitle = styled.div`
   font-family: "Open sans";
   font-size: 18px;
   color: rgba(61, 45, 45, 1);
+
+  @media screen and (min-width: 966px){
+    margin-top: 15%;
+  }
 `
 
 const GetInvolved = styled(Link)`
