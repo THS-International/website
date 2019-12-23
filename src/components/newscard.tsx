@@ -19,11 +19,15 @@ const Image = styled(ImageLoader)`
 
 const ImageContainer = styled.div`
   width: 100%;
-  height: 150px;
+  height: 30vh;
   overflow: hidden;
   /* display: flex; */
   justify-content: center;
   align-items: center;
+
+  @media screen and (max-width: 500px){
+    height: 40vh;
+  }
 `
 
 const Title = styled.div`

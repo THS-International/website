@@ -27,16 +27,18 @@ const News = styled.div`
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   flex-wrap: wrap;
 
-  @media screen and (min-width: 966px) {
+  @media screen and (min-width: 700px) {
     width: 80%;
     flex-direction: row;
+
 
     > div {
       flex: 1 0 40%;
       margin: 5%;
+      align-self: flex-start;
     }
   }
 `
