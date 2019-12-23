@@ -14,14 +14,13 @@ const Container = styled.div`
 `
 
 const Image = styled(ImageLoader)`
-  max-width: 100%;
-  max-height: 100%;
   display: block;
 `
 
 const ImageContainer = styled.div`
   width: 100%;
-  height: 50%;
+  height: 150px;
+  overflow: hidden;
   /* display: flex; */
   justify-content: center;
   align-items: center;

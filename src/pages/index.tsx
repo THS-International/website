@@ -29,6 +29,16 @@ const News = styled.div`
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+
+  @media screen and (min-width: 966px) {
+    width: 80%;
+    flex-direction: row;
+
+    > div {
+      flex: 1 0 40%;
+      margin: 5%;
+    }
+  }
 `
 
 const PictureFrame = styled.div`
@@ -97,6 +107,10 @@ const MainButton = styled(Link)`
     text-decoration: none;
     color: white;
   }
+
+  @media screen and (min-width: 966px) {
+    display: none;
+  }
 `
 
 const Button1 = styled(MainButton)`
@@ -137,7 +151,7 @@ const Aline = styled.div`
   width: 100%;
 
   @media screen and (min-width: 966px) {
-    display: none;
+    /* display: none; */
   }
 `
 
@@ -236,6 +250,7 @@ const IndexPage: React.FC = () => (
         <NewsGenerator limit="2"></NewsGenerator>
       </News>
     </Aline>
+
     <Footer/>
     </IndexLayout>
   </>

@@ -14,7 +14,7 @@ const ImageLoader = props => (
               relativePath
               name
               childImageSharp {
-                fluid(maxWidth: 600) {
+                fluid(fit: COVER) {
                     ...GatsbyImageSharpFluid
                 }
               }
