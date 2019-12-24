@@ -11,9 +11,12 @@ import DesktopMenu from "./DesktopMenu"
 
 const HeaderBoxMobile = styled.header`
   padding: 15px 15px;
+  position: absolute;
   display: flex;
   justify-content: space-between;
-  @media screen and (min-width: 992px){
+  width: 100%;
+
+  @media screen and (min-width: 967px){
     display: none;
   }
 `
@@ -25,7 +28,7 @@ display: flex;
 /* background: blue; */
 padding: 3px;
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 966px){
     display: none;
 }
 `
@@ -35,7 +38,7 @@ const LogoComp = styled.img`
   height: 40px;
   width: 40px;
 
-  @media screen and (min-width: 992px){
+  @media screen and (min-width: 967px){
     margin-top: .4%;
     margin-left: .8%;
     height: 35px;
@@ -54,7 +57,7 @@ const Header: React.FC = () => {
   return (
     <>
     <HeaderBoxMobile>
-      <LogoComp onClick={() => {navigate("/")}} src={isActive ? LogoWhite : LogoRed} />
+      <LogoComp onClick={() => {navigate("/")}} src={LogoWhite} />
       <Hamburger isActive={isActive} setIsActive={setIsActive} />
       <Drawer isOpen={isActive}/>
     </HeaderBoxMobile>

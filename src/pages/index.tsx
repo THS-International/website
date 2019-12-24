@@ -15,7 +15,7 @@ const KthPicture = styled.img`
   width: 100%;
   clip-path: polygon(0 0, 0 90%, 100% 60%, 100% 0);
 
-  @media screen and (min-width: 966px) {
+  @media screen and (min-width: 967px) {
     display: none;
   }
 `
@@ -81,7 +81,7 @@ const MainTitle = styled.h1`
   min-width: 410px;
   width: 50%;
 
-  @media screen and (min-width: 966px) {
+  @media screen and (min-width: 967px) {
     top: 75%;
     width: 10%;
     font-size: 36px;
@@ -110,7 +110,7 @@ const MainButton = styled(Link)`
     color: white;
   }
 
-  @media screen and (min-width: 966px) {
+  @media screen and (min-width: 967px) {
     display: none;
   }
 `
@@ -152,7 +152,7 @@ const Aline = styled.div`
   justify-content: center;
   width: 100%;
 
-  @media screen and (min-width: 966px) {
+  @media screen and (min-width: 967px) {
     /* display: none; */
   }
 `
@@ -180,7 +180,7 @@ const Subtitle = styled.div`
   font-size: 18px;
   color: rgba(61, 45, 45, 1);
 
-  @media screen and (min-width: 966px){
+  @media screen and (min-width: 967px){
     margin-top: 15%;
   }
 `

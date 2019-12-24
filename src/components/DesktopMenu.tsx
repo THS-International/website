@@ -23,14 +23,14 @@ const HeadLink = styled(Link)`
   }
 `
 const SubLink = styled(HeadLink)`
-  font-size: 14px;
+  font-size: 12px;
   font-weight: lighter;
 `
 
 const Container = styled.span`
   font-family: "Roboto";
   text-decoration: none;
-  margin-left: 10%;
+  margin-left: 5%;
   z-index: 5;
   display: flex;
   align-items: center;
