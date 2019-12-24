@@ -71,17 +71,18 @@ const MainTitle = styled.h1`
   margin: 0;
   z-index: 2;
   position: absolute;
-  top: 40%;
+  top: 45%;
   left: 51%;
   transform: translate(-50%, -50%);
   color: white;
   font-size: 26px;
   font-family: "Open sans";
   font-weight: bold;
-  min-width: 410px;
+  min-width: 300px;
   width: 50%;
-
+  
   @media screen and (min-width: 967px) {
+    min-width: 410px;
     top: 75%;
     width: 10%;
     font-size: 36px;
