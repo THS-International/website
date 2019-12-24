@@ -82,7 +82,7 @@ const MainTitle = styled.h1`
   width: 50%;
 
   @media screen and (min-width: 966px) {
-    top: 70%;
+    top: 75%;
     width: 10%;
     font-size: 36px;
     font-weight: 900;
@@ -159,7 +159,7 @@ const Aline = styled.div`
 
 const DesktopLogo = styled.img`
   position: absolute;
-  top: 30%;
+  top: 37%;
   z-index: 4;
   height: 40vh;
   width: 40vh;
@@ -195,7 +195,7 @@ const GetInvolved = styled(Link)`
   font-family: "Open sans";
   font-weight: bold;
 
-  top: 73.5%;
+  top: 78.5%;
   font-size: 20px;
   min-width: 0;
   border-bottom: 4px solid currentColor;

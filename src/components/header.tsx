@@ -18,9 +18,11 @@ const HeaderBoxMobile = styled.header`
   }
 `
 const HeaderBoxDesktop = styled.header`
+position: absolute;
 width: 100%;
 display: flex;
-background: #750505;
+/* background: #750505; */
+/* background: blue; */
 padding: 3px;
 
 @media screen and (max-width: 992px){
@@ -34,7 +36,8 @@ const LogoComp = styled.img`
   width: 40px;
 
   @media screen and (min-width: 992px){
-    margin-left: .5%;
+    margin-top: .4%;
+    margin-left: .8%;
     height: 35px;
     width: 35px;
     padding: 3px;
@@ -57,7 +60,7 @@ const Header: React.FC = () => {
     </HeaderBoxMobile>
 
     <HeaderBoxDesktop>
-      <LogoComp onClick={() => {navigate("/")}} src={LogoWhite} />
+      <LogoComp onClick={() => {navigate("/")}} src={LogoRed} />
       <DesktopMenu />
     </HeaderBoxDesktop>
 
