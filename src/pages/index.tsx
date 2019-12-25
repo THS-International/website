@@ -34,7 +34,6 @@ const News = styled.div`
     width: 80%;
     flex-direction: row;
 
-
     > div {
       flex: 1 0 40%;
       margin: 5%;
@@ -52,7 +51,7 @@ const PictureFrame = styled.div`
     padding: 0;
     margin: 0;
     height: 100vh;
-    
+
     @media screen and (max-width: 966px) {
       display: none;
     }
@@ -63,7 +62,6 @@ const PictureFrame = styled.div`
     width: 100%;
     height: 100%;
     object-fit: cover;
-
   }
 `
 
@@ -80,7 +78,7 @@ const MainTitle = styled.h1`
   font-weight: bold;
   min-width: 300px;
   width: 50%;
-  
+
   @media screen and (min-width: 967px) {
     min-width: 410px;
     top: 75%;
@@ -181,7 +179,7 @@ const Subtitle = styled.div`
   font-size: 18px;
   color: rgba(61, 45, 45, 1);
 
-  @media screen and (min-width: 967px){
+  @media screen and (min-width: 967px) {
     margin-top: 15%;
   }
 `
@@ -218,47 +216,47 @@ const GetInvolved = styled(Link)`
 `
 
 const IndexLayout = styled.main`
-margin: 0 auto;
+  margin: 0 auto;
 `
 
 const IndexPage: React.FC = () => (
   <>
-  <Header />
-  <IndexLayout>
-    <SEO title="Home" />
+    <Header />
+    <IndexLayout>
+      <SEO title="Home" />
 
-    <PictureFrame>
-      <MainTitle>THS INTERNATIONAL RECEPTION</MainTitle>
-      <GetInvolved>Get Involved</GetInvolved>
-      <KthPicture src={Kth}></KthPicture>
+      <PictureFrame>
+        <MainTitle>THS INTERNATIONAL RECEPTION</MainTitle>
+        <GetInvolved>Get Involved</GetInvolved>
+        <KthPicture src={Kth}></KthPicture>
 
-      <DesktopLogo src={Logo}></DesktopLogo>
+        <DesktopLogo src={Logo}></DesktopLogo>
 
-      <div>
-        <video playsinline autoPlay muted loop>
-          <source
-            src="https://ths-international-reception.s3.eu-north-1.amazonaws.com/osqvik.mp4"
-            type="video/mp4"
-          />
-        </video>
-      </div>
-    </PictureFrame>
+        <div>
+          <video playsinline autoPlay muted loop>
+            <source
+              src="https://ths-international-reception.s3.eu-north-1.amazonaws.com/osqvik.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+      </PictureFrame>
 
-    <Aline>
-      <Button1 to="/">Get involved</Button1>
-      <Button2 to="/">Events</Button2>
+      <Aline>
+        <Button1 to="/">Get involved</Button1>
+        <Button2 to="/">Events</Button2>
 
-      <Subtitle>
-        Be apart of KTH’s largest student reception! We are welcomming all
-        international students!
-      </Subtitle>
+        <Subtitle>
+          Be apart of KTH’s largest student reception! We are welcomming all
+          international students!
+        </Subtitle>
 
-      <News>
-        <NewsGenerator limit="2"></NewsGenerator>
-      </News>
-    </Aline>
+        <News>
+          <NewsGenerator limit="2"></NewsGenerator>
+        </News>
+      </Aline>
 
-    <Footer/>
+      <Footer />
     </IndexLayout>
   </>
 )

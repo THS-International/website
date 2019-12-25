@@ -11,9 +11,7 @@ const FooterContent = styled.footer`
   color: rgba(255, 255, 255, 0.9);
 `
 const Footer: React.FC = () => {
-    return (
-        <FooterContent>International reception 2019</FooterContent>
-    )
-  }
-  
-  export default Footer
+  return <FooterContent>International reception 2019</FooterContent>
+}
+
+export default Footer

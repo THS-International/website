@@ -14,14 +14,15 @@ const query = graphql`
   }
 `
 
-
 const Buddies: React.FC = () => {
   const queryResult = useStaticQuery(query)
-  return (<Layout>
-    <SEO title="Buddies" />
-    <h1>Buddies</h1>
-    <p>{queryResult.markdownRemark.frontmatter.content}</p>
-  </Layout>)
+  return (
+    <Layout>
+      <SEO title="Buddies" />
+      <h1>Buddies</h1>
+      <p>{queryResult.markdownRemark.frontmatter.content}</p>
+    </Layout>
+  )
 }
 
 export default Buddies

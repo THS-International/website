@@ -19,9 +19,7 @@ const Image = styled(ImageLoader)`
 
 const ImageContainer = styled.div`
   width: 100%;
-  /* height: 10vh; */
   overflow: hidden;
-  /* display: flex; */
   justify-content: center;
   align-items: center;
 `
@@ -71,26 +69,18 @@ const Readmore = styled.button`
 `
 
 const StyledMarkdown = styled(Markdown)`
-padding: 0;
-margin: 0;
-margin-block-start: 0;
-margin-block-end: 0;
-
-p {
   padding: 0;
   margin: 0;
   margin-block-start: 0;
   margin-block-end: 0;
-}
+
+  p {
+    padding: 0;
+    margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
 `
-
-
-
-// const Content = styled.div`
-//   display: ${({ display }: { display: boolean }) =>
-//   display ? "inline" : "none"};
-//   position: relative;
-// `
 
 const newscard = ({ image, date, title, description, content }) => {
   const [isOpen, setIsOpen] = useState(false)

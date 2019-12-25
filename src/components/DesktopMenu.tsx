@@ -67,16 +67,16 @@ const Container = styled.span`
         height: 40px;
         z-index: -1;
 
-        &:hover ul{
+        &:hover ul {
           visibility: visible;
           opacity: 1;
         }
 
         > ul {
-        background: white;
-        display: inline-block;
-        visibility: hidden;
-        transition: visibility 0s, opacity 0.5s ease-in-out;
+          background: white;
+          display: inline-block;
+          visibility: hidden;
+          transition: visibility 0s, opacity 0.5s ease-in-out;
           min-width: 200px;
           position: absolute;
           padding: 5px 0 5px 0px;
