@@ -37,15 +37,6 @@ module.exports = {
     },
     `gatsby-plugin-typescript`,
     `gatsby-plugin-styled-components`,
-    `gatsby-plugin-netlify-cms`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "UA-154897063-1",
-        head: false,
-        anonymize: true,
-        respectDNT: true,
-      },
-    }
+    `gatsby-plugin-netlify-cms`
   ],
 }
