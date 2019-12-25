@@ -5,21 +5,6 @@ media_folder: src/images
 public_folder: images
 
 collections:
-  - name: "addFaq"
-    label: "FAQ"
-    folder: "src/markdown-pages/faqs"
-    create: true
-    identifier_field: category
-    fields:
-      - { name: "category", label: "Category", widget: "string", required: true }
-      - { name: "type", label: "Type", widget: "hidden", default: "faq"}
-      - label: Question
-        name: question
-        widget: list
-        fields:
-          - { name: "title", label: "Title", widget: "string", required: true }
-          - { name: "description", label: "Description", widget: "markdown", required: true }
-
   - name: "addNews"
     label: "News"
     folder: "src/markdown-pages/news"
