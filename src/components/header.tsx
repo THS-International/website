@@ -63,7 +63,7 @@ const Header: React.FC = () => {
           onClick={() => {
             navigate("/")
           }}
-          src={LogoWhite}
+          src={isActive ? LogoWhite : LogoRed}
         />
         <Hamburger isActive={isActive} setIsActive={setIsActive} />
         <Drawer isOpen={isActive} />

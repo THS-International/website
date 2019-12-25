@@ -8,6 +8,11 @@ const Main = styled.main`
   margin: 0 auto;
   margin-top: 5%;
   max-width: 960px;
+  padding: 5%;
+
+  @media screen and (max-width: 967px){
+    margin-top: 10%;
+  }
 `
 
 const Layout: React.FC = ({ children }) => {
