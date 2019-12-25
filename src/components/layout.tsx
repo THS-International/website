@@ -9,12 +9,10 @@ const Main = styled.main`
   max-width: 960px;
 `
 
-
-
 const Layout: React.FC = ({ children }) => {
   return (
     <>
-      <Header hpos="initial"/>
+      <Header />
       <Main>{children}</Main>
       <Footer />
     </>

@@ -11,26 +11,28 @@ import DesktopMenu from "./DesktopMenu"
 
 const HeaderBoxMobile = styled.header`
   padding: 15px 15px;
-  position: ${({ pos }: {pos: string}) => pos};
+  position: absolute;
+  top: 0;
+  right: 0;
   display: flex;
   justify-content: space-between;
   width: 100%;
 
-  @media screen and (min-width: 967px){
+  @media screen and (min-width: 967px) {
     display: none;
   }
 `
 const HeaderBoxDesktop = styled.header`
-position: ${({ pos }: {pos: string}) => pos};
-width: 100%;
-display: flex;
-/* background: #750505; */
-/* background: blue; */
-padding: 3px;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  top: 0;
+  right: 0;
+  padding: 3px;
 
-@media screen and (max-width: 966px){
+  @media screen and (max-width: 966px) {
     display: none;
-}
+  }
 `
 
 const LogoComp = styled.img`
@@ -38,9 +40,9 @@ const LogoComp = styled.img`
   height: 40px;
   width: 40px;
 
-  @media screen and (min-width: 967px){
-    margin-top: .4%;
-    margin-left: .8%;
+  @media screen and (min-width: 967px) {
+    margin-top: 0.4%;
+    margin-left: 0.8%;
     height: 35px;
     width: 35px;
     padding: 3px;
@@ -51,27 +53,31 @@ const LogoComp = styled.img`
   }
 `
 
-interface Props {
-  hpos?: string
-}
-
-
-const Header: React.FC<Props> = ({ hpos }) => {
+const Header: React.FC = () => {
   const [isActive, setIsActive] = useState(false)
 
   return (
     <>
-    <HeaderBoxMobile pos={hpos}>
-      <LogoComp onClick={() => {navigate("/")}} src={LogoWhite} />
-      <Hamburger isActive={isActive} setIsActive={setIsActive} />
-      <Drawer isOpen={isActive}/>
-    </HeaderBoxMobile>
+      <HeaderBoxMobile>
+        <LogoComp
+          onClick={() => {
+            navigate("/")
+          }}
+          src={LogoWhite}
+        />
+        <Hamburger isActive={isActive} setIsActive={setIsActive} />
+        <Drawer isOpen={isActive} />
+      </HeaderBoxMobile>
 
-    <HeaderBoxDesktop pos={hpos}>
-      <LogoComp onClick={() => {navigate("/")}} src={LogoRed} />
-      <DesktopMenu />
-    </HeaderBoxDesktop>
-
+      <HeaderBoxDesktop>
+        <LogoComp
+          onClick={() => {
+            navigate("/")
+          }}
+          src={LogoRed}
+        />
+        <DesktopMenu />
+      </HeaderBoxDesktop>
     </>
   )
 }
