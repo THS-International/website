@@ -47,22 +47,22 @@ collections:
         name: archive
         fields:
           - { name: "type", label: "Type", widget: "hidden", default: "archive-page"}
-          - { name: "content", label: "Content", widget: "markdown", required: true }
+          - { name: "body", label: "Content", widget: "markdown", required: true }
       - file: "src/markdown-pages/buddies.md"
         label: "buddies-markdown"
         name: buddies
         fields:
           - { name: "type", label: "Type", widget: "hidden", default: "buddies-page"}
-          - { name: "content", label: "Content", widget: "markdown", required: true }
+          - { name: "body", label: "Content", widget: "markdown", required: true }
       - file: "src/markdown-pages/team.md"
         label: "team-markdown"
         name: team
         fields:
           - { name: "type", label: "Type", widget: "hidden", default: "team-page"}
-          - { name: "content", label: "Content", widget: "markdown", required: true }
+          - { name: "body", label: "Content", widget: "markdown", required: true }
       - file: "src/markdown-pages/vision.md"
         label: "vision-markdown"
         name: vision
         fields:
           - { name: "type", label: "Type", widget: "hidden", default: "vision-page"}
-          - { name: "content", label: "Content", widget: "markdown", required: true }
+          - { name: "body", label: "Content", widget: "markdown", required: true }

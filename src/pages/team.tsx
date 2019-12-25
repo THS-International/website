@@ -7,9 +7,7 @@ import { graphql, useStaticQuery } from "gatsby"
 const query = graphql`
   query {
     markdownRemark(frontmatter: { type: { eq: "team-page" } }) {
-      frontmatter {
-        content
-      }
+      html
     }
   }
 `
@@ -20,7 +18,7 @@ const Team: React.FC = () => {
     <Layout>
       <SEO title="Team" />
       <h1>Team</h1>
-      <p>{queryResult.markdownRemark.frontmatter.content}</p>
+      <div dangerouslySetInnerHTML={{__html: queryResult.markdownRemark.html}} />
     </Layout>
   )
 }
