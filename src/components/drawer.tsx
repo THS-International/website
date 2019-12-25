@@ -13,7 +13,7 @@ const Overlay = styled.div`
   overflow-x: hidden;
   a {
     font-family: "Roboto", sans-serif;
-    padding: 4px;
+    padding: 2px;
     text-decoration: none;
     color: #fff;
     display: block;
@@ -27,19 +27,18 @@ const Overlay = styled.div`
 
 const OverlayContent = styled.div`
   position: relative;
-  top: 5%;
   text-align: right;
-  margin-top: 30px;
-  margin-right: 60px;
+  margin-top: 50px;
+  margin-right: 70px;
 `
 
 const HeadLink = styled(Link)`
-  font-size: 30px;
+  font-size: 28px;
   font-weight: bold;
-  margin-top: 8px;
+  margin-top: 4px;
 `
 const SubLink = styled(Link)`
-  font-size: 20px;
+  font-size: 18px;
 `
 
 const drawer: React.FC<{ isOpen: boolean }> = ({ isOpen }) => {
