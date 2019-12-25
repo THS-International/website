@@ -1,5 +1,5 @@
 backend:
-  name: github
+  name: git-gateway
   repo: oscsyn/ths-international-reception
 media_folder: src/images
 public_folder: images
