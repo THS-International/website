@@ -1,10 +1,6 @@
 ---
 type: about-page
 content: >-
-
-
-
-
   **Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at odio ante.
   In imperdiet sapien neque, at porta nisi convallis eget. Vestibulum consequat,
   lorem sed blandit suscipit, quam diam auctor ante, in dapibus lectus dolor id
@@ -15,8 +11,6 @@ content: >-
   et placerat diam, sed lacinia ipsum. Duis cursus, est sed commodo sodales,
   ante ligula venenatis nulla, eu varius elit dui et ante. Morbi varius nunc nec
   lorem tincidunt, id convallis magna tincidunt.
-
-
 
 
   * Nullam sed nibh eu mauris varius pellentesque. Vestibulum tempor euismod
@@ -31,8 +25,6 @@ content: >-
   sagittis. Sed sed venenatis libero.
 
 
-
-
   # Proin dictum libero at consectetur fringilla. Cras sit amet gravida quam,
   nec euismod metus. Aenean vestibulum massa at interdum iaculis. Suspendisse ut
   ante quis mi sollicitudin rhoncus ut in sapien. Donec dignissim felis sit amet
@@ -41,6 +33,9 @@ content: >-
   accumsan tortor, sit amet interdum nunc ullamcorper at. Donec urna libero,
   egestas at metus vitae, auctor mattis arcu. Mauris in iaculis sem, a iaculis
   enim.
+
+
+  ![](/images/kthnews.png "KTH is pretty")
 
 
 
@@ -58,8 +53,6 @@ content: >-
   amet dolor ultricies rutrum.
 
   ```
-
-
 
 
   Nulla facilisi. Mauris efficitur turpis ipsum, eu malesuada dolor facilisis
