@@ -11,7 +11,7 @@ import DesktopMenu from "./DesktopMenu"
 
 const HeaderBoxMobile = styled.header`
   padding: 15px 15px;
-  position: absolute;
+  position: ${({ pos }: {pos: string}) => pos};
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -21,7 +21,7 @@ const HeaderBoxMobile = styled.header`
   }
 `
 const HeaderBoxDesktop = styled.header`
-position: absolute;
+position: ${({ pos }: {pos: string}) => pos};
 width: 100%;
 display: flex;
 /* background: #750505; */
@@ -51,18 +51,23 @@ const LogoComp = styled.img`
   }
 `
 
-const Header: React.FC = () => {
+interface Props {
+  hpos?: string
+}
+
+
+const Header: React.FC<Props> = ({ hpos }) => {
   const [isActive, setIsActive] = useState(false)
 
   return (
     <>
-    <HeaderBoxMobile>
+    <HeaderBoxMobile pos={hpos}>
       <LogoComp onClick={() => {navigate("/")}} src={LogoWhite} />
       <Hamburger isActive={isActive} setIsActive={setIsActive} />
       <Drawer isOpen={isActive}/>
     </HeaderBoxMobile>
 
-    <HeaderBoxDesktop>
+    <HeaderBoxDesktop pos={hpos}>
       <LogoComp onClick={() => {navigate("/")}} src={LogoRed} />
       <DesktopMenu />
     </HeaderBoxDesktop>
