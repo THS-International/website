@@ -41,7 +41,7 @@ collections:
         name: about
         fields:
           - { name: "type", label: "Type", widget: "hidden", default: "about-page"}
-          - { name: "content", label: "Content", widget: "markdown", required: true }
+          - { name: "body", label: "Content", widget: "markdown", required: true }
       - file: "src/markdown-pages/archive.md"
         label: "archive-markdown"
         name: archive
