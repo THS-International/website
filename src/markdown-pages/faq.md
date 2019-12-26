@@ -1,7 +1,7 @@
 ---
 type: faq-page
 categories:
-  - category: test
+  - category: Stefanos playing around with stuff
     questions:
       - description: test
         title: test
