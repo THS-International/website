@@ -1,5 +1,4 @@
 ---
 type: buddies-page
-content: test
 ---
-
+test
