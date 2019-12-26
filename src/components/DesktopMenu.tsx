@@ -149,10 +149,10 @@ const DesktopMenu: React.FC = () => {
                 <SubLink to="/buddies">Buddies</SubLink>
               </li>
               <li>
-                <SubLink to="/">Project Team</SubLink>
+                <SubLink to="/pt">Project Team</SubLink>
               </li>
               <li>
-                <SubLink to="/">Project Manager</SubLink>
+                <SubLink to="/pm">Project Manager</SubLink>
               </li>
               <li>
                 <SubLink to="/join-us">Join Us</SubLink>

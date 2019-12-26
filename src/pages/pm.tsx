@@ -6,21 +6,21 @@ import { graphql, useStaticQuery } from "gatsby"
 
 const query = graphql`
   query {
-    markdownRemark(frontmatter: { type: { eq: "buddies-page" } }) {
+    markdownRemark(frontmatter: { type: { eq: "pm" } }) {
       html
     }
   }
 `
 
-const Buddies: React.FC = () => {
+const Pm: React.FC = () => {
   const queryResult = useStaticQuery(query)
   return (
     <Layout>
-      <SEO title="Buddies" />
-      <h1>Buddies</h1>
+      <SEO title="Project Manager" />
+      <h1>Project Manager</h1>
       <div dangerouslySetInnerHTML={{__html: queryResult.markdownRemark.html}} />
     </Layout>
   )
 }
 
-export default Buddies
+export default Pm

@@ -65,4 +65,16 @@ collections:
         name: vision
         fields:
           - { name: "type", label: "Type", widget: "hidden", default: "vision-page"}
+          - { name: "body", label: "Content", widget: "markdown", required: true }  
+        - file: "src/markdown-pages/pt.md"
+        label: "pt-markdown"
+        name: pt
+        fields:
+          - { name: "type", label: "Type", widget: "hidden", default: "pt-page"}
+          - { name: "body", label: "Content", widget: "markdown", required: true }
+        - file: "src/markdown-pages/pm.md"
+        label: "pm-markdown"
+        name: pm
+        fields:
+          - { name: "type", label: "Type", widget: "hidden", default: "pm-page"}
           - { name: "body", label: "Content", widget: "markdown", required: true }
