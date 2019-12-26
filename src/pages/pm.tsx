@@ -6,7 +6,7 @@ import { graphql, useStaticQuery } from "gatsby"
 
 const query = graphql`
   query {
-    markdownRemark(frontmatter: { type: { eq: "pm" } }) {
+    markdownRemark(frontmatter: { type: { eq: "pm-page" } }) {
       html
     }
   }
