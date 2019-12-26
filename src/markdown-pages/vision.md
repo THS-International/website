@@ -1,5 +1,4 @@
 ---
 type: vision-page
-content: test
 ---
-
+Can I get my wristband?
