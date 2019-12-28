@@ -9,9 +9,6 @@ const Title = styled.div`
   font-size: 36px;
   font-family: "Open sans";
   font-weight: 600;
-  margin-left: 5%;
-  margin-top: 5%;
-  margin-bottom: 5%;
 `
 
 const query = graphql`
@@ -32,14 +29,13 @@ const query = graphql`
 `
 
 const ContactPage: React.FC = () => {
-  const queryResult = useStaticQuery(query)
-  const data = queryResult.markdownRemark.frontmatter.categories
+  const data = useStaticQuery(query).markdownRemark.frontmatter.categories
   return (
     <Layout>
       <SEO title="Contact" />
       <Title>FAQ</Title>
-      {data.map(category => (
-        <FaqBox category={category} />
+      {data.map(item => (
+        <FaqBox category={item.category} questions={item.questions} />
       ))}
     </Layout>
   )

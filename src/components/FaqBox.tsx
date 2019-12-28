@@ -9,17 +9,14 @@ const Container = styled.div`
 `
 
 const Title = styled.div`
-  height: 5%;
-  width: 95%;
   font-size: 25px;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   color: rgba(61, 45, 45, 0.9);
   margin-top: 5%;
-  margin-left: 5%;
 `
 
-const FaqBox: React.FC<any> = ({ category: { category, questions } }) => {
+const FaqBox: React.FC<any> = ({ category, questions }) => {
   return (
     <>
       <Title>{category}</Title>
