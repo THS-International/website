@@ -227,7 +227,7 @@ const IndexPage: React.FC = () => (
 
       <PictureFrame>
         <MainTitle>THS INTERNATIONAL RECEPTION</MainTitle>
-        <GetInvolved>Get Involved</GetInvolved>
+        <GetInvolved to="">Get Involved</GetInvolved>
         <KthPicture src={Kth}></KthPicture>
 
         <DesktopLogo src={Logo}></DesktopLogo>
@@ -252,7 +252,7 @@ const IndexPage: React.FC = () => (
         </Subtitle>
 
         <News>
-          <NewsGenerator limit="2"></NewsGenerator>
+          <NewsGenerator />
         </News>
       </Aline>
 
