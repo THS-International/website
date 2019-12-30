@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  repo: oscsyn/ths-international-reception
+  repo: CreatlV/ths-international-reception
 media_folder: src/images
 public_folder: images
 
@@ -15,7 +15,8 @@ collections:
       - { name: "thumbnail", label: "Featured Image", widget: "image", default:"/images/kthnews.png" }
       - { name: "description", label: "Description", widget: "markdown", required: true }
       - { name: "preview", label: "Preview", widget: "markdown", required: true }
-      - { name: "type", label: "Type", widget: "hidden", default: "news"}
+      - { name: "type", label: "Type", widget: "hidden", default: "news" }
+      - { name: "date", label: "Date", widget: "datetime", format: "YYYY-MM-DD"}
 
   - name: "pages"
     label: "Pages"
@@ -65,7 +66,7 @@ collections:
         name: vision
         fields:
           - { name: "type", label: "Type", widget: "hidden", default: "vision-page"}
-          - { name: "body", label: "Content", widget: "markdown", required: true }  
+          - { name: "body", label: "Content", widget: "markdown", required: true }
       - file: "src/markdown-pages/pt.md"
         label: "pt-markdown"
         name: pt
