@@ -6,12 +6,13 @@ import styled from "styled-components"
 
 const Main = styled.main`
   margin: 0 auto;
-  margin-top: 5%;
+  margin-top: 8vh;
   max-width: 960px;
-  padding: 5%;
+  padding-left: 20px;
+  padding-right: 20px;
 
   @media screen and (max-width: 967px){
-    margin-top: 10%;
+    margin-top: 8vh;
   }
 `
 
