@@ -9,7 +9,7 @@ const Overlay = styled.div`
   z-index: 3;
   top: 0;
   left: 0;
-  background-color: rgb(169, 23, 23, 1);
+  background-color: rgba(169, 23, 23, 1);
   overflow-x: hidden;
   a {
     font-family: "Roboto", sans-serif;
