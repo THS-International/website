@@ -7,7 +7,10 @@ import ImageLoader from "../components/ImageLoader"
 
 const query = graphql`
   query {
-    allMarkdownRemark(filter: { frontmatter: { type: { eq: "news" } } }) {
+    allMarkdownRemark(
+      filter: { frontmatter: { type: { eq: "news" } } }
+      sort: { fields: frontmatter___date, order: DESC }
+    ) {
       edges {
         node {
           frontmatter {
@@ -16,6 +19,7 @@ const query = graphql`
             description
             thumbnail
             preview
+            date
           }
         }
       }
@@ -32,11 +36,11 @@ const News: React.FC = () => {
       <h1>News</h1>
 
       {data.map(items => {
-        const { thumbnail, title, description } = items.node.frontmatter
+        const { thumbnail, title, description, date } = items.node.frontmatter
         return (
           <div>
             <h1>{title}</h1>
-            <h4>2000-10-10</h4>
+            <h4>{date}</h4>
             <ImageLoader filename={thumbnail.substring(8)} />
             <p>{description}</p>
           </div>

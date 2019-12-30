@@ -1,5 +1,5 @@
 import React from "react"
-import Newscard from "../components/newscard"
+import NewsCard from "../components/newscard"
 import { useStaticQuery, graphql } from "gatsby"
 
 const query = graphql`
@@ -7,6 +7,7 @@ const query = graphql`
     allMarkdownRemark(
       filter: { frontmatter: { type: { eq: "news" } } }
       limit: 2
+      sort: { fields: frontmatter___date, order: DESC }
     ) {
       edges {
         node {
@@ -16,6 +17,7 @@ const query = graphql`
             description
             thumbnail
             preview
+            date
           }
         }
       }
@@ -27,15 +29,20 @@ const NewsGenerator = () => {
   const data = useStaticQuery(query)
 
   return data.allMarkdownRemark.edges.map(items => {
-    const node = items.node
-    const imageLink = node.frontmatter.thumbnail.substring(8)
+    const {
+      thumbnail,
+      title,
+      preview,
+      description,
+      date,
+    } = items.node.frontmatter
     return (
-      <Newscard
-        image={imageLink}
-        date="2000-10-10"
-        title={node.frontmatter.title}
-        description={node.frontmatter.preview}
-        content={node.frontmatter.description}
+      <NewsCard
+        image={thumbnail.substring(8)}
+        date={date}
+        title={title}
+        description={preview}
+        content={description}
       />
     )
   })
