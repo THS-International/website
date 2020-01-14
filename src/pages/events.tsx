@@ -8,7 +8,7 @@ const Events: React.FC = () => (
   <Layout>
     <SEO title="Events" />
     <h1>Events</h1>
-    <EventsCalendar></EventsCalendar>
+    {/* <EventsCalendar></EventsCalendar> */}
       </Layout>
 )
 
