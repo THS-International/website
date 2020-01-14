@@ -1,10 +1,6 @@
 ---
 type: about-page
 ---
-![](/images/image-15.png)
-
-![](/src/markdown-pages/stockholm.jpg)
-
 - - -
 
 **Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at odio ante.
@@ -13,7 +9,9 @@ lorem sed blandit suscipit, quam diam auctor ante, in dapibus lectus dolor id
 neque.** Nam non porttitor lectus, sit amet fringilla nunc. Morbi imperdiet
 ultrices nulla, ultricies pretium elit eleifend non. Morbi vulputate massa a
 
-![](/images/cropped-3200-1800-734513-2-.jpg)
+![](/./kth.png)
+
+![](/./cropped-3200-1800-734513-2-.jpg)
 
 quam vestibulum suscipit. Donec dapibus elementum massa non _auctor. Curabitur
 sit amet tristique lorem_. Sed in tincidunt mi, ac pretium turpis. Vestibulum
