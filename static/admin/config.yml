@@ -1,8 +1,8 @@
 backend:
   name: git-gateway
   repo: CreatlV/ths-international-reception
-media_folder: src/images
-public_folder: images
+media_folder: src/markdown-pages
+public_folder: .
 
 collections:
   - name: "addNews"
