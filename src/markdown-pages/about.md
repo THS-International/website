@@ -11,7 +11,7 @@ ultrices nulla, ultricies pretium elit eleifend non. Morbi vulputate massa a
 
 ![alt](/./kthnews.png "title")
 
-
+![](/images/stockholm.jpg)
 
 quam vestibulum suscipit. Donec dapibus elementum massa non _auctor. Curabitur
 sit amet tristique lorem_. Sed in tincidunt mi, ac pretium turpis. Vestibulum
