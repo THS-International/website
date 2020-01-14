@@ -20,7 +20,6 @@ const About: React.FC = () => {
       <SEO title="About" />
       <h1>ABOUT</h1>
       <div dangerouslySetInnerHTML={{__html: queryResult.markdownRemark.html}} />
-      <img src={require("../images/kthred.png")}></img>
     </Layout>
   )
 }
