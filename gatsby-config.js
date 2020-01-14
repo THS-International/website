@@ -4,6 +4,7 @@ module.exports = {
     description: `THS International Reception`,
     author: `Oscar Synnemar`,
   },
+
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -15,13 +16,6 @@ module.exports = {
     `gatsby-transformer-remark`,
     `gatsby-remark-copy-linked-files`,
     `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/markdown-pages`,
-      },
-    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -35,22 +29,19 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/markdown-pages/logored.png`,
       },
-      resolve: `gatsby-plugin-mdx`,
+      resolve: `gatsby-transformer-remark`,
       options: {
-        gatsbyRemarkPlugins: [
+        plugins: [
           {
             resolve: `gatsby-remark-images`,
             options: {
+              // It's important to specify the maxWidth (in pixels) of
+              // the content container as this plugin uses this as the
+              // base for generating different widths of each image.
               maxWidth: 1200,
             },
           },
         ],
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/src/markdown-pages`,
       },
     },
     `gatsby-plugin-typescript`,
