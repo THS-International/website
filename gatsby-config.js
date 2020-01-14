@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `THS International Reception`,
     description: `THS International Reception`,
-    author: `Oscar Synnemar`,
+    author: `Jacob Wiklund, Alexander Brokking & Oscar Synnemar`,
   },
 
   plugins: [
