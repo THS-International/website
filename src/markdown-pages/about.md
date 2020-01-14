@@ -12,7 +12,7 @@ et placerat diam, sed lacinia ipsum. Duis cursus, est sed commodo sodales,
 ante ligula venenatis nulla, eu varius elit dui et ante. Morbi varius nunc nec
 lorem tincidunt, id convallis magna tincidunt.
 
-- Nullam sed nibh eu mauris varius pellentesque. Vestibulum tempor euismod
+* Nullam sed nibh eu mauris varius pellentesque. Vestibulum tempor euismod
   massa eu malesuada. Duis varius enim quis fermentum dictum. Donec at euismod
   erat. Vestibulum iaculis dignissim nunc. Praesent velit mauris, tempus eget
   egestas sed, tempor in mauris. Sed tincidunt egestas vestibulum. Orci varius
@@ -33,10 +33,9 @@ accumsan tortor, sit amet interdum nunc ullamcorper at. Donec urna libero,
 egestas at metus vitae, auctor mattis arcu. Mauris in iaculis sem, a iaculis
 enim.
 
-![](/images/kthnews.png "KTH is pretty")
+![](/images/image-15.png "KTH is pretty")
 
 ```
-
 Ut vestibulum porttitor risus, ac volutpat justo faucibus sit amet.
 Suspendisse et pulvinar neque. Maecenas varius lacus non massa scelerisque
 aliquam. Vestibulum vitae elementum tellus. Sed neque erat, molestie et erat
@@ -46,7 +45,6 @@ Nulla quis ligula ut urna gravida suscipit. Integer non erat augue. Aenean et
 lacus mollis, hendrerit arcu a, interdum ipsum. Sed et luctus ex. Pellentesque
 metus leo, finibus non tempor sed, porta at elit. Maecenas tincidunt erat sit
 amet dolor ultricies rutrum.
-
 ```
 
 Nulla facilisi. Mauris efficitur turpis ipsum, eu malesuada dolor facilisis
