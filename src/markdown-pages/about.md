@@ -9,7 +9,7 @@ lorem sed blandit suscipit, quam diam auctor ante, in dapibus lectus dolor id
 neque.** Nam non porttitor lectus, sit amet fringilla nunc. Morbi imperdiet
 ultrices nulla, ultricies pretium elit eleifend non. Morbi vulputate massa a
 
-![](/./kth.png)
+![](/./cropped-3200-1800-734513-2-.jpg)
 
 ![](/./cropped-3200-1800-734513-2-.jpg)
 
