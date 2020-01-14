@@ -33,7 +33,7 @@ accumsan tortor, sit amet interdum nunc ullamcorper at. Donec urna libero,
 egestas at metus vitae, auctor mattis arcu. Mauris in iaculis sem, a iaculis
 enim.
 
-![](./image-15.png "KTH is pretty")
+![Alt](/images/kth.png "Titlte")
 
 ```
 Ut vestibulum porttitor risus, ac volutpat justo faucibus sit amet.
