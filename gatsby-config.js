@@ -13,7 +13,15 @@ module.exports = {
       },
     },
     `gatsby-transformer-remark`,
+    `gatsby-remark-copy-linked-files`,
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/markdown-pages`,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
