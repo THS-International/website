@@ -29,6 +29,8 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/markdown-pages/logored.png`,
       },
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
