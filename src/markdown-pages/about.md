@@ -3,8 +3,9 @@ type: about-page
 ---
 ![](/images/image-15.png)
 
-****
+![](/src/markdown-pages/stockholm.jpg)
 
+- - -
 
 **Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at odio ante.
 In imperdiet sapien neque, at porta nisi convallis eget. Vestibulum consequat,
