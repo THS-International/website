@@ -221,7 +221,8 @@ const IndexLayout = styled.main`
 
 const IndexPage: React.FC = () => (
   <>
-    <Header onIndex={window.matchMedia('(max-width: 966px)').matches} />
+    {/* <Header onIndex={window.matchMedia('(max-width: 966px)').matches} /> */}
+    <Header onIndex={true} />
     <IndexLayout>
       <SEO title="Home" />
 
