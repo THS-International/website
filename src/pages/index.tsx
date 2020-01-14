@@ -221,7 +221,8 @@ const IndexLayout = styled.main`
 
 const IndexPage: React.FC = () => (
   <>
-    <Header />
+    <Header onIndex={window.matchMedia('(max-width: 966px)').matches} />
+    {/* <Header onIndex={true} /> */}
     <IndexLayout>
       <SEO title="Home" />
 
@@ -244,7 +245,7 @@ const IndexPage: React.FC = () => (
 
       <Aline>
         <Button1 to="/">Get involved</Button1>
-        <Button2 to="/">Events</Button2>
+        <Button2 to="/events">Events</Button2>
 
         <Subtitle>
           Be apart of KTH’s largest student reception! We are welcomming all

@@ -33,7 +33,11 @@ accumsan tortor, sit amet interdum nunc ullamcorper at. Donec urna libero,
 egestas at metus vitae, auctor mattis arcu. Mauris in iaculis sem, a iaculis
 enim.
 
+<<<<<<< HEAD
 ![](/images/image-15.png "KTH is pretty")
+=======
+![](../images/kthred.png "KTH is pretty")
+>>>>>>> Edit menu color and added events calendar
 
 ```
 Ut vestibulum porttitor risus, ac volutpat justo faucibus sit amet.

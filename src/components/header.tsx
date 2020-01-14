@@ -53,8 +53,19 @@ const LogoComp = styled.img`
   }
 `
 
-const Header: React.FC = () => {
+const Header: React.FC<{onIndex: boolean}> = ({ onIndex }) => {
   const [isActive, setIsActive] = useState(false)
+
+    var logoColor
+    var hamColor
+    if(isActive || onIndex){
+      logoColor = LogoWhite;
+      hamColor = "white"
+    }
+    else {
+      logoColor = LogoRed;
+      hamColor = "#750505"
+    }
 
   return (
     <>
@@ -63,9 +74,9 @@ const Header: React.FC = () => {
           onClick={() => {
             navigate("/")
           }}
-          src={isActive ? LogoWhite : LogoRed}
+          src={logoColor}
         />
-        <Hamburger isActive={isActive} setIsActive={setIsActive} />
+        <Hamburger isActive={isActive} setIsActive={setIsActive} color={hamColor}/>
         <Drawer isOpen={isActive} />
       </HeaderBoxMobile>
 
