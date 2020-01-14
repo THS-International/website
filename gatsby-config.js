@@ -14,13 +14,6 @@ module.exports = {
     },
     `gatsby-transformer-remark`,
     `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/markdown-pages`,
-      },
-    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -32,7 +25,7 @@ module.exports = {
         background_color: `#750505`,
         theme_color: `#750505`,
         display: `minimal-ui`,
-        icon: `src/images/logored.png`,
+        icon: `src/markdown-pages/logored.png`,
       },
       resolve: `gatsby-plugin-mdx`,
       options: {
