@@ -12,6 +12,8 @@ et placerat diam, sed lacinia ipsum. Duis cursus, est sed commodo sodales,
 ante ligula venenatis nulla, eu varius elit dui et ante. Morbi varius nunc nec
 lorem tincidunt, id convallis magna tincidunt.
 
+![alt](/markdown-pages/image-15.png "Titlos")
+
 * Nullam sed nibh eu mauris varius pellentesque. Vestibulum tempor euismod
   massa eu malesuada. Duis varius enim quis fermentum dictum. Donec at euismod
   erat. Vestibulum iaculis dignissim nunc. Praesent velit mauris, tempus eget
@@ -32,8 +34,6 @@ nulla nibh, feugiat eget nulla ut, volutpat vestibulum mi. Nam accumsan
 accumsan tortor, sit amet interdum nunc ullamcorper at. Donec urna libero,
 egestas at metus vitae, auctor mattis arcu. Mauris in iaculis sem, a iaculis
 enim.
-
-![Alt](/images/kth.png "Titlte")
 
 ```
 Ut vestibulum porttitor risus, ac volutpat justo faucibus sit amet.
