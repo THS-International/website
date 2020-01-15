@@ -70,7 +70,23 @@ const PictureFrame = styled.div`
   }
 `
 
-const MainTitle = styled.h1`
+const DesktopMainTitle = styled.h1`
+  margin: 0;
+  z-index: 2;
+  position: relative;
+  color: white;
+  font-size: 26px;
+  font-family: "Open sans";
+  font-weight: bold;
+  min-width: 300px;
+  width: 50%;
+    min-width: 410px;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: left;
+`
+
+const MobileMainTitle = styled.h1`
   margin: 0;
   z-index: 2;
   position: absolute;
@@ -78,19 +94,71 @@ const MainTitle = styled.h1`
   left: 51%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 26px;
+  font-size: 5vw;
   font-family: "Open sans";
   font-weight: bold;
   min-width: 300px;
   width: 50%;
 
   @media screen and (min-width: 967px) {
-    min-width: 410px;
-    top: 75%;
-    width: 10%;
-    font-size: 36px;
-    font-weight: 900;
-    text-align: left;
+      display: none;
+    }
+
+`
+
+const DesktopGetInvolved = styled(Link)`
+  z-index: 2;
+  position: absolute;
+  color: white;
+  top: 53%;
+  left: 45%;
+  font-size: 26px;
+  font-family: "Open sans";
+  font-weight: bold;
+  font-size: 20px;
+  min-width: 0;
+  border-bottom: 4px solid currentColor;
+  transition: padding-bottom 0.2s ease;
+
+  text-decoration: none;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: white;
+    padding-bottom: 5px;
+    text-decoration: none;
+  }
+
+  @media screen and (max-width: 966px) {
+    display: none;
+  }
+`
+
+const DesktopTitleContainer = styled.span`
+position: absolute;
+left: 55%;
+transform: translate(-50%, -50%);
+z-index: 5;
+top: 75%;
+width: 500px;
+
+@media screen and (max-width: 966px) {
+    display: none;
+  }
+`
+
+const Subtitle = styled.div`
+  margin-top: 10%;
+  margin-right: 10%;
+  margin-left: 10%;
+  text-align: center;
+  font-family: "Open sans";
+  font-size: 18px;
+  color: rgba(61, 45, 45, 1);
+
+  @media screen and (min-width: 967px) {
+    margin-top: 15%;
   }
 `
 
@@ -170,51 +238,6 @@ const DesktopLogo = styled.img`
   }
 `
 
-const Subtitle = styled.div`
-  margin-top: 10%;
-  margin-right: 10%;
-  margin-left: 10%;
-  text-align: center;
-  font-family: "Open sans";
-  font-size: 18px;
-  color: rgba(61, 45, 45, 1);
-
-  @media screen and (min-width: 967px) {
-    margin-top: 15%;
-  }
-`
-
-const GetInvolved = styled(Link)`
-  z-index: 2;
-  position: absolute;
-  left: 58%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 26px;
-  font-family: "Open sans";
-  font-weight: bold;
-
-  top: 78.5%;
-  font-size: 20px;
-  min-width: 0;
-  border-bottom: 4px solid currentColor;
-  transition: padding-bottom 0.2s ease;
-
-  text-decoration: none;
-
-  &:hover,
-  &:focus,
-  &:active {
-    color: white;
-    padding-bottom: 5px;
-    text-decoration: none;
-  }
-
-  @media screen and (max-width: 966px) {
-    display: none;
-  }
-`
-
 const IndexLayout = styled.main`
   margin: 0 auto;
 `
@@ -242,10 +265,17 @@ const IndexPage: React.FC = () => {
         <SEO title="Home" />
 
         <PictureFrame>
-          <MainTitle>{queryResult.markdownRemark.frontmatter.title}</MainTitle>
-          <GetInvolved to="">
-            {queryResult.markdownRemark.frontmatter.action}
-          </GetInvolved>
+
+          <DesktopTitleContainer>
+
+            <DesktopMainTitle>{queryResult.markdownRemark.frontmatter.title}</DesktopMainTitle>
+            <DesktopGetInvolved to="">{queryResult.markdownRemark.frontmatter.action}</DesktopGetInvolved>
+          
+          </DesktopTitleContainer>
+
+          <MobileMainTitle>{queryResult.markdownRemark.frontmatter.title}</MobileMainTitle>
+
+
           <TopImageStyle>
             <ImageLoader
               filename={queryResult.markdownRemark.frontmatter.mobilp.substring(3)}
