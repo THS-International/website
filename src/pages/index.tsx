@@ -11,24 +11,17 @@ import NewsGenerator from "../components/NewsGenerator"
 import Markdown from "react-markdown"
 import ImageLoader from "../components/ImageLoader"
 
-const KthPicture = styled.img`
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  clip-path: polygon(0 0, 0 90%, 100% 60%, 100% 0);
-
-  @media screen and (min-width: 967px) {
-    display: none;
+const TopImageStyle = styled.span`
+  
+  > div {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    clip-path: polygon(0 0, 0 90%, 100% 60%, 100% 0);
+  
+    @media screen and (min-width: 967px) {
+      display: none;
   }
-`
-const TopImageStyle = styled.div`
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  clip-path: polygon(0 0, 0 90%, 100% 60%, 100% 0);
-
-  @media screen and (min-width: 967px) {
-    display: none;
   }
 `
 
@@ -127,7 +120,6 @@ const MainButton = styled(Link)`
 `
 
 const Button1 = styled(MainButton)`
-  /* background: #A91717; */
   background: #750505;
   color: white;
   font-weight: bold;
@@ -162,10 +154,6 @@ const Aline = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
-
-  @media screen and (min-width: 967px) {
-    /* display: none; */
-  }
 `
 
 const DesktopLogo = styled.img`
@@ -249,7 +237,6 @@ const IndexPage: React.FC = () => {
   const queryResult = useStaticQuery(query)
   return (
     <>
-      {/* <Header onIndex={window.matchMedia('(max-width: 966px)').matches} /> */}
       <Header onIndex={true} />
       <IndexLayout>
         <SEO title="Home" />
@@ -259,7 +246,12 @@ const IndexPage: React.FC = () => {
           <GetInvolved to="">
             {queryResult.markdownRemark.frontmatter.action}
           </GetInvolved>
-          <KthPicture src={Kth}></KthPicture>
+          <TopImageStyle>
+            <ImageLoader
+              filename={queryResult.markdownRemark.frontmatter.mobilp.substring(3)}
+            />
+        </TopImageStyle>
+          
           <DesktopLogo src={Logo}></DesktopLogo>
 
           <div>
@@ -290,11 +282,7 @@ const IndexPage: React.FC = () => {
             }}
           />
         </Aline>
-        {/* <TopImageStyle>
-            <ImageLoader
-              filename={queryResult.markdownRemark.frontmatter.mobilp.substring(3)}
-            />
-        </TopImageStyle> */}
+
         <Footer />
       </IndexLayout>
     </>
