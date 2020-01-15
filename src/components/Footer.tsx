@@ -8,7 +8,7 @@ const FooterContent = styled.footer`
   display: flex;
   background-color: #750505;
   height: 3rem;
-  padding: 0rem 1rem 0rem 2.5rem;
+  padding: 0rem 1.5rem 0rem 1rem;
   align-items: center;
 `
 const Copyright = styled.span`
@@ -20,7 +20,7 @@ font-weight: 600;
 `
 const SocialMedia = styled.img`
 height: 25px;
-margin-left: 25px;
+margin-left: 2vw;
 
 opacity: .8;
 
