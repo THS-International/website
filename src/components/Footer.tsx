@@ -2,7 +2,7 @@ import styled from "styled-components"
 import React from "react"
 import Facebook from "../images/facebook.png"
 import Instagram from "../images/instagram.png"
-import THS from "../images/logowhite.png"
+import THS from "../images/ths.png"
 
 const FooterContent = styled.footer`
   display: flex;
