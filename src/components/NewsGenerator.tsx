@@ -36,9 +36,10 @@ const NewsGenerator = () => {
       description,
       date,
     } = items.node.frontmatter
+    console.log(thumbnail.substring(3))
     return (
       <NewsCard
-        image={thumbnail.substring(8)}
+        image={thumbnail.substring(3)}
         date={date}
         title={title}
         description={preview}
