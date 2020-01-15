@@ -22,7 +22,7 @@ collections:
     label: "Pages"
     files:
       - file: "src/markdown-pages/faq.md"
-        label: "faq-markdown"
+        label: "FAQ"
         name: faq
         fields:
           - { name: "type", label: "Type", widget: "hidden", default: "faq-page"}
@@ -38,13 +38,13 @@ collections:
                   - { name: "title", label: "Title", widget: "string", required: true }
                   - { name: "description", label: "Description", widget: "markdown", required: true }
       - file: "src/markdown-pages/about.md"
-        label: "about-markdown"
+        label: "About"
         name: about
         fields:
           - { name: "type", label: "Type", widget: "hidden", default: "about-page"}
           - { name: "body", label: "Content", widget: "markdown", required: true }
       - file: "src/markdown-pages/index.md"
-        label: "index-markdown"
+        label: "Home"
         name: home
         fields:
           - { name: "type", label: "Type", widget: "hidden", default: "home-page"}
@@ -55,37 +55,37 @@ collections:
           - { name: "subtitle", label: "subtitle", widget: "markdown", required: true }
           - { name: "body", label: "Content", widget: "markdown", required: true }      
       - file: "src/markdown-pages/archive.md"
-        label: "archive-markdown"
+        label: "Archive"
         name: archive
         fields:
           - { name: "type", label: "Type", widget: "hidden", default: "archive-page"}
           - { name: "body", label: "Content", widget: "markdown", required: true }
       - file: "src/markdown-pages/buddies.md"
-        label: "buddies-markdown"
+        label: "Buddies"
         name: buddies
         fields:
           - { name: "type", label: "Type", widget: "hidden", default: "buddies-page"}
           - { name: "body", label: "Content", widget: "markdown", required: true }
       - file: "src/markdown-pages/team.md"
-        label: "team-markdown"
+        label: "Team"
         name: team
         fields:
           - { name: "type", label: "Type", widget: "hidden", default: "team-page"}
           - { name: "body", label: "Content", widget: "markdown", required: true }
       - file: "src/markdown-pages/vision.md"
-        label: "vision-markdown"
+        label: "Vision"
         name: vision
         fields:
           - { name: "type", label: "Type", widget: "hidden", default: "vision-page"}
           - { name: "body", label: "Content", widget: "markdown", required: true }
       - file: "src/markdown-pages/pt.md"
-        label: "pt-markdown"
+        label: "PT"
         name: pt
         fields:
           - { name: "type", label: "Type", widget: "hidden", default: "pt-page"}
           - { name: "body", label: "Content", widget: "markdown", required: true }
       - file: "src/markdown-pages/pm.md"
-        label: "pm-markdown"
+        label: "PM"
         name: pm
         fields:
           - { name: "type", label: "Type", widget: "hidden", default: "pm-page"}
