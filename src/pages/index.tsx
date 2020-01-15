@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, graphql, useStaticQuery } from "gatsby"
 
 import Footer from "../components/Footer"
 import Header from "../components/header"
@@ -218,8 +218,17 @@ const GetInvolved = styled(Link)`
 const IndexLayout = styled.main`
   margin: 0 auto;
 `
+const query = graphql`
+  query {
+    markdownRemark(frontmatter: { type: { eq: "home-page" } }) {
+      html
+    }
+  }
+`
 
-const IndexPage: React.FC = () => (
+const IndexPage: React.FC = () => {
+  const queryResult = useStaticQuery(query)
+  return(
   <>
     {/* <Header onIndex={window.matchMedia('(max-width: 966px)').matches} /> */}
     <Header onIndex={true} />
@@ -247,10 +256,7 @@ const IndexPage: React.FC = () => (
         <Button1 to="/">Get involved</Button1>
         <Button2 to="/events">Events</Button2>
 
-        <Subtitle>
-          Be apart of KTH’s largest student reception! We are welcomming all
-          international students!
-        </Subtitle>
+        
 
         <News>
           <NewsGenerator />
@@ -260,6 +266,6 @@ const IndexPage: React.FC = () => (
       <Footer />
     </IndexLayout>
   </>
-)
+  )}
 
 export default IndexPage

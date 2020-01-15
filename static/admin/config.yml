@@ -43,6 +43,12 @@ collections:
         fields:
           - { name: "type", label: "Type", widget: "hidden", default: "about-page"}
           - { name: "body", label: "Content", widget: "markdown", required: true }
+      - file: "src/markdown-pages/index.md"
+        label: "index-markdown"
+        name: home
+        fields:
+          - { name: "type", label: "Type", widget: "hidden", default: "home-page"}
+          - { name: "body", label: "Content", widget: "markdown", required: true }      
       - file: "src/markdown-pages/archive.md"
         label: "archive-markdown"
         name: archive
