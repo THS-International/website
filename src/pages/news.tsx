@@ -41,7 +41,7 @@ const News: React.FC = () => {
           <div>
             <h1>{title}</h1>
             <h4>{date}</h4>
-            <ImageLoader filename={thumbnail.substring(8)} />
+            <ImageLoader filename={thumbnail.substring(3)} />
             <p>{description}</p>
           </div>
         )

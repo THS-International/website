@@ -9,8 +9,19 @@ import Kth from "../images/kthred.png"
 import Logo from "../images/logowhite.png"
 import NewsGenerator from "../components/NewsGenerator"
 import Markdown from "react-markdown"
+import ImageLoader from "../components/ImageLoader"
 
 const KthPicture = styled.img`
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  clip-path: polygon(0 0, 0 90%, 100% 60%, 100% 0);
+
+  @media screen and (min-width: 967px) {
+    display: none;
+  }
+`
+const TopImageStyle = styled.div`
   position: relative;
   z-index: 1;
   width: 100%;
@@ -220,61 +231,74 @@ const IndexLayout = styled.main`
   margin: 0 auto;
 `
 const query = graphql`
-query {
-  markdownRemark(frontmatter: {type: {eq: "home-page"}}) {
-    html
-    frontmatter {
-      subtitle
-      title
-      video
-      action
+  query {
+    markdownRemark(frontmatter: { type: { eq: "home-page" } }) {
+      html
+      frontmatter {
+        subtitle
+        title
+        video
+        action
+        mobilp
+      }
     }
   }
-} 
 `
 
 const IndexPage: React.FC = () => {
   const queryResult = useStaticQuery(query)
-  return(
-  <>
-    {/* <Header onIndex={window.matchMedia('(max-width: 966px)').matches} /> */}
-    <Header onIndex={true} />
-    <IndexLayout>
-      <SEO title="Home" />
+  return (
+    <>
+      {/* <Header onIndex={window.matchMedia('(max-width: 966px)').matches} /> */}
+      <Header onIndex={true} />
+      <IndexLayout>
+        <SEO title="Home" />
 
-      <PictureFrame>
-        <MainTitle>{queryResult.markdownRemark.frontmatter.title}</MainTitle>
-        <GetInvolved to="">{queryResult.markdownRemark.frontmatter.action}</GetInvolved>
-        <KthPicture src={Kth}></KthPicture>
+        <PictureFrame>
+          <MainTitle>{queryResult.markdownRemark.frontmatter.title}</MainTitle>
+          <GetInvolved to="">
+            {queryResult.markdownRemark.frontmatter.action}
+          </GetInvolved>
+          <KthPicture src={Kth}></KthPicture>
+          <DesktopLogo src={Logo}></DesktopLogo>
 
-        <DesktopLogo src={Logo}></DesktopLogo>
+          <div>
+            <video playsinline autoPlay muted loop>
+              <source
+                src={queryResult.markdownRemark.frontmatter.video}
+                type="video/mp4"
+              />
+            </video>
+          </div>
+        </PictureFrame>
 
-        <div>
-          <video playsinline autoPlay muted loop>
-            <source
-              src={queryResult.markdownRemark.frontmatter.video}
-              type="video/mp4"
+        <Aline>
+          <Button1 to="/">Get involved</Button1>
+          <Button2 to="/events">Events</Button2>
+
+          <Subtitle>
+            <Markdown
+              source={queryResult.markdownRemark.frontmatter.subtitle}
             />
-          </video>
-        </div>
-      </PictureFrame>
-
-      <Aline>
-        <Button1 to="/">Get involved</Button1>
-        <Button2 to="/events">Events</Button2>
-
-        <Subtitle>
-          <Markdown source={queryResult.markdownRemark.frontmatter.subtitle} />
-        </Subtitle>
-        <News>
-          <NewsGenerator />
-        </News>
-        <div dangerouslySetInnerHTML={{__html: queryResult.markdownRemark.html}} />
-      </Aline>
-
-      <Footer />
-    </IndexLayout>
-  </>
-  )}
+          </Subtitle>
+          <News>
+            <NewsGenerator />
+          </News>
+          <div
+            dangerouslySetInnerHTML={{
+              __html: queryResult.markdownRemark.html,
+            }}
+          />
+        </Aline>
+        {/* <TopImageStyle>
+            <ImageLoader
+              filename={queryResult.markdownRemark.frontmatter.mobilp.substring(3)}
+            />
+        </TopImageStyle> */}
+        <Footer />
+      </IndexLayout>
+    </>
+  )
+}
 
 export default IndexPage
