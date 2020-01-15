@@ -7,6 +7,7 @@ import styled from "styled-components"
 const Main = styled.main`
   margin: 0 auto;
   margin-top: 10vh;
+  margin-bottom: 8vh;
   max-width: 960px;
   padding-left: 20px;
   padding-right: 20px;
