@@ -5,22 +5,22 @@ import Instagram from "../images/instagram.png"
 import THS from "../images/logowhite.png"
 
 const FooterContent = styled.footer`
+  display: flex;
   background-color: #750505;
   height: 3rem;
-  padding: 1rem 2rem 1rem 2.5rem;
-  align-self: center;
+  padding: 0rem 1rem 0rem 2.5rem;
+  align-items: center;
 `
 const Copyright = styled.span`
+margin-left: auto;
 color: rgba(255, 255, 255, 0.5);
 text-align: end;
 font-size: 12px;
 font-weight: 600;
-float: right;
 `
 const SocialMedia = styled.img`
-height: 100%;
-float: left;
-margin-left: 2%;
+height: 25px;
+margin-left: 25px;
 
 opacity: .8;
 
@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
     <a href="https://www.facebook.com/thsint/"><SocialMedia src={Facebook} ></SocialMedia> </a>
     <a href="https://www.instagram.com/ths_international_reception/?hl=sv"> <SocialMedia src={Instagram}></SocialMedia> </a>
     <a href="https://ths.kth.se/"><SocialMedia src={THS} ></SocialMedia> </a>
-    <Copyright>© THS International</Copyright>
+    <Copyright>© THS International 2020</Copyright>
     
     </FooterContent>
 }
