@@ -8,6 +8,7 @@ import styled from "styled-components"
 import Kth from "../images/kthred.png"
 import Logo from "../images/logowhite.png"
 import NewsGenerator from "../components/NewsGenerator"
+import Markdown from "react-markdown"
 
 const KthPicture = styled.img`
   position: relative;
@@ -219,11 +220,17 @@ const IndexLayout = styled.main`
   margin: 0 auto;
 `
 const query = graphql`
-  query {
-    markdownRemark(frontmatter: { type: { eq: "home-page" } }) {
-      html
+query {
+  markdownRemark(frontmatter: {type: {eq: "home-page"}}) {
+    html
+    frontmatter {
+      subtitle
+      title
+      video
+      action
     }
   }
+} 
 `
 
 const IndexPage: React.FC = () => {
@@ -236,8 +243,8 @@ const IndexPage: React.FC = () => {
       <SEO title="Home" />
 
       <PictureFrame>
-        <MainTitle>THS INTERNATIONAL RECEPTION</MainTitle>
-        <GetInvolved to="">Get Involved</GetInvolved>
+        <MainTitle>{queryResult.markdownRemark.frontmatter.title}</MainTitle>
+        <GetInvolved to="">{queryResult.markdownRemark.frontmatter.action}</GetInvolved>
         <KthPicture src={Kth}></KthPicture>
 
         <DesktopLogo src={Logo}></DesktopLogo>
@@ -245,7 +252,7 @@ const IndexPage: React.FC = () => {
         <div>
           <video playsinline autoPlay muted loop>
             <source
-              src="https://ths-international-reception.s3.eu-north-1.amazonaws.com/osqvik.mp4"
+              src={queryResult.markdownRemark.frontmatter.video}
               type="video/mp4"
             />
           </video>
@@ -256,11 +263,13 @@ const IndexPage: React.FC = () => {
         <Button1 to="/">Get involved</Button1>
         <Button2 to="/events">Events</Button2>
 
-        
-
+        <Subtitle>
+          <Markdown source={queryResult.markdownRemark.frontmatter.subtitle} />
+        </Subtitle>
         <News>
           <NewsGenerator />
         </News>
+        <div dangerouslySetInnerHTML={{__html: queryResult.markdownRemark.html}} />
       </Aline>
 
       <Footer />
