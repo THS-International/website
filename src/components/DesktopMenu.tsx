@@ -129,7 +129,7 @@ const DesktopMenu: React.FC = () => {
           </span>
           <HeadLink to="/">For New Students</HeadLink>
         </li>
-        <li>
+        {/* <li>
           <span>
             <ul>
               <li>
@@ -141,7 +141,7 @@ const DesktopMenu: React.FC = () => {
             </ul>
           </span>
           <HeadLink to="/about">About us</HeadLink>
-        </li>
+        </li> */}
         <li>
           <span>
             <ul>
@@ -165,11 +165,11 @@ const DesktopMenu: React.FC = () => {
           <HeadLink to="/news">News</HeadLink>
         </li>
         <li>
-          <HeadLink to="/contact">Contact</HeadLink>
+          <HeadLink to="/contact">FAQ</HeadLink>
         </li>
-        <li>
+        {/* <li>
           <HeadLink to="/">Partners</HeadLink>
-        </li>
+        </li> */}
       </ul>
     </Container>
   )
