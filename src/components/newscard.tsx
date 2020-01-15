@@ -13,15 +13,25 @@ const Container = styled.div`
   flex-wrap: wrap;
 `
 
-const Image = styled(ImageLoader)`
-  display: block;
-`
+const Image = styled(ImageLoader)``
 
 const ImageContainer = styled.div`
+  text-align: center;
   width: 100%;
   overflow: hidden;
-  justify-content: center;
-  align-items: center;
+  display:block;
+
+  > div {
+    display: block;
+    height: 100%;
+
+    > img {
+    }
+  }
+
+  @media screen and (min-width: 700px) {
+    height: 200px;
+  }
 `
 
 const Title = styled.div`
