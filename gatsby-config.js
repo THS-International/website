@@ -7,11 +7,6 @@ module.exports = {
 
   plugins: [
     {
-      resolve: `gatsby-source-instagram`,
-      options: {
-        type: `user-profile`,
-        username: `ths_international_reception`,
-      },
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/markdown-pages`,
@@ -50,6 +45,13 @@ module.exports = {
             },
           },
         ],
+      },
+    },
+    {
+      resolve: `gatsby-source-instagram`,
+      options: {
+        type: `user-profile`,
+        username: `username`,
       },
     },
     `gatsby-plugin-typescript`,
