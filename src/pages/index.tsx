@@ -5,7 +5,6 @@ import Footer from "../components/Footer"
 import Header from "../components/header"
 import SEO from "../components/seo"
 import styled from "styled-components"
-import Kth from "../images/kthred.png"
 import Logo from "../images/logowhite.png"
 import NewsGenerator from "../components/NewsGenerator"
 import Markdown from "react-markdown"
@@ -269,7 +268,7 @@ const IndexPage: React.FC = () => {
           <DesktopTitleContainer>
 
             <DesktopMainTitle>{queryResult.markdownRemark.frontmatter.title}</DesktopMainTitle>
-            <DesktopGetInvolved to="">{queryResult.markdownRemark.frontmatter.action}</DesktopGetInvolved>
+            <DesktopGetInvolved to="/join-us">{queryResult.markdownRemark.frontmatter.action}</DesktopGetInvolved>
           
           </DesktopTitleContainer>
 
@@ -312,7 +311,6 @@ const IndexPage: React.FC = () => {
             }}
           />
         </Aline>
-
         <Footer />
       </IndexLayout>
     </>

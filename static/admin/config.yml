@@ -53,7 +53,7 @@ collections:
           - { name: "video", label: "Video", widget: "string", required: true }
           - { name: "mobilp", label: "Mobile Picture", widget: "image", required: true }
           - { name: "subtitle", label: "subtitle", widget: "markdown", required: true }
-          - { name: "body", label: "Content", widget: "markdown", required: true }      
+          - { name: "body", label: "Content", widget: "markdown", required: false }      
       - file: "src/markdown-pages/archive.md"
         label: "Archive"
         name: archive
