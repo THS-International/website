@@ -5,8 +5,6 @@ type: pt-page
 
 As members of the THS International Reception - Project Team, we will be hosting the "Welcome Reception" for new international students arriving for the upcoming semester. We will work to provide new students with the best possible start here in Sweden and at KTH.
 
-
-
 As a member of the Project Team you will:
 
 * Represent THS International as a project team member.
@@ -15,16 +13,12 @@ As a member of the Project Team you will:
 * Participate in the "Buddy Kick-Off."
 * Get the chance to participate in a grand "Thank You Event" post-Reception.
 
-
-
 All Project Team members will also:
 
 * Be rewarded with a 0.2 GPA increase when applying for exchange programs.
 * Improve their communication, leadership and decision-making skills.
 * Get an opportunity to meet new students and to influence their lives.
 * Receive a recommendation depending on your contribution written by the Project Manager.
-
-
 
 **The Positions**
 
@@ -37,7 +31,7 @@ The workload of the positions are flexible according to the effort and creativit
 * Activities range from museum and Skansen visits to city tours, hikes, sports activities or a pub crawl.
 * Opportunity to explore both your creative and manager sides by planning events and leading Buddies.
 
-  **OSQVIK MANAGER**
+**OSQVIK MANAGER**
 
 * Manager of two Osqvik events and an additional Team Building event.
 * Work closely with Buddies to create unforgettable experience at THS's cabin in the woods.
