@@ -1,19 +1,37 @@
 ---
-title: New Code
-thumbnail: /./stockholm.png
+title: First Week of Spring 2020 Reception
+thumbnail: /./img_5997.jpg
 description: >-
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-  when an unknown printer took a galley of type and scrambled it to make a type
-  specimen book. It has survived not only five centuries, but also the leap into
-  electronic typesetting, remaining essentially unchanged. It was popularised in
-  the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-  and more recently with desktop publishing software like Aldus PageMaker
-  including versions of Lorem Ipsum
+  Week 1 of Spring 2020 Reception is over and we are having a blast! Check out
+  this post for more info about this week.
 preview: >-
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-  when an unknown printer took a galley of type and
+  What? How did one week fly by so fast? \
+
+  \
+
+  We've had 17 events this week! We started first off with checking in the new
+  students at Arrival Day on Tuesday and then in the evening had Board Games,
+  Waffles, and Mario Kart. On Wednesday, the new students got to meet their
+  Buddies at the Buddy Meeting, followed by a Sustainability Workshop with
+  Students for Sustainability and Cooking Night 1. On Thursday, we had our fun
+  Campus Treasure Hunt and amazing Pub Crawl in Vasastan. Our future-themed
+  gasque was followed by an afterparty on Friday. This weekend we had our Fika
+  Crawl, Ikea Tour, Osqvik 1, Movie Night, Hiking with KTH Outdoor Club, Skansen
+  1, Natural History Museum Scavenger Hunt, and Sauna event.\
+
+  Thank you to Students for Sustainability and KTH Outdoor clubs for
+  collaborating with us this week! If you are interested in getting in touch
+  with our collaborators, check out their Facebook pages:\
+
+  \
+
+  Students for Sustainability: https://www.facebook.com/KTHSforS/\
+
+  KTH Outdoor Club: https://www.facebook.com/KTHoutdoorclub/\
+
+  \
+
+  We are excited about this week's schedule of exciting events!
 type: news
 date: '2020-01-15'
 ---
