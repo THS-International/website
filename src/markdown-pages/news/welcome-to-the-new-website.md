@@ -1,6 +1,6 @@
 ---
 title: Welcome to the New Website!
-thumbnail: /./cropped-3200-1800-734513-2-.jpg
+thumbnail: /./_dsc8801.jpeg
 description: >-
   We had our wonderful IT team build us a website! Here you will be able to find
   information about the THS International Reception, the team, and news! We will
