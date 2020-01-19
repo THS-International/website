@@ -6,10 +6,7 @@ description: >-
   information about the THS International Reception, the team, and news! We will
   be updating the website continuously, so feel free to give feedback on how we
   can improve it!
-preview: >-
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-  when an unknown printer took a galley of type and
+preview: We finally have a new website!
 type: news
 date: '2020-01-15'
 ---
