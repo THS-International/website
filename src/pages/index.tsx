@@ -240,6 +240,12 @@ const DesktopLogo = styled.img`
 const IndexLayout = styled.main`
   margin: 0 auto;
 `
+
+const Content = styled.div`
+max-width: 75%;
+font-size: 17px;
+text-align: center;
+`
 const query = graphql`
   query {
     markdownRemark(frontmatter: { type: { eq: "home-page" } }) {
@@ -305,7 +311,7 @@ const IndexPage: React.FC = () => {
           <News>
             <NewsGenerator />
           </News>
-          <div
+          <Content
             dangerouslySetInnerHTML={{
               __html: queryResult.markdownRemark.html,
             }}
