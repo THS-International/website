@@ -22,6 +22,6 @@ These are examples of past events that we have had:
 * TENTAcle Pub (Spring)
 * Osqvik
 * Afterparties
-* The Grand Banquet: final event of the Reception
+* The Grand Banquet
 
 If you have any cool event ideas, feel free to suggest them!
