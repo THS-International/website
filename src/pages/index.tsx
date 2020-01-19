@@ -9,18 +9,19 @@ import Logo from "../images/logowhite.png"
 import NewsGenerator from "../components/NewsGenerator"
 import Markdown from "react-markdown"
 import ImageLoader from "../components/ImageLoader"
+import PictureSlider from "../components/pictureSlider"
+
 
 const TopImageStyle = styled.span`
-  
   > div {
     position: relative;
     z-index: 1;
     width: 100%;
     clip-path: polygon(0 0, 0 90%, 100% 60%, 100% 0);
-  
+
     @media screen and (min-width: 967px) {
       display: none;
-  }
+    }
   }
 `
 
@@ -79,10 +80,10 @@ const DesktopMainTitle = styled.h1`
   font-weight: bold;
   min-width: 300px;
   width: 50%;
-    min-width: 410px;
-    font-size: 36px;
-    font-weight: 900;
-    text-align: left;
+  min-width: 410px;
+  font-size: 36px;
+  font-weight: 900;
+  text-align: left;
 `
 
 const MobileMainTitle = styled.h1`
@@ -100,9 +101,8 @@ const MobileMainTitle = styled.h1`
   width: 50%;
 
   @media screen and (min-width: 967px) {
-      display: none;
-    }
-
+    display: none;
+  }
 `
 
 const DesktopGetInvolved = styled(Link)`
@@ -135,14 +135,14 @@ const DesktopGetInvolved = styled(Link)`
 `
 
 const DesktopTitleContainer = styled.span`
-position: absolute;
-left: 55%;
-transform: translate(-50%, -50%);
-z-index: 5;
-top: 75%;
-width: 500px;
+  position: absolute;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  top: 75%;
+  width: 500px;
 
-@media screen and (max-width: 966px) {
+  @media screen and (max-width: 966px) {
     display: none;
   }
 `
@@ -237,6 +237,27 @@ const DesktopLogo = styled.img`
   }
 `
 
+const SliderBox = styled.div`
+  position: absolute;
+  width: 79%;
+  height:auto; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  @media screen and (max-width: 1550px) {
+    width: 63%;
+  } 
+  @media screen and (max-width: 1300px) {
+    width: 400px;
+  } 
+`
+const PositionS = styled.div`
+  margin-top: 20%;
+  margin-bottom: 5%;
+  height: 300px;
+  width: 100%;
+`
+
 const IndexLayout = styled.main`
   margin: 0 auto;
 `
@@ -270,23 +291,27 @@ const IndexPage: React.FC = () => {
         <SEO title="Home" />
 
         <PictureFrame>
-
           <DesktopTitleContainer>
-
-            <DesktopMainTitle>{queryResult.markdownRemark.frontmatter.title}</DesktopMainTitle>
-            <DesktopGetInvolved to="/join-us">{queryResult.markdownRemark.frontmatter.action}</DesktopGetInvolved>
-          
+            <DesktopMainTitle>
+              {queryResult.markdownRemark.frontmatter.title}
+            </DesktopMainTitle>
+            <DesktopGetInvolved to="/join-us">
+              {queryResult.markdownRemark.frontmatter.action}
+            </DesktopGetInvolved>
           </DesktopTitleContainer>
 
-          <MobileMainTitle>{queryResult.markdownRemark.frontmatter.title}</MobileMainTitle>
-
+          <MobileMainTitle>
+            {queryResult.markdownRemark.frontmatter.title}
+          </MobileMainTitle>
 
           <TopImageStyle>
             <ImageLoader
-              filename={queryResult.markdownRemark.frontmatter.mobilp.substring(3)}
+              filename={queryResult.markdownRemark.frontmatter.mobilp.substring(
+                3
+              )}
             />
-        </TopImageStyle>
-          
+          </TopImageStyle>
+
           <DesktopLogo src={Logo}></DesktopLogo>
 
           <div>
@@ -317,6 +342,11 @@ const IndexPage: React.FC = () => {
             }}
           />
         </Aline>
+        <PositionS>       
+          <SliderBox>
+            <PictureSlider/>
+          </SliderBox>
+        </PositionS>
         <Footer />
       </IndexLayout>
     </>

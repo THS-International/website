@@ -50,8 +50,7 @@ module.exports = {
     {
       resolve: `gatsby-source-instagram`,
       options: {
-        type: `user-profile`,
-        username: `username`,
+        username: `ths_international_reception`,
       },
     },
     `gatsby-plugin-typescript`,
