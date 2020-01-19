@@ -9,8 +9,8 @@ Do you like welcoming new students? Want to share your amazing expertise on livi
 As a Buddy you are expected to:
 
 * Help out at several Reception events. Tasks can include prepping gasque food, accompanying groups to museums, working the bar, etc.
-* Be responsible for new students in your Buddy Group and answer their questions
-* Lead a few Buddy Meetings with your Buddy Group
+* Be responsible for new students in your Buddy Group and answer their questions.
+* Lead a few Buddy Meetings with your Buddy Group.
 
 What’s in it for you? As a Buddy, you get the following: 
 
