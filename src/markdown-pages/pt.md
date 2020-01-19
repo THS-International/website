@@ -71,5 +71,5 @@ The workload of the positions are flexible according to the effort and creativit
 **IT MANAGER**
 
 * Building Project Management Tools in GSuite that improve the workflow for the entire team.
-* Creating a website for THS International and the International Reception. DONE ;)
+* Creating a website for THS International and the International Reception. 
 * Improving our Sign-Up System.
