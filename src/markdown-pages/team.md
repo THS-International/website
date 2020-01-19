@@ -1,6 +1,8 @@
 ---
 type: team-page
 ---
+![](/./img_8448.jpeg)
+
 The team is composed of the following members:
 
 * Buddies
