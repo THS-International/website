@@ -3,7 +3,6 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { graphql, useStaticQuery } from "gatsby"
-import bild from "../images/kthred.png"
 
 const query = graphql`
   query {
