@@ -5,6 +5,8 @@ type: about-page
 
 **Overview**
 
+![](/./83172644_421931325166709_8177108661995307008_n.jpeg)
+
 The THS International Reception is a project led by student volunteers for new masters and international KTH students. The student volunteers are broken down into three main groups: the Project Manager, Project Team, and Buddies. Together with a Project Manager, the Project Team, and a bunch of Buddies, we are able to accomplish our goal by providing a warm welcome. 
 
  For more information about these roles, please check out “The Team” section. 
