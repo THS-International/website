@@ -18,10 +18,8 @@ These are examples of past events that we have had:
 * Museum Tours
 * Hiking
 * Gasques
-* Union Day Party (Autumn)
-* TENTAcle Pub (Spring)
 * Osqvik
-* Afterparties
+* Parties
 * The Grand Banquet
 
 If you have any cool event ideas, feel free to suggest them!
