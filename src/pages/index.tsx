@@ -252,7 +252,7 @@ const SliderBox = styled.div`
   } 
 `
 const PositionS = styled.div`
-  margin-top: 300px;
+  margin-top: 330px;
   margin-bottom: 2%;
   height: 300px;
   width: 100%;
