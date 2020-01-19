@@ -1,20 +1,11 @@
 ---
-title: Welcome to The new Website!
+title: Welcome to the New Website!
 thumbnail: /./cropped-3200-1800-734513-2-.jpg
 description: >-
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-  when an unknown printer took a galley of type and scrambled it to make a type
-  specimen book. It has survived not only five centuries, but also the leap into
-  electronic typesetting, remaining essentially unchanged. It was popularised in
-  the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-  and more recently with desktop publishing software like Aldus PageMaker
-  including versions of Lorem Ipsum
-
-
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-  when an unknown printer took a galley of type and
+  We had our wonderful IT team build us a website! Here you will be able to find
+  information about the THS International Reception, the team, and news! We will
+  be updating the website continuously, so feel free to give feedback on how we
+  can improve it!
 preview: >-
   Lorem Ipsum is simply dummy text of the printing and typesetting industry.
   Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
