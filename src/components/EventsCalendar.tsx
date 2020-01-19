@@ -59,7 +59,7 @@ const EventsCalendar = () => {
   const details = info => {
     let xpos = info.el.getBoundingClientRect().left + window.scrollX
     let ypos = info.el.getBoundingClientRect().bottom + window.scrollY
-    if (xpos + 140 > screen.width) {
+    if (xpos + screen.width/2 > screen.width) {
       xpos -= 180
     }
     if (ypos + 100 > screen.height){
