@@ -4,10 +4,22 @@ import dayGridPlugin from "@fullcalendar/daygrid"
 import timeGridPlugin from "@fullcalendar/timegrid"
 import googleCalendarPlugin from "@fullcalendar/google-calendar"
 import styled from "styled-components"
+import { graphql, useStaticQuery } from "gatsby"
 
 import "@fullcalendar/core/main.css"
 import "@fullcalendar/daygrid/main.css"
 import "@fullcalendar/timegrid/main.css"
+
+const query = graphql`
+  query {
+    markdownRemark(frontmatter: {type: {eq: "events-page"}}) {
+      frontmatter {
+        calendarapi
+        calendarid
+      }
+    }
+  }
+`
 
 const ED = styled.div`
   z-index: 2;
@@ -46,6 +58,7 @@ const EDtitle = styled.div`
 `
 
 const EventsCalendar = () => {
+  const queryResult = useStaticQuery(query)
   const [Pos, setPos] = useState([0, 0])
   const [Show, setShow] = useState("none")
   const [FocEvent, setFocEvent] = useState({
@@ -114,11 +127,11 @@ const EventsCalendar = () => {
         height={850}
         defaultView="dayGridMonth"
         plugins={[dayGridPlugin, googleCalendarPlugin, timeGridPlugin]}
-        googleCalendarApiKey="AIzaSyCyZUWpxBhRobfoHrMMcKH8J_1CrFZOqVs"
+        googleCalendarApiKey={queryResult.markdownRemark.frontmatter.calendarapi}
         eventSources={[
           {
             googleCalendarId:
-              "thskth.se_ejt9mctcnlgtc5lkon90u6bsio@group.calendar.google.com",
+              queryResult.markdownRemark.frontmatter.calendarid,
           },
         ]}
         eventClick={info => {

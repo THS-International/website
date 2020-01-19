@@ -90,3 +90,11 @@ collections:
         fields:
           - { name: "type", label: "Type", widget: "hidden", default: "pm-page"}
           - { name: "body", label: "Content", widget: "markdown", required: true }
+      - file: "src/markdown-pages/events.md"
+        label: "Events"
+        name: events
+        fields:
+          - { name: "type", label: "Type", widget: "hidden", default: "events-page"}
+          - { name: "body", label: "Content", widget: "markdown", required: true }
+          - { name: "calendarid", label: "Calendar ID", widget: "string", required: true }
+          - { name: "calendarapi", label: "Calendar API KEY", widget: "string", required: true }
