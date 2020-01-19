@@ -252,10 +252,13 @@ const SliderBox = styled.div`
   } 
 `
 const PositionS = styled.div`
-  margin-top: 45vh;
+  margin-top: 300px;
   margin-bottom: 2%;
   height: 300px;
   width: 100%;
+  @media screen and (max-width: 1550px) {
+    margin-top: 230px;
+  } 
 `
 
 const IndexLayout = styled.main`
