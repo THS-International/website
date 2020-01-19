@@ -33,6 +33,6 @@ preview: >-
 
   We are excited about this week's schedule of exciting events!
 type: news
-date: '2020-01-15'
+date: '2020-01-19'
 ---
 
