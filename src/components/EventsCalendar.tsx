@@ -4,7 +4,7 @@ import dayGridPlugin from "@fullcalendar/daygrid"
 import timeGridPlugin from "@fullcalendar/timegrid"
 import googleCalendarPlugin from "@fullcalendar/google-calendar"
 import styled from "styled-components"
-import Exit from "../images/vector.svg"
+// import Exit from "../images/vector.svg"
 
 import "@fullcalendar/core/main.css"
 import "@fullcalendar/daygrid/main.css"
@@ -91,7 +91,7 @@ const EventsCalendar = () => {
       </ED>
 
       <FullCalendar
-        height={800}
+        height={850}
         defaultView="dayGridMonth"
         plugins={[dayGridPlugin, googleCalendarPlugin, timeGridPlugin]}
         googleCalendarApiKey="AIzaSyCyZUWpxBhRobfoHrMMcKH8J_1CrFZOqVs"
