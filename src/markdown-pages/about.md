@@ -7,9 +7,7 @@ type: about-page
 
 ![](/./83172644_421931325166709_8177108661995307008_n.jpeg)
 
-The THS International Reception is a project led by student volunteers for new masters and international KTH students. The student volunteers are broken down into three main groups: the Project Manager, Project Team, and Buddies. Together with a Project Manager, the Project Team, and a bunch of Buddies, we are able to accomplish our goal by providing a warm welcome. 
-
- For more information about these roles, please check out “The Team” section. 
+The THS International Reception is a project led by student volunteers for new masters and international KTH students. Together with a Project Manager, the Project Team, and a bunch of Buddies, we are able to accomplish our goal by providing a warm welcome. For more information about these roles, please check out “The Team” section. 
 
 The THS International Reception occurs twice per year, once in spring and the other time in autumn. Spring Reception starts in mid-January, ending two weeks later, whereas Autumn Reception usually starts in the beginning of August and lasts for five weeks. 
 
