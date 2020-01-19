@@ -2,6 +2,11 @@
 title: First Week of Spring 2020 Reception
 thumbnail: /./img_5997.jpg
 description: >-
+  Week 1 of Spring 2020 Reception is over and we are having a blast! Check out
+  this post for more info about this week.\
+
+  \
+
   What? How did one week fly by so fast? \
 
   \
