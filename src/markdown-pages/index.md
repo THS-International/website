@@ -8,4 +8,4 @@ subtitle: >-
   **Be a part of KTH’s largest student reception! We are welcoming all
   international students!**
 ---
-Welcome to the THS International Reception’s website. Here you will find information about our project, our organization, and a bit about the various roles. If you have any questions, consult the FAQ document prior to contacting us!
+Welcome to the THS International Reception’s website. Here you will find information about our project, our organization, and a bit about the various roles. If you have any questions, please check out the FAQ :)
