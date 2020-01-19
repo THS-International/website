@@ -98,3 +98,9 @@ collections:
           - { name: "body", label: "Content", widget: "markdown", required: true }
           - { name: "calendarid", label: "Calendar ID", widget: "string", required: true }
           - { name: "calendarapi", label: "Calendar API KEY", widget: "string", required: true }
+      - file: "src/markdown-pages/newstudents.md"
+        label: "For new students"
+        name: newstudents
+        fields:
+          - { name: "type", label: "Type", widget: "hidden", default: "newstudents-page"}
+          - { name: "body", label: "Content", widget: "markdown", required: true }
