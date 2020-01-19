@@ -252,8 +252,8 @@ const SliderBox = styled.div`
   } 
 `
 const PositionS = styled.div`
-  margin-top: 20%;
-  margin-bottom: 5%;
+  margin-top: 45vh;
+  margin-bottom: 2%;
   height: 300px;
   width: 100%;
 `
@@ -266,6 +266,9 @@ const Content = styled.div`
 max-width: 75%;
 font-size: 17px;
 text-align: center;
+font-family: "Open sans";
+font-size: 18px;
+color: rgba(61, 45, 45, 1);
 `
 const query = graphql`
   query {
