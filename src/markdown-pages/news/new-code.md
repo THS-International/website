@@ -1,5 +1,5 @@
 ---
-title: First Week of Spring 2020 Reception
+title: First Week of the Reception
 thumbnail: /./img_5997.jpg
 description: >-
   What? How did one week fly by so fast? \
