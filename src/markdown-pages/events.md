@@ -5,8 +5,23 @@ calendarapi: AIzaSyCyZUWpxBhRobfoHrMMcKH8J_1CrFZOqVs
 ---
 At the THS International Reception, we organize a lot of events for new students. We aim to provide multiple kinds of events, catering to different interests. 
 
-Enjoy laidback events such as board game night and cooking night. Board game night where you can challenge a bunch of new friends to games such as Clue or laugh at a session of Cards Against Humanity. At cooking nights, you can learn how to cook various dishes that our Project Team have tested out! Sometimes they are even Swedish recipes! Karaoke is also a well-loved classic, where anyone can perform whatever song they would like or just watch while enjoying a beverage! We also provide guided tours throughout Stockholm, where you can unravel the history of the “Venice of the North” and stroll down the streets of the adorable Gamla Stan (Old Town). We additionally aim to have a few sports and hiking events throughout Reception. 
+At the THS International Reception, we organize a lot of events for new students. We aim to provide multiple kinds of events, catering to different interests. 
 
- We also provide the THS International Reception signature events such as gasques, banquet, welcome party/Tentacle pub, and legendary Osqviks. These may be a few events that you may not have heard about before. What is a gasque? A gasque is a three-course dinner filled with entertainment throughout the night in the form of singing and interactive activities, led by a toastmaster. Usually there are small musical performances called gyckels during the night, but there could be more surprises! Don’t know what an Osqvik is? Osqvik is a sleepless overnight stay at THS’s cabin in the woods, where you will be served a three-course meal, have a party, enjoy the sauna, and roast some marshmallows. For the Autumn Reception, we throw a welcome party for new students, but during the Spring Reception, we have our TENTAclePub (Tenta means exam in Swedish), in which we invite the different chapters to come and party with our new students. International reception concludes with a grand banquet, which you surely do not want to miss out on! This event is where we share our fondest memories from reception and celebrate with our new friends!
+These are examples of past events that we have had:
 
-Some of the events are free, while others require a ticket purchase. Be aware though! Some events are unlimited, whereas some have only a few spots. So be quick once the sign-up system is out! Also, in order to attend the THS International Reception, you must be wearing your wristband. This wristband you can receive during our check-in at Arrival Day, where you must pay for the events that you have signed up for. If you take this off during the THS International Reception, you will not be able to get into any of our events.
+* Board Game Night
+* Cooking Night
+* Quiz Night
+* Karaoke
+* Bowling
+* City Tours
+* Museum Tours
+* Hiking
+* Gasques
+* Union Day Party (Autumn)
+* TENTAcle Pub (Spring)
+* Osqvik
+* Afterparties
+* The Grand Banquet: final event of the Reception
+
+If you have any cool event ideas, feel free to suggest them!
