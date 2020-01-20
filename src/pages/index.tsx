@@ -240,13 +240,13 @@ const DesktopLogo = styled.img`
 const SliderBox = styled.div`
   text-align: center;
   display: inline-block;
-  width: 70%;
-  height: 70%; 
+  width: 75%;
+  height: 75%; 
   @media screen and (max-width: 1550px) {
     width: 63%;
   } 
   @media screen and (max-width: 1300px) {
-    width: 90%;
+    width: 100%;
   } 
 `
 
