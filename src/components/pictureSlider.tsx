@@ -17,11 +17,11 @@ const responsive = {
   },
   desktopmini: {
     breakpoint: { max: 1550, min: 1300 },
-    items: 2,
+    items: 3,
   },
   tablet: {
     breakpoint: { max: 1300, min: 464 },
-    items: 1,
+    items: 2,
   },
   mobile: {
     breakpoint: { max: 464, min: 0 },
@@ -39,8 +39,8 @@ query{
         caption
         localFile {
           childImageSharp {
-            fixed(width: 400, height: 400) {
-              ...GatsbyImageSharpFixed
+            fluid {
+              ...GatsbyImageSharpFluid
             }
           }
         }
@@ -49,14 +49,28 @@ query{
   }
 }
 `
+const ImageContainer = styled.div`
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+  display:block;
+
+  > div {
+    display: block;
+    height: 100%;
+
+    > img {
+    }
+  }
+`
+
 const Box = styled.div`
-  margin-top: 1%;
   margin-left: 1%;
-  margin-right: 0%;
-  margin-bottom: 1%;
-  width:400px;
-  height: 400px;
+  width:90%;
+  height: 80%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  display: inline-block;
   /* display: inline-block;
     background: black;
     padding: 0;
@@ -67,6 +81,12 @@ const Box = styled.div`
     margin-left: 0%;
   } 
 `
+const StyledImg = styled(Img)`
+  width:100%;
+  height: 100%;
+  display: block;
+`
+
 const Pictures = () => {
     const data = useStaticQuery(query)
       return (
@@ -83,7 +103,7 @@ const Pictures = () => {
           //customTransition="all .5"
           transitionDuration={500}
           containerClass="carousel-container"
-          removeArrowOnDeviceType={["tablet", "mobile","desktopmini"]}
+          removeArrowOnDeviceType={["tablet", "mobile"]}
           deviceType={"desktop"}
           dotListClass="custom-dot-list-style"
           itemClass="carousel-item-padding-40-px"
@@ -94,9 +114,9 @@ const Pictures = () => {
         {data.allInstaNode.edges.map(node => {
          return( 
          <Box>
-           <a href={"https://www.instagram.com/p/"+node.node.id}>
-           <Img fixed={node.node.localFile.childImageSharp.fixed}/>
-           </a>
+            <a href={"https://www.instagram.com/p/"+node.node.id}>
+            <StyledImg fluid={node.node.localFile.childImageSharp.fluid}/>
+            </a>
         </Box> )
         })}
       </Carousel>

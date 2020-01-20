@@ -238,31 +238,21 @@ const DesktopLogo = styled.img`
 `
 
 const SliderBox = styled.div`
-  position: absolute;
-  width: 79%;
-  height:auto; 
-  left: 50%;
-  transform: translate(-50%, -50%);
-
+  text-align: center;
+  display: inline-block;
+  width: 70%;
+  height: 70%; 
   @media screen and (max-width: 1550px) {
     width: 63%;
   } 
   @media screen and (max-width: 1300px) {
-    width: 400px;
-  } 
-`
-const PositionS = styled.div`
-  margin-top: 330px;
-  margin-bottom: 2%;
-  height: 300px;
-  width: 100%;
-  @media screen and (max-width: 1550px) {
-    margin-top: 230px;
+    width: 90%;
   } 
 `
 
 const IndexLayout = styled.main`
   margin: 0 auto;
+  text-align: center;
 `
 
 const Content = styled.div`
@@ -348,11 +338,9 @@ const IndexPage: React.FC = () => {
             }}
           />
         </Aline>
-        <PositionS>       
           <SliderBox>
-            <PictureSlider/>
+              <PictureSlider/>
           </SliderBox>
-        </PositionS>
         <Footer />
       </IndexLayout>
     </>
