@@ -241,13 +241,9 @@ const SliderBox = styled.div`
   margin-top: 5%;
   text-align: center;
   display: inline-block;
-  width: 75%;
-  height: 75%; 
-  @media screen and (max-width: 1550px) {
-    width: 63%;
-  } 
-  @media screen and (max-width: 1300px) {
-    width: 100%;
+  width: 76%;
+  @media screen and (max-width: 464px) {
+    width: 90%;
   } 
 `
 

@@ -16,11 +16,11 @@ const responsive = {
     items: 3,
   },
   desktopmini: {
-    breakpoint: { max: 1550, min: 1300 },
+    breakpoint: { max: 1550, min: 900 },
     items: 3,
   },
   tablet: {
-    breakpoint: { max: 1300, min: 464 },
+    breakpoint: { max: 900, min: 464 },
     items: 2,
   },
   mobile: {
@@ -66,7 +66,7 @@ const ImageContainer = styled.div`
 
 const Box = styled.div`
   margin-left: 1%;
-  width:85%;
+  width:80%;
   height: 80%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
   overflow: hidden;
@@ -77,7 +77,7 @@ const Box = styled.div`
   &:hover {
     opacity: 0.7;
     } */
-  @media screen and (max-width: 1300px) {
+  @media screen and (max-width: 464px) {
     width:90%;
   } 
 `
