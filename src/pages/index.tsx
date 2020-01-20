@@ -249,7 +249,9 @@ const SliderBox = styled.div`
 
 const IndexLayout = styled.main`
   margin: 0 auto;
-  text-align: center;
+  ${SliderBox} & {
+    text-align: center;
+  }
 `
 
 const Content = styled.div`
@@ -260,6 +262,11 @@ font-family: "Open sans";
 font-size: 18px;
 color: rgba(61, 45, 45, 1);
 `
+
+const Center = styled.div`
+  text-align: center;
+`
+
 const query = graphql`
   query {
     markdownRemark(frontmatter: { type: { eq: "home-page" } }) {
@@ -335,9 +342,11 @@ const IndexPage: React.FC = () => {
             }}
           />
         </Aline>
+        <Center>
           <SliderBox>
               <PictureSlider/>
           </SliderBox>
+        </Center>
         <Footer />
       </IndexLayout>
     </>
