@@ -98,7 +98,7 @@ const Pictures = () => {
           ssr={true} // means to render carousel on server-side.
           infinite={true}
           autoPlay={true}
-          autoPlaySpeed={3000}
+          autoPlaySpeed={4000}
           keyBoardControl={true}
           //customTransition="all .5"
           transitionDuration={500}
