@@ -238,6 +238,7 @@ const DesktopLogo = styled.img`
 `
 
 const SliderBox = styled.div`
+  margin-top: 5%;
   text-align: center;
   display: inline-block;
   width: 75%;

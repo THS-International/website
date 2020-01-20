@@ -66,7 +66,7 @@ const ImageContainer = styled.div`
 
 const Box = styled.div`
   margin-left: 1%;
-  width:90%;
+  width:85%;
   height: 80%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
   overflow: hidden;
@@ -78,7 +78,7 @@ const Box = styled.div`
     opacity: 0.7;
     } */
   @media screen and (max-width: 1300px) {
-    margin-left: 0%;
+    width:90%;
   } 
 `
 const StyledImg = styled(Img)`
