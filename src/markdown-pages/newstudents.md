@@ -5,7 +5,7 @@ type: newstudents-page
 
 **Overview**
 
-Are you a new incoming masters or international student to KTH? We at the THS International Reception would like to warmly welcome you to your new home away from home. We have all been in the position of coming to a new school and wanting to make new friends, so we are here for you during this new and exciting period!
+Are you a new incoming masters or international student at KTH? We at the THS International Reception would like to warmly welcome you to your new home away from home. We have all been in the position of coming to a new university and wanting to make new friends, so we are here for you during this new and exciting period!
 
 The THS International Reception is a project hosted by THS International. THS stands for Tekniska Högskolans Studentkår, meaning KTH’s Student Union. THS has a multitude of roles, including organizing social events for students, maintaining the educational quality of the university, and serving as representation for students. THS International is a subsection of the student union and organizes the Reception. 
 
