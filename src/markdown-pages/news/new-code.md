@@ -2,12 +2,14 @@
 title: First Week of the Reception
 thumbnail: /./img_5997.jpg
 description: >-
-  What? How did one week fly by so fast? \
+  What? How did one week fly by so fast? 
+
 
   \
 
   Week 1 of Spring 2020 Reception is over and we are having a blast! Check out
-  this post for more info about this week.\
+  this post for more info about this week.
+
 
   \
 
@@ -23,13 +25,15 @@ description: >-
 
   Thank you to Students for Sustainability and KTH Outdoor clubs for
   collaborating with us this week! If you are interested in getting in touch
-  with our collaborators, check out their Facebook pages:\
+  with our collaborators, check out their Facebook pages:
+
 
   \
 
   Students for Sustainability: https://www.facebook.com/KTHSforS/\
 
-  KTH Outdoor Club: https://www.facebook.com/KTHoutdoorclub/\
+  KTH Outdoor Club: https://www.facebook.com/KTHoutdoorclub/
+
 
   \
 
