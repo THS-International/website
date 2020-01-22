@@ -15,7 +15,7 @@ description: >-
   Buddies at the Buddy Meeting, followed by a Sustainability Workshop with
   Students for Sustainability and Cooking Night 1. On Thursday, we had our fun
   Campus Treasure Hunt and amazing Pub Crawl in Vasastan. Our future-themed
-  gasque was followed by an afterparty on Friday. This weekend we had our Fika
+  Gasque was followed by an afterparty on Friday. This weekend we had our Fika
   Crawl, Ikea Tour, Osqvik 1, Movie Night, Hiking with KTH Outdoor Club, Skansen
   1, Natural History Museum Scavenger Hunt, and Sauna event.
 
