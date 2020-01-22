@@ -4,7 +4,7 @@ title: Join Us
 ---
 **Join the Fun! Join the Family!**
 
-![](/./join-us-website-page.jpg)
+![](/./join-us-website-page-2.jpg)
 
 Every semester, we are looking for new members to join our team! We are looking for enthusiastic individuals, who want to grow as leaders and help welcome new students. Interested in becoming a Buddy, Project Team member, or our next Project Manager? Stay tuned on our social media sites to see when applications are released! \
 \
