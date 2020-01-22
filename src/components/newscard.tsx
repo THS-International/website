@@ -106,7 +106,7 @@ const newscard = ({ image, date, title, description, content }) => {
         <StyledMarkdown source={title} />
       </Title>
       <Description>
-        <StyledMarkdown source={isOpen ? content : description} />
+        <Markdown source={isOpen ? content : description} />
       </Description>
       <Readmore onClick={() => setIsOpen(!isOpen)}>
         {!isOpen ? "Read more" : "See less"}

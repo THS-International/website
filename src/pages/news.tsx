@@ -5,6 +5,7 @@ import SEO from "../components/seo"
 import { useStaticQuery, graphql } from "gatsby"
 import ImageLoader from "../components/ImageLoader"
 import styled from "styled-components"
+import Markdown from "react-markdown"
 
 const query = graphql`
   query {
@@ -54,7 +55,7 @@ const News: React.FC = () => {
 
   return (
     <Layout>
-      <SEO title="Join" />
+      <SEO title="News" />
       {data.map(items => {
         const { thumbnail, title, description, date } = items.node.frontmatter
         return (
@@ -62,7 +63,9 @@ const News: React.FC = () => {
             <Title>{title}</Title>
             <Date>{date}</Date>
             <ImageLoader filename={thumbnail.substring(3)} />
-            <Content>{description}</Content>
+            <Content>
+              <Markdown source={description}/>
+            </Content>
             <hr />
           </div>
         )
