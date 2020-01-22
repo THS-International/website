@@ -25,10 +25,10 @@ description: >-
   with our collaborators, check out their Facebook pages:
 
 
-  Students for Sustainability: https://www.facebook.com/KTHSforS/
+  [Students for Sustainability](https://www.facebook.com/KTHSforS/)
 
 
-  KTH Outdoor Club: https://www.facebook.com/KTHoutdoorclub/
+  [KTH Outdoor Club](https://www.facebook.com/KTHoutdoorclub/)
 
 
   We are excited about this week's schedule of exciting events!
