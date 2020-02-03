@@ -342,7 +342,7 @@ const IndexPage: React.FC = () => {
             }}
           />
         </Aline>
-        <Center>
+        <Center id="test">
           <SliderBox>
               <PictureSlider/>
           </SliderBox>

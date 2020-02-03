@@ -68,6 +68,7 @@ const EventsCalendar = () => {
   })
 
   const details = info => {
+    console.log(info)
     let xpos = info.el.getBoundingClientRect().left + window.scrollX
     let ypos = info.el.getBoundingClientRect().bottom + window.scrollY
     if (xpos + screen.width / 2 > screen.width) {

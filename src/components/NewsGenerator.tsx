@@ -14,7 +14,6 @@ const query = graphql`
           frontmatter {
             type
             title
-            description
             thumbnail
             preview
             date
@@ -33,7 +32,6 @@ const NewsGenerator = () => {
       thumbnail,
       title,
       preview,
-      description,
       date,
     } = items.node.frontmatter
     console.log(thumbnail.substring(3))
@@ -43,7 +41,6 @@ const NewsGenerator = () => {
         date={date}
         title={title}
         description={preview}
-        content={description}
       />
     )
   })

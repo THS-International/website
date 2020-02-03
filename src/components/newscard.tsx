@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import { navigate } from "gatsby"
 import styled from "styled-components"
 import ImageLoader from "../components/ImageLoader"
 import Markdown from "react-markdown"
@@ -76,6 +77,11 @@ const Readmore = styled.button`
   margin: 0.5rem 0 1rem 5%;
   border-radius: 4px;
   text-decoration: none;
+  opacity: .9;
+
+  :hover {
+    opacity: 1;
+  }
 `
 
 const StyledMarkdown = styled(Markdown)`
@@ -92,8 +98,7 @@ const StyledMarkdown = styled(Markdown)`
   }
 `
 
-const newscard = ({ image, date, title, description, content }) => {
-  const [isOpen, setIsOpen] = useState(false)
+const newscard = ({ image, date, title, description }) => {
 
   return (
     <Container>
@@ -106,10 +111,10 @@ const newscard = ({ image, date, title, description, content }) => {
         <StyledMarkdown source={title} />
       </Title>
       <Description>
-        <Markdown source={isOpen ? content : description} />
+        <Markdown source={description} />
       </Description>
-      <Readmore onClick={() => setIsOpen(!isOpen)}>
-        {!isOpen ? "Read more" : "See less"}
+      <Readmore onClick={() => navigate("/news")}>
+        Read more
       </Readmore>
     </Container>
   )
