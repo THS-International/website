@@ -3,7 +3,6 @@ const { createFilePath } = require("gatsby-source-filesystem")
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions
-
   const result = await graphql(
     `
       {
@@ -32,7 +31,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   // Create blog-list pages
   const posts = result.data.allMarkdownRemark.edges
-  const postsPerPage = 3
+  const postsPerPage = 1
   const numPages = Math.ceil(posts.length / postsPerPage)
   Array.from({ length: numPages }).forEach((_, i) => {
     createPage({

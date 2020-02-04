@@ -2,34 +2,12 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { useStaticQuery, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import ImageLoader from "../components/ImageLoader"
 import styled from "styled-components"
 import Markdown from "react-markdown"
 
-export const query = graphql`
-  query blogListQuery($skip: Int!, $limit: Int!) {
-    allMarkdownRemark(
-      filter: { frontmatter: { type: { eq: "news" } } }
-      sort: { fields: [frontmatter___date], order: DESC }
-      limit: $limit
-      skip: $skip
-    ) {
-        edges {
-            node {
-              frontmatter {
-                type
-                title
-                description
-                thumbnail
-                preview
-                date
-              }
-            }
-          }
-    }
-  }
-`
+
 const Title = styled.div`
   margin: 1rem 0 0 0;
   width: 100%;
@@ -52,28 +30,50 @@ const Content = styled.div`
   font-size: 17px;
   font-family: "Roboto", sans-serif;
 `
-const NewsList: React.FC = () => {
-  const data = useStaticQuery(query).allMarkdownRemark.edges
-
+const NewsList = (props) => {
+  const news = props.data.allMarkdownRemark.edges
+  const { currentPage } = props.pageContext
   return (
     <Layout>
       <SEO title="News" />
-      {data.map(items => {
-        const { thumbnail, title, description, date } = items.node.frontmatter
-        return (
-          <div>
-            <Title>{title}</Title>
-            <Date>{date}</Date>
-            <ImageLoader filename={thumbnail.substring(3)} />
+      {news.map(({node}) => (
+          <div key={node.id}>
+            <Title>{node.frontmatter.title}</Title>
+            <Date>{node.frontmatter.date}</Date>
+            <ImageLoader filename={node.frontmatter.thumbnail.substring(3)} />
             <Content>
-              <Markdown source={description}/>
+              <Markdown source={node.frontmatter.description}/>
             </Content>
             <hr />
           </div>
-        )
-      })}
+      ))}
     </Layout>
   )
 }
+
+export const newsQuery = graphql`
+  query newsListQuery($skip: Int!, $limit: Int!) {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      limit: $limit
+      skip: $skip
+      filter: { frontmatter: { type: { eq: "news" } } }
+    ) {
+        edges {
+            node {
+              id
+              frontmatter {
+                type
+                title
+                description
+                thumbnail
+                preview
+                date
+              }
+            }
+          }
+    }
+  }
+`
 
 export default NewsList
