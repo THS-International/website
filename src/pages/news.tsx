@@ -7,6 +7,7 @@ import ImageLoader from "../components/ImageLoader"
 import styled from "styled-components"
 import Markdown from "react-markdown"
 import PaginationLinks from "../components/PaginationLinks"
+import Img from 'gatsby-image'
 
 const query = graphql`
   query {
@@ -22,7 +23,13 @@ const query = graphql`
             type
             title
             description
-            thumbnail
+            thumbnail {
+              childImageSharp{
+                fluid(maxwidth: 600){
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
             preview
             date
           }
@@ -70,7 +77,7 @@ const News: React.FC = () => {
           <div>
             <Title>{title}</Title>
             <Date>{date}</Date>
-            <ImageLoader filename={thumbnail.substring(3)} />
+            <Img fluid={thumbnail.childImageSharp.fluid} />
             <Content>
               <Markdown source={description} />
             </Content>
