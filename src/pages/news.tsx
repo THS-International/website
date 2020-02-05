@@ -54,8 +54,8 @@ const Content = styled.div`
   font-family: "Roboto", sans-serif;
 `
 const News: React.FC = () => {
-  const data = useStaticQuery(query).allMarkdownRemark.edges
-  const numpages = useStaticQuery(query).allMarkdownRemark.totalCount
+  const quer = useStaticQuery(query).allMarkdownRemark
+  const data = quer.edges
   const postsPerPage = 4
   let numberOfPages
   return (
@@ -63,7 +63,7 @@ const News: React.FC = () => {
       <SEO title="News" />
       {data.map(items => {
         numberOfPages = Math.ceil(
-          numpages / postsPerPage
+          quer.totalCount / postsPerPage
         )
         const { thumbnail, title, description, date } = items.node.frontmatter
         return (
