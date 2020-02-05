@@ -7,7 +7,6 @@ import ImageLoader from "../components/ImageLoader"
 import styled from "styled-components"
 import Markdown from "react-markdown"
 import PaginationLinks from "../components/PaginationLinks"
-import Img from 'gatsby-image'
 
 const query = graphql`
   query {
@@ -23,13 +22,7 @@ const query = graphql`
             type
             title
             description
-            thumbnail {
-              childImageSharp{
-                fluid(maxwidth: 600){
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
+            thumbnail
             preview
             date
           }
@@ -60,6 +53,14 @@ const Content = styled.div`
   font-size: 17px;
   font-family: "Roboto", sans-serif;
 `
+const Box = styled.div`
+  width:100%;
+  max-height: 700px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  display: inline-block;
+  `
+
 const News: React.FC = () => {
   const quer = useStaticQuery(query).allMarkdownRemark
   const data = quer.edges
@@ -69,15 +70,15 @@ const News: React.FC = () => {
     <Layout>
       <SEO title="News" />
       {data.map(items => {
-        numberOfPages = Math.ceil(
-          quer.totalCount / postsPerPage
-        )
+        numberOfPages = Math.ceil(quer.totalCount / postsPerPage)
         const { thumbnail, title, description, date } = items.node.frontmatter
         return (
           <div>
             <Title>{title}</Title>
             <Date>{date}</Date>
-            <Img fluid={thumbnail.childImageSharp.fluid} />
+            <Box>
+              <ImageLoader filename={thumbnail.substring(3)} />
+            </Box>
             <Content>
               <Markdown source={description} />
             </Content>

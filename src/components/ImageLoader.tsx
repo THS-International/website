@@ -1,6 +1,13 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
+import styled from "styled-components"
+
+const StyledImg = styled(Img)`
+  width:100%;
+  height: 100%;
+  display: block;
+`
 
 const ImageLoader = props => (
   <StaticQuery
@@ -12,7 +19,7 @@ const ImageLoader = props => (
               relativePath
               name
               childImageSharp {
-                fluid(fit: COVER) {
+                fluid(maxHeight: 600) {
                   ...GatsbyImageSharpFluid
                 }
               }
@@ -28,7 +35,7 @@ const ImageLoader = props => (
       if (!image) {
         return null
       }
-      return <Img fluid={image.node.childImageSharp.fluid} />
+      return <StyledImg fluid={image.node.childImageSharp.fluid} />
     }}
   />
 )
