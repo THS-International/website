@@ -8,6 +8,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       {
         allMarkdownRemark(
           sort: { fields: [frontmatter___date], order: DESC }
+          filter: { frontmatter: { type: { eq: "news" } } }
           limit: 1000
         ) {
           edges {
@@ -31,7 +32,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   // Create blog-list pages
   const posts = result.data.allMarkdownRemark.edges
-  const postsPerPage = 1
+  const postsPerPage = 4
   const numPages = Math.ceil(posts.length / postsPerPage)
   Array.from({ length: numPages }).forEach((_, i) => {
     createPage({

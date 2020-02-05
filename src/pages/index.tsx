@@ -325,7 +325,7 @@ const IndexPage: React.FC = () => {
         </PictureFrame>
 
         <Aline>
-          <Button1 to="/">Get involved</Button1>
+          <Button1 to="/join-us">Get involved</Button1>
           <Button2 to="/events">Events</Button2>
 
           <Subtitle>

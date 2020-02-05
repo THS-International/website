@@ -6,7 +6,7 @@ import { graphql } from "gatsby"
 import ImageLoader from "../components/ImageLoader"
 import styled from "styled-components"
 import Markdown from "react-markdown"
-
+import PaginationLinks from "../components/PaginationLinks"
 
 const Title = styled.div`
   margin: 1rem 0 0 0;
@@ -30,23 +30,24 @@ const Content = styled.div`
   font-size: 17px;
   font-family: "Roboto", sans-serif;
 `
-const NewsList = (props) => {
+const NewsList = props => {
   const news = props.data.allMarkdownRemark.edges
-  const { currentPage } = props.pageContext
+  const { currentPage, numPages } = props.pageContext
   return (
     <Layout>
       <SEO title="News" />
-      {news.map(({node}) => (
-          <div key={node.id}>
-            <Title>{node.frontmatter.title}</Title>
-            <Date>{node.frontmatter.date}</Date>
-            <ImageLoader filename={node.frontmatter.thumbnail.substring(3)} />
-            <Content>
-              <Markdown source={node.frontmatter.description}/>
-            </Content>
-            <hr />
-          </div>
+      {news.map(({ node }) => (
+        <div key={node.id}>
+          <Title>{node.frontmatter.title}</Title>
+          <Date>{node.frontmatter.date}</Date>
+          <ImageLoader filename={node.frontmatter.thumbnail.substring(3)} />
+          <Content>
+            <Markdown source={node.frontmatter.description} />
+          </Content>
+          <hr />
+        </div>
       ))}
+      <PaginationLinks currentPage={currentPage} numberOfPages={numPages} />
     </Layout>
   )
 }
@@ -59,19 +60,19 @@ export const newsQuery = graphql`
       skip: $skip
       filter: { frontmatter: { type: { eq: "news" } } }
     ) {
-        edges {
-            node {
-              id
-              frontmatter {
-                type
-                title
-                description
-                thumbnail
-                preview
-                date
-              }
-            }
+      edges {
+        node {
+          id
+          frontmatter {
+            type
+            title
+            description
+            thumbnail
+            preview
+            date
           }
+        }
+      }
     }
   }
 `

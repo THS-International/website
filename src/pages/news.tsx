@@ -6,13 +6,16 @@ import { useStaticQuery, graphql } from "gatsby"
 import ImageLoader from "../components/ImageLoader"
 import styled from "styled-components"
 import Markdown from "react-markdown"
+import PaginationLinks from "../components/PaginationLinks"
 
 const query = graphql`
   query {
     allMarkdownRemark(
       filter: { frontmatter: { type: { eq: "news" } } }
       sort: { fields: frontmatter___date, order: DESC }
+      limit: 4
     ) {
+      totalCount
       edges {
         node {
           frontmatter {
@@ -52,11 +55,15 @@ const Content = styled.div`
 `
 const News: React.FC = () => {
   const data = useStaticQuery(query).allMarkdownRemark.edges
-
+  const postsPerPage = 4
+  let numberOfPages
   return (
     <Layout>
       <SEO title="News" />
       {data.map(items => {
+        numberOfPages = Math.ceil(
+          useStaticQuery(query).allMarkdownRemark.totalCount / postsPerPage
+        )
         const { thumbnail, title, description, date } = items.node.frontmatter
         return (
           <div>
@@ -64,12 +71,13 @@ const News: React.FC = () => {
             <Date>{date}</Date>
             <ImageLoader filename={thumbnail.substring(3)} />
             <Content>
-              <Markdown source={description}/>
+              <Markdown source={description} />
             </Content>
             <hr />
           </div>
         )
       })}
+      <PaginationLinks currentPage={1} numberOfPages={numberOfPages} />
     </Layout>
   )
 }

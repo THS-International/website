@@ -45,6 +45,7 @@
     "react-markdown": "^4.2.2",
     "react-multi-carousel": "^2.5.0",
     "react-slick": "^0.25.2",
+    "reactstrap": "^8.4.1",
     "slick-carousel": "^1.8.1",
     "styled-components": "^4.4.1"
   },
