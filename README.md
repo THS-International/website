@@ -49,3 +49,7 @@ The first page of the admin panel is the news page. You can add news by pressing
 ### Pages
 
 Update existing pages by pressing the *Pages* button in the left side menu. There you can find a list of all aviable pages. If you want to add a new page contact the IT-team.
+
+### Pictures
+
+The CMS is using Gatsby Images to make the pictures load faster. You need to scale your pictures to the right aspect ratio to make them fit as well as possible.
