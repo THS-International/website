@@ -9,6 +9,7 @@ const Title = styled.div`
   font-size: 15px;
   font-family: "Roboto", sans-serif;
   color: rgba(61, 45, 45, 0.9);
+  cursor: pointer;
 `
 const Description = styled.div`
   height: 10%;
