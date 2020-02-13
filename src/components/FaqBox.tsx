@@ -6,6 +6,7 @@ import styled from "styled-components"
 const Container = styled.div`
   margin-bottom: 1%;
   margin-top: 1%;
+  cursor: pointer;
 `
 
 const Title = styled.div`
