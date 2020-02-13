@@ -113,7 +113,7 @@ const newscard = ({ image, date, title, description }) => {
       <Description>
         <Markdown source={description} />
       </Description>
-      <Readmore onClick={() => navigate("/news")}>
+      <Readmore onClick={() => navigate("/news#" + date)}>
         Read more
       </Readmore>
     </Container>

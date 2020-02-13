@@ -73,7 +73,7 @@ const News: React.FC = () => {
         numberOfPages = Math.ceil(quer.totalCount / postsPerPage)
         const { thumbnail, title, description, date } = items.node.frontmatter
         return (
-          <div>
+          <div id={date}>
             <Title>{title}</Title>
             <Date>{date}</Date>
             <Box>
