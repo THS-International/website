@@ -3,9 +3,6 @@ title: Spring 2020 Reception Comes to a Close
 thumbnail: /./83946529_3078434595523352_1498957295839608832_o.jpg
 description: >-
   The Spring 2020 Reception has officially ended. We would like to take this
-  chance to thank everyone who helped out during this time.
-preview: >-
-  The Spring 2020 Reception has officially ended. We would like to take this
   chance to thank everyone who helped out during this time. 
 
 
@@ -29,6 +26,9 @@ preview: >-
   Finally, thank you to the Project Team and the Project Managers for your hard
   work. They have all been working on making this Reception happen prior to
   October. We are truly greatful to have you leading this Reception!
+preview: >-
+  The Spring 2020 Reception has officially ended. We would like to take this
+  chance to thank everyone who helped out during this time.
 type: news
 date: '2020-02-02'
 ---
