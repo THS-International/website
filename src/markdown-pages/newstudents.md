@@ -1,7 +1,7 @@
 ---
 type: newstudents-page
 ---
-![](/./img_8448.jpeg)
+![](/./copy-of-buddy-collage-4.png)
 
 **Overview**
 
