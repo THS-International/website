@@ -1,5 +1,5 @@
 ---
-title: Spring 2020 Reception Comes to a Close
+title: End of this Reception
 thumbnail: /./83946529_3078434595523352_1498957295839608832_o.jpg
 description: >-
   The Spring 2020 Reception has officially ended. We would like to take this
