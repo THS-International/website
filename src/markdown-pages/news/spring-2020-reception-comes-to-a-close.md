@@ -17,7 +17,7 @@ preview: >-
 
 
   Secondly, we thank our wonderful collaborators this Reception period. Thank
-  you to Students for Sustianability, KTH Outdoor Club, KTH Dance, and our
+  you to Students for Sustainability, KTH Outdoor Club, KTH Dance, and our
   Chapter International Group collaborators (S, E&MiT, and M). We also thank the
   photographers Paul from Marknadsföringsgruppen and Hari for capturing all of
   the special moments from the Reception. Thank you PQ and Osqstämman for your
