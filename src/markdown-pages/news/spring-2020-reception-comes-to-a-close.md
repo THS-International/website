@@ -17,13 +17,13 @@ preview: >-
 
 
   Secondly, we thank our wonderful collaborators this Reception period. Thank
-  you to KTH Outdoor Club, KTH Dance, and our Chapter International Group
-  collaborators (S, E&MiT, and M). We also thank the photographers Paul from
-  Marknadsföringsgruppen and Hari for capturing all of the special moments from
-  the Reception. Thank you PQ and Osqstämman for your great performances at the
-  Banquet. Thanks Platoon DJ's, RN, and NKM for working with us during all of
-  our big festive events. Furthermore, thank you to THS as a whole for your
-  help.
+  you to Students for Sustianability, KTH Outdoor Club, KTH Dance, and our
+  Chapter International Group collaborators (S, E&MiT, and M). We also thank the
+  photographers Paul from Marknadsföringsgruppen and Hari for capturing all of
+  the special moments from the Reception. Thank you PQ and Osqstämman for your
+  great performances at the Banquet. Thanks Platoon DJ's, RN, and NKM for
+  working with us during all of our big festive events. Furthermore, thank you
+  to THS as a whole for your help.
 
 
   Finally, thank you to the Project Team and the Project Managers for your hard
