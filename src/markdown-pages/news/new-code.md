@@ -1,5 +1,5 @@
 ---
-title: First Week of the Reception
+title: First Reception Week
 thumbnail: /./img_5997.jpg
 description: >-
   What? How did one week fly by so fast? 
