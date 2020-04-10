@@ -9,7 +9,7 @@ description: >-
   this post for more info about this week.
 
 
-  We've had 17 events this week! We started first off with checking in the new
+  We've had 17 events this week! We started first of with checking in the new
   students at Arrival Day on Tuesday and then in the evening had Board Games,
   Waffles, and Mario Kart. On Wednesday, the new students got to meet their
   Buddies at the Buddy Meeting, followed by a Sustainability Workshop with
