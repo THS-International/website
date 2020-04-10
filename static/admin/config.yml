@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  repo: CreatlV/ths-international-reception
+  repo: THS-International/website
 media_folder: src/markdown-pages
 public_folder: .
 
