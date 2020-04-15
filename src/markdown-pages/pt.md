@@ -3,11 +3,11 @@ type: pt-page
 ---
 ![](/./pt-collage-4.jpg)
 
-The members of the Project Team are the core planning team of the THS International Reception.  
+The Project Team is the core planning team of the THS International Reception.  
 
-As a member of the Project Team you will:
+As a member of the Project Team, they have the following common tasks: 
 
-* Represent THS International as a project team member.
+* Represent THS International as a Project Team member.
 * Participate in the event and activity planning process for new international students.
 * Participate in the obligatory team buildings and planning sessions.
 * Get the chance to participate in a grand "Thank You Event" post-Reception.
@@ -21,7 +21,7 @@ All Project Team members will also:
 
 # **The Positions**
 
-The workload of the positions are flexible according to the effort and creativity you want to invest. The following positions explain different kinds of work involved in the planning and execution of the Spring Reception 2020. Positions may vary across Receptions. 
+The positions' workload is flexible according to the effort and creativity you want to invest. The following positions explain different kinds of work involved in the planning and execution of the Spring Reception 2020. Positions may vary across Receptions. 
 
 **EVENT MANAGER**
 
