@@ -1,6 +1,8 @@
 ---
 type: pm-page
 ---
+![](/./pm-collage.png)
+
 The Project Manager is the head of the Reception, overseeing the whole project and leading the Project Team. This role is for someone who wants to develop their leadership skills and shape the international community. The Project Manager has the freedom to shape the Reception in the desired way and to develop it in their desired way.
 
 The THS Head of Social and International Relations recruits the Project Manager for the duration of one reception through an interview process. For the Spring Reception it is usually one person, while two are the standard for the Autumn Reception. Following the recruitment, the THS Head of Social and International Relations and the Project Managers work closely together to make the Reception happen. Furthermore, past Project Managers may be available as advisors. 
