@@ -130,16 +130,16 @@ const DesktopMenu: React.FC = () => {
           <HeadLink to="/newstudents">For New Students</HeadLink>
         </li>
         <li>
-          {/* <span>
+          <span>
             <ul>
               <li>
                 <SubLink to="/vision">Mission & Vision</SubLink>
               </li>
-              <li>
-                <SubLink to="/archive">Archive</SubLink>
-              </li>
+          //    <li>
+          //      <SubLink to="/archive">Archive</SubLink>
+          //    </li>
             </ul>
-          </span> */}
+          </span>
           <HeadLink to="/about">About us</HeadLink>
         </li>
         <li>
