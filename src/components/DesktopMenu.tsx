@@ -135,9 +135,9 @@ const DesktopMenu: React.FC = () => {
               <li>
                 <SubLink to="/vision">Mission & Vision</SubLink>
               </li>
-          //    <li>
-          //      <SubLink to="/archive">Archive</SubLink>
-          //    </li>
+              {/*    <li>
+                <SubLink to="/archive">Archive</SubLink>
+              </li> */}
             </ul>
           </span>
           <HeadLink to="/about">About us</HeadLink>
@@ -165,10 +165,10 @@ const DesktopMenu: React.FC = () => {
           <HeadLink to="/news">News</HeadLink>
         </li>
         <li>
-          <HeadLink to="/contact">FAQ</HeadLink>
+          <HeadLink to="/partners">Partners</HeadLink>
         </li>
         <li>
-          <HeadLink to="/">Partners</HeadLink>
+          <HeadLink to="/contact">FAQ</HeadLink>
         </li>
       </ul>
     </Container>
