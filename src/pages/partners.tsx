@@ -12,7 +12,7 @@ const query = graphql`
   }
 `
 
-const Pt: React.FC = () => {
+const Partners: React.FC = () => {
   const queryResult = useStaticQuery(query)
   return (
     <Layout>
@@ -23,4 +23,4 @@ const Pt: React.FC = () => {
   )
 }
 
-export default partners
+export default Partners
