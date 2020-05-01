@@ -1,0 +1,3 @@
+---
+type: partners-page
+---
