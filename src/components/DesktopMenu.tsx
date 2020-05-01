@@ -7,7 +7,7 @@ const HeadLink = styled(Link)`
   padding: 0 1% 0 1%;
   text-decoration: none;
 
-  font-size: 14px;
+  font-size: 16px;
   font-weight: lighter;
   margin-top: 8px;
 
@@ -129,8 +129,8 @@ const DesktopMenu: React.FC = () => {
           </span>
           <HeadLink to="/newstudents">For New Students</HeadLink>
         </li>
-        {/* <li>
-          <span>
+        <li>
+          {/* <span>
             <ul>
               <li>
                 <SubLink to="/vision">Mission & Vision</SubLink>
@@ -139,9 +139,9 @@ const DesktopMenu: React.FC = () => {
                 <SubLink to="/archive">Archive</SubLink>
               </li>
             </ul>
-          </span>
+          </span> */}
           <HeadLink to="/about">About us</HeadLink>
-        </li> */}
+        </li>
         <li>
           <span>
             <ul>
@@ -167,9 +167,9 @@ const DesktopMenu: React.FC = () => {
         <li>
           <HeadLink to="/contact">FAQ</HeadLink>
         </li>
-        {/* <li>
+        <li>
           <HeadLink to="/">Partners</HeadLink>
-        </li> */}
+        </li>
       </ul>
     </Container>
   )
