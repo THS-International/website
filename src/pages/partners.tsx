@@ -8,6 +8,9 @@ const query = graphql`
   query {
     markdownRemark(frontmatter: { type: { eq: "partners-page" } }) {
       html
+      frontmatter {
+        title
+      }
     }
   }
 `
@@ -17,7 +20,7 @@ const Partners: React.FC = () => {
   return (
     <Layout>
       <SEO title="Partners" />
-      <h1>Partners</h1>
+      <h1>{queryResult.markdownRemark.frontmatter.title}</h1>
       <div dangerouslySetInnerHTML={{__html: queryResult.markdownRemark.html}} />
     </Layout>
   )
