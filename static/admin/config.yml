@@ -111,7 +111,7 @@ collections:
           - { name: "type", label: "Type", widget: "hidden", default: "join-page"}
           - { name: "title", label: "Title", widget: "string", required: true }
           - { name: "body", label: "Content", widget: "markdown", required: true }
-        - file: "src/markdown-pages/partners.md"
+      - file: "src/markdown-pages/partners.md"
         label: "Partners"
         name: partners
         fields:
