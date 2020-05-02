@@ -11,10 +11,10 @@ On a daily basis, the Project Manager is responsible for developing a working pl
 
 Over the course of the project, the Project Manager receives the following benefits:
 
-* A certificate for a 0.2 GPA increase when applying for exchange programs.
-* A recommendation letter written by the Head of Social and International Relations at THS.
-* A small compensation for their efforts after the reception has ended.
-* Participation in the “Thank you Events” for the Team and the Project Manager after the reception has ended.
-* A lot of fun and great memories!
+* A certificate for a 0.2 GPA increase when applying for exchange programs
+* A recommendation letter written by the Head of Social and International Relations at THS
+* A small compensation for their efforts after the reception has ended
+* Participation in the “Thank you Events” for the Team and the Project Manager after the reception has ended
+* A lot of fun and great memories
 
 Being the Project Manager of the Reception is a unique opportunity that not many have the chance to ever experience. Leading and managing a whole team committed to a common goal is a special, rewarding experience. Creating a project for hundreds of students is an experience of a lifetime.
