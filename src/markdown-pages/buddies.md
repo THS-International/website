@@ -9,16 +9,16 @@ Do you like welcoming new students? Want to share your amazing expertise on livi
 As a Buddy you are expected to:
 
 * Help out at several Reception events. Tasks can include prepping gasque food, accompanying groups to museums, working the bar, etc.
-* Be responsible for new students in your Buddy Group and answer their questions.
-* Lead a few Buddy Meetings with your Buddy Group.
+* Be responsible for new students in your Buddy Group and answer their questions
+* Lead a few Buddy Meetings with your Buddy Group
 
 What’s in it for you? As a Buddy, you get the following: 
 
-* Meet a bunch of new students and make many new friends.
-* Volunteer at the amazing events.
-* Get the possibility to receive a 0.2 GPA boost when applying to study abroad.
-* Attend a Buddy Osqvik.
-* Take part in a Thank You event exclusive for the Buddies. 
+* Meet a bunch of new students and make many new friends
+* Volunteer at the amazing events
+* Get the possibility to receive a 0.2 GPA boost when applying to study abroad
+* Attend a Buddy Osqvik
+* Take part in a Thank You event exclusive to the Buddies
 
 The requirements to receive the 0.2 GPA boost change during the semesters, but usually requires hosting Buddy Meetings and actively volunteering at a minimum number of events. Typically the Buddies go above and beyond these requirements because they have so much fun!
 
