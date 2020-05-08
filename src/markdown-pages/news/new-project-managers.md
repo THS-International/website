@@ -10,7 +10,7 @@ description: >-
 
   Closer to the Reception, we will give you a proper introduction to them so
   stay tuned!
-preview: We have two new Project Managers on board!
+preview: We have two new Project Managers!
 type: news
 date: '2020-03-25'
 ---
