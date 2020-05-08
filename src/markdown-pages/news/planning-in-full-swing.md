@@ -1,5 +1,5 @@
 ---
-title: Planning In Full Swing!
+title: Planning In Full Swing
 thumbnail: /./received_350509002508393.jpeg
 description: So many exciting events to look forward to for the Fall!
 preview: >-
