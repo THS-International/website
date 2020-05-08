@@ -14,7 +14,8 @@ description: >-
   Reception! We have been working with our collaborating THS/KTH organizations
   to get a wide range of events suiting many different interests. We are still
   in the process of finalizing the calendar, but we are excited to share this
-  within the next few months!
+  within the next few months! Btw this photo is taken from last year's Osqvik,
+  and scrolling through old photos makes us so excited for the fall!
 preview: So many exciting events to look forward to for the Fall!
 type: news
 date: '2020-05-08'
