@@ -6,8 +6,12 @@ description: >-
   Managers (PMs) for the upcoming Fall 2020 THS International Reception. They
   are tasked with recruiting and leading the Project Team. Welcome **Francesco**
   and **Jeremy**!
+
+
+  Closer to the Reception, we will give you a proper introduction to them so
+  stay tuned!
 preview: We have two new Project Managers on board!
 type: news
-date: '2020-05-08'
+date: '2020-03-25'
 ---
 
