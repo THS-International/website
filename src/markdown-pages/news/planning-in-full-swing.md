@@ -7,9 +7,8 @@ description: >-
   Due to the COVID-19 situation, we have not yet been able to physically meet
   each other, but instead we have met up every week via Zoom to go through each
   position's progress. After the weekly team meetings, we get a chance to bond
-  through playing games via Zoom! \
+  through playing games via Zoom! 
 
-  \
 
   But most importantly, the Project Team has been planning the upcoming
   Reception! We have been working with our collaborating THS/KTH organizations
