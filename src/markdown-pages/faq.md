@@ -4,6 +4,22 @@ categories:
   - category: General topics about the International Reception
     questions:
       - description: >-
+          Most of the events are only for new masters and international
+          students, since we cannot accomodate more people due to space and
+          budget. 
+
+
+          However, there are a few parties open to the public so follow the THS
+          International page for updates!
+        title: >-
+          Do I have to be a new masters or international student at KTH to
+          attend?
+      - description: >-
+          You can find the Reception rules [here](bit.ly/RulesIntRecFall2020).
+          By using our signup system and participating in Reception events you
+          automatically agree to these rules.
+        title: What rules do I have to follow for the Reception?
+      - description: >-
           We do not have any planned additional wristband handout/payment desk
           days, but stay tuned in the Facebook group to see if there are any
           announced days.
@@ -40,22 +56,6 @@ categories:
         title: >-
           I didn’t receive an e-mail about an event I signed up for. What do I
           do?
-      - description: >-
-          You can find the Reception rules [here](bit.ly/RulesIntRecFall2020).
-          By using our signup system and participating in Reception events you
-          automatically agree to these rules.
-        title: What rules do I have to follow for the Reception?
-      - description: >-
-          Most of the events are only for new masters and international
-          students, since we cannot accomodate more people due to space and
-          budget. 
-
-
-          However, there are a few parties open to the public so follow the THS
-          International page for updates!
-        title: >-
-          Do I have to be a new masters or international student at KTH to
-          attend?
   - category: Registration Issues
     questions:
       - description: >-
