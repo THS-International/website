@@ -90,6 +90,11 @@ categories:
           If you are unsure what chapter you belong, you can check
           [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vRBIcNbmG1vW0L47mWMuLZHwui7QHFuIz8RlkTrKtgIUh21nwcyDRdkFi56i1O2j1EvkmFlEqJ4yw0i/pubhtml).
         title: What’s my chapter?
+      - description: >-
+          Currently, we are working on finalizing our event calendar. More
+          information will come, but hopefully by July for the Fall 2020
+          Reception!
+        title: When will I be able to sign up for events?
   - category: General topics about the International Reception
     questions:
       - description: >-
