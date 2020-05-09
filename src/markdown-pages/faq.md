@@ -56,6 +56,10 @@ categories:
         title: >-
           I didn’t receive an e-mail about an event I signed up for. What do I
           do?
+      - description: >-
+          Your Buddy will get in contact with you a few weeks before the
+          Reception!
+        title: When do I get my Buddy?
   - category: Registration Issues
     questions:
       - description: >-
