@@ -94,6 +94,15 @@ categories:
   - category: Event Sign Up
     questions:
       - description: >-
+          This is to be determined! If you are a new masters or international
+          student, we will let you know! But hopefully in July!
+        title: 'When will the event calendar be released? '
+      - description: >-
+          Currently, we are working on finalizing our event calendar. More
+          information will come, but hopefully by July for the Fall 2020
+          Reception!
+        title: When will I be able to sign up for events?
+      - description: >-
           We recommend to check the sign up page frequently since some students
           will unregister themselves from some events. As soon as someone
           unregisters, their spot becomes open in the system. Out of experience
@@ -149,15 +158,6 @@ categories:
           If you are unsure what chapter you belong, you can check
           [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vRBIcNbmG1vW0L47mWMuLZHwui7QHFuIz8RlkTrKtgIUh21nwcyDRdkFi56i1O2j1EvkmFlEqJ4yw0i/pubhtml).
         title: What’s my chapter?
-      - description: >-
-          Currently, we are working on finalizing our event calendar. More
-          information will come, but hopefully by July for the Fall 2020
-          Reception!
-        title: When will I be able to sign up for events?
-      - description: >-
-          This is to be determined! If you are a new masters or international
-          student, we will let you know! But hopefully in July!
-        title: 'When will the event calendar be released? '
   - category: THS Membership and Student Card
     questions:
       - description: >-
