@@ -135,6 +135,17 @@ categories:
           By using our signup system and participating in Reception events you
           automatically agree to these rules.
         title: What rules do I have to follow for the Reception?
+      - description: >-
+          Most of the events are only for new masters and international
+          students, since we cannot accomodate more people due to space and
+          budget. 
+
+
+          However, there are a few parties open to the public so follow the THS
+          International page for updates!
+        title: >-
+          Do I have to be a new masters or international student at KTH to
+          attend?
   - category: THS Membership and Student Card
     questions:
       - description: >-
