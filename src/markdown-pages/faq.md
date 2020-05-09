@@ -20,12 +20,30 @@ categories:
           automatically agree to these rules.
         title: What rules do I have to follow for the Reception?
       - description: >-
+          Your Buddy will get in contact with you a few weeks before the
+          Reception!
+        title: When do I get my Buddy?
+      - description: >-
           We do not have any planned additional wristband handout/payment desk
           days, but stay tuned in the Facebook group to see if there are any
           announced days.
         title: >-
           I don’t arrive on an Arrival Day. Where can I get the wristband and
           pay for my events?
+      - description: >-
+          Usually one or two days before the event you will receive an e-mail
+          from us. This one is sent to the e-mail address you used in our signup
+          system. Please check your spam folder as well, sometimes it goes in
+          there.
+        title: How do I receive information about an event I signed up for?
+      - description: >-
+          Usually one or two days before the event you will receive an e-mail
+          from us. This one is sent to the e-mail address you used in our signup
+          system. Please check your spam folder as well, sometimes it goes in
+          there. If you really can’t find it, contact us.
+        title: >-
+          I didn’t receive an e-mail about an event I signed up for. What do I
+          do?
       - description: >-
           There are several ways of contacting us:
 
@@ -42,24 +60,6 @@ categories:
           event@thsint.se>) (**DO NOT** contact this one if you don’t receive an
           email about an event)
         title: How can I contact you?
-      - description: >-
-          Usually one or two days before the event you will receive an e-mail
-          from us. This one is sent to the e-mail address you used in our signup
-          system. Please check your spam folder as well, sometimes it goes in
-          there.
-        title: How do I receive information about an event I signed up for?
-      - description: >-
-          Usually one or two days before the event you will receive an e-mail
-          from us. This one is sent to the e-mail address you used in our signup
-          system. Please check your spam folder as well, sometimes it goes in
-          there. If you really can’t find it, contact us.
-        title: >-
-          I didn’t receive an e-mail about an event I signed up for. What do I
-          do?
-      - description: >-
-          Your Buddy will get in contact with you a few weeks before the
-          Reception!
-        title: When do I get my Buddy?
   - category: Registration Issues
     questions:
       - description: >-
