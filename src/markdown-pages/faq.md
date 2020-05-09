@@ -1,6 +1,61 @@
 ---
 type: faq-page
 categories:
+  - category: General topics about the International Reception
+    questions:
+      - description: >-
+          We do not have any planned additional wristband handout/payment desk
+          days, but stay tuned in the Facebook group to see if there are any
+          announced days.
+        title: >-
+          I don’t arrive on an Arrival Day. Where can I get the wristband and
+          pay for my events?
+      - description: >-
+          There are several ways of contacting us:
+
+
+          * General questions or unspecific questions: [The Facebook
+          Group](https://www.facebook.com/groups/newatkthspring2020/) (XXXThis
+          is being updated!XXX)
+
+          * Personal inquiries or problems with your registration or signup:
+          [E-Mail](<mailto: info@thsint.se>) or the [Facebook
+          Pag](https://www.facebook.com/thsint/)e
+
+          * Specific question about an event: [E-Mail](<mailto:
+          event@thsint.se>) (**DO NOT** contact this one if you don’t receive an
+          email about an event)
+        title: How can I contact you?
+      - description: >-
+          Usually one or two days before the event you will receive an e-mail
+          from us. This one is sent to the e-mail address you used in our signup
+          system. Please check your spam folder as well, sometimes it goes in
+          there.
+        title: How do I receive information about an event I signed up for?
+      - description: >-
+          Usually one or two days before the event you will receive an e-mail
+          from us. This one is sent to the e-mail address you used in our signup
+          system. Please check your spam folder as well, sometimes it goes in
+          there. If you really can’t find it, contact us.
+        title: >-
+          I didn’t receive an e-mail about an event I signed up for. What do I
+          do?
+      - description: >-
+          You can find the Reception rules [here](bit.ly/RulesIntRecFall2020).
+          By using our signup system and participating in Reception events you
+          automatically agree to these rules.
+        title: What rules do I have to follow for the Reception?
+      - description: >-
+          Most of the events are only for new masters and international
+          students, since we cannot accomodate more people due to space and
+          budget. 
+
+
+          However, there are a few parties open to the public so follow the THS
+          International page for updates!
+        title: >-
+          Do I have to be a new masters or international student at KTH to
+          attend?
   - category: Registration Issues
     questions:
       - description: >-
@@ -99,62 +154,6 @@ categories:
           This is to be determined! If you are a new masters or international
           student, we will let you know! But hopefully in July!
         title: 'When will the event calendar be released? '
-  - category: General topics about the International Reception
-    questions:
-      - description: >-
-          We do not have any planned additional wristband handout/payment desk
-          days, but stay tuned in the Facebook group to see if there are any
-          announced days.
-        title: >-
-          I don’t arrive on an Arrival Day. Where can I get the wristband and
-          pay for my events?
-      - description: >-
-          There are several ways of contacting us:
-
-
-          * General questions or unspecific questions: [The Facebook
-          Group](https://www.facebook.com/groups/newatkthspring2020/) (XXXThis
-          is being updated!XXX)
-
-          * Personal inquiries or problems with your registration or signup:
-          [E-Mail](<mailto: info@thsint.se>) or the [Facebook
-          Pag](https://www.facebook.com/thsint/)e
-
-          * Specific question about an event: [E-Mail](<mailto:
-          event@thsint.se>) (**DO NOT** contact this one if you don’t receive an
-          email about an event)
-        title: How can I contact you?
-      - description: >-
-          Usually one or two days before the event you will receive an e-mail
-          from us. This one is sent to the e-mail address you used in our signup
-          system. Please check your spam folder as well, sometimes it goes in
-          there.
-        title: How do I receive information about an event I signed up for?
-      - description: >-
-          Usually one or two days before the event you will receive an e-mail
-          from us. This one is sent to the e-mail address you used in our signup
-          system. Please check your spam folder as well, sometimes it goes in
-          there. If you really can’t find it, contact us.
-        title: >-
-          I didn’t receive an e-mail about an event I signed up for. What do I
-          do?
-      - description: >-
-          You can find the Reception rules
-          [here](https://docs.google.com/document/d/1GwPglZW_DrYETOV5lan45tew6hL_ZEiKG0c4xdhRyoc/edit).
-          By using our signup system and participating in Reception events you
-          automatically agree to these rules.
-        title: What rules do I have to follow for the Reception?
-      - description: >-
-          Most of the events are only for new masters and international
-          students, since we cannot accomodate more people due to space and
-          budget. 
-
-
-          However, there are a few parties open to the public so follow the THS
-          International page for updates!
-        title: >-
-          Do I have to be a new masters or international student at KTH to
-          attend?
   - category: THS Membership and Student Card
     questions:
       - description: >-
