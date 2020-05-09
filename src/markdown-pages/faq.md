@@ -95,6 +95,10 @@ categories:
           information will come, but hopefully by July for the Fall 2020
           Reception!
         title: When will I be able to sign up for events?
+      - description: >-
+          This is to be determined! If you are a new masters or international
+          student, we will let you know! But hopefully in July!
+        title: 'When will the event calendar be released? '
   - category: General topics about the International Reception
     questions:
       - description: >-
