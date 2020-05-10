@@ -22,7 +22,7 @@ By participating in the THS International Reception you will get the chance to:
 
 The THS International Reception is **completely voluntary** but is highly encouraged! This time period is a great place to meet so many new people. Feeling a bit shy or worried? Don’t be! Everyone attending is looking to meet new people and is in the same position as you! Reception is all about making new friends and ensuring that you feel at home. 
 
-**Information about the sign up for events will come later on our Facebook group and through e-mail.** 
+Information about the **sign up for events will come later** on our Facebook group and through e-mail. 
 
 # Who organizes the THS International Reception?
 
