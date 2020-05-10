@@ -20,9 +20,10 @@ categories:
           Do I have to be a new masters or international student at KTH to
           attend?
       - description: >-
-          You can find the Reception rules [here](bit.ly/RulesIntRecFall2020).
-          By using our signup system and participating in Reception events you
-          automatically agree to these rules.
+          You can find the Fall 2020 Reception rules
+          [here](https://bit.ly/RulesIntRecFall2020). By using our signup system
+          and participating in Reception events you automatically agree to these
+          rules.
         title: What rules do I have to follow for the Reception?
       - description: >-
           Your Buddy will get in contact with you a few weeks before the
