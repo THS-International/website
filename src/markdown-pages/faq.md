@@ -140,24 +140,24 @@ categories:
           Can you organize additional events, e.g. another gasque, hiking or
           Osqvik?
       - description: >-
-          This only applies to people who belong to the following chapters. If
-          your chapter is not listed below, it means that they have no
+          If you are unsure what Chapter you belong, you can check
+          [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vRBIcNbmG1vW0L47mWMuLZHwui7QHFuIz8RlkTrKtgIUh21nwcyDRdkFi56i1O2j1EvkmFlEqJ4yw0i/pubhtml).
+        title: What’s my Chapter?
+      - description: >-
+          This only applies to people who belong to the following Chapters. If
+          your Chapter is not listed below, it means that they have no
           cooperation with us and to our knowledge no events are offered for
           you.
 
 
-          If you are unsure what chapter you belong, you can check
+          If you are unsure what Chapter you belong, you can check
           [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vRBIcNbmG1vW0L47mWMuLZHwui7QHFuIz8RlkTrKtgIUh21nwcyDRdkFi56i1O2j1EvkmFlEqJ4yw0i/pubhtml). 
 
 
-          If you cannot see your chapter events, it means that you have
+          If you cannot see your Chapter events, it means that you have
           registered with the wrong field of study. Please contact our Facebook
           Page or write <mailto:info@thsint.se> so we can correct that.
-        title: Why can’t I see events from my chapter?
-      - description: >-
-          If you are unsure what chapter you belong, you can check
-          [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vRBIcNbmG1vW0L47mWMuLZHwui7QHFuIz8RlkTrKtgIUh21nwcyDRdkFi56i1O2j1EvkmFlEqJ4yw0i/pubhtml).
-        title: What’s my chapter?
+        title: Why can’t I see events from my Chapter?
   - category: THS Membership and Student Card
     questions:
       - description: >-
