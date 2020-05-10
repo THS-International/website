@@ -16,7 +16,7 @@ By participating in the THS International Reception you will get the chance to:
 * Be assigned to a Buddy (current student at KTH), who will lead a small group of new students during fun meetings
 * Have a great start to your stay at KTH!
 
-The THS International Reception has many different events for students in order for new students to meet each other. In addition to being able to attend a bunch of fun events, you will also receive a Buddy who will lead a smaller Buddy Group and serve as a familiar face in your new home. The Buddy typically attends the same school within KTH as you. You can ask questions to your Buddy about the best grocery store prices, the chapter scene, where you can find the best cinnamon rolls in town, how to use SL (Stockholm’s public transportation network), etc. 
+The THS International Reception has many different events for students in order for new students to meet each other. In addition to being able to attend a bunch of fun events, you will also receive a Buddy who will lead a smaller Buddy Group and serve as a familiar face in your new home. The Buddy typically attends the same school within KTH as you. You can ask questions to your Buddy about the best grocery store prices, the Chapter scene, where you can find the best cinnamon rolls in town, how to use SL (Stockholm’s public transportation network), etc. 
 
 The THS International Reception is completely voluntary but is highly encouraged! This time period is a great place to meet so many new people. Feeling a bit shy or worried? Don’t be! Everyone attending is looking to meet new people and is in the same position as you! Reception is all about making new friends and ensuring that you feel at home. 
 
