@@ -4,6 +4,10 @@ categories:
   - category: General topics about the International Reception
     questions:
       - description: >-
+          We will contact you about when it is time to sign up for the events
+          and with further instructions.
+        title: How do I sign up for the events?
+      - description: >-
           Most of the events are only for new masters and international
           students, since we cannot accomodate more people due to space and
           budget. 
@@ -60,10 +64,6 @@ categories:
           event@thsint.se>) (**DO NOT** contact this one if you don’t receive an
           email about an event)
         title: How can I contact you?
-      - description: >-
-          We will contact you about when it is time to sign up for the events
-          and with further instructions.
-        title: How do I sign up for the events?
   - category: Registration Issues
     questions:
       - description: >-
