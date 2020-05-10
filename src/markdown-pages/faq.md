@@ -5,7 +5,7 @@ categories:
     questions:
       - description: >-
           We will contact you about when it is time to sign up for the events
-          and with further instructions.
+          with further instructions.
         title: How do I sign up for the events?
       - description: >-
           Most of the events are only for new masters and international
