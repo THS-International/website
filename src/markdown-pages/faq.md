@@ -64,6 +64,15 @@ categories:
           event@thsint.se>) (**DO NOT** contact this one if you don’t receive an
           email about an event)
         title: How can I contact you?
+      - description: >-
+          We put the health and safety of our students and community first. We
+          do not know exactly how this situation will impact our Reception, but
+          we have alternative plans and are willing to adjust to the situation
+          in accordance to the information provided by THS, KTH, and the Swedish
+          Health Institute.
+        title: >-
+          How are you planning the Reception amidst the ongoing COVID-19
+          pandemic?
   - category: Registration Issues
     questions:
       - description: >-
