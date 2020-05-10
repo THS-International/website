@@ -1,7 +1,7 @@
 ---
 type: faq-page
 categories:
-  - category: General topics about the International Reception
+  - category: General Topics about the THS International Reception
     questions:
       - description: >-
           We will contact you about when it is time to sign up for the events
@@ -204,7 +204,7 @@ categories:
           sending any information to you. It usually takes a few days for KTH to
           send the updated information to Mecenat. You can check it here.
         title: How do I get the Student Card (Mecenat Card)?
-  - category: KTH and my studies
+  - category: KTH and My Studies
     questions:
       - description: >-
           Please contact [info@kth.se](<mailto: info@kth.se>) They will direct
