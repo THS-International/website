@@ -146,10 +146,6 @@ categories:
           you.
 
 
-          XXX At the moment, we are working on planning our Reception so we will
-          update this section once we know more information!!!! XXX
-
-
           If you are unsure what chapter you belong, you can check
           [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vRBIcNbmG1vW0L47mWMuLZHwui7QHFuIz8RlkTrKtgIUh21nwcyDRdkFi56i1O2j1EvkmFlEqJ4yw0i/pubhtml). 
 
