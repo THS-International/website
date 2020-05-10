@@ -68,10 +68,6 @@ categories:
           * Personal inquiries or problems with your registration or signup:
           [E-Mail](<mailto: info@thsint.se>) or the [Facebook
           page](https://www.facebook.com/thsint/)
-
-          * Specific question about an event: [E-Mail](<mailto:
-          event@thsint.se>) (**DO NOT** contact this one if you don’t receive an
-          email about an event)
         title: How can I contact you?
   - category: Registration Issues
     questions:
