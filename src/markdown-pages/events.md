@@ -22,4 +22,4 @@ These are examples of past events that we have had:
 
 If you have any cool event ideas, feel free to suggest them!
 
-Right now we are in the process of planning our events, so our calendar is empty, but more info will be coming soon!
+**Right now we are in the process of planning our events, so our calendar is empty, but more info will be coming soon!**
