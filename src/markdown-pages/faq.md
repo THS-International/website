@@ -53,9 +53,8 @@ categories:
           There are several ways of contacting us:
 
 
-          * General questions or unspecific questions: [The Facebook
-          Group](https://www.facebook.com/groups/newatkthspring2020/) (XXXThis
-          is being updated!XXX)
+          * General questions or unspecific questions: [Facebook
+          Group](https://www.facebook.com/groups/kthinternationalstudentsautumn2020/)
 
           * Personal inquiries or problems with your registration or signup:
           [E-Mail](<mailto: info@thsint.se>) or the [Facebook
