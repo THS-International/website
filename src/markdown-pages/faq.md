@@ -13,8 +13,9 @@ categories:
           budget. 
 
 
-          However, there are a few parties open to the public so follow the THS
-          International page for updates!
+          However, there are a few parties open to the public so follow the [THS
+          International Facebook page](https://www.facebook.com/thsint/) for
+          updates as this is where we will post info about our public events!
         title: >-
           Do I have to be a new masters or international student at KTH to
           attend?
