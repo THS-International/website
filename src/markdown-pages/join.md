@@ -2,7 +2,7 @@
 type: join-page
 title: Join Us
 ---
-**Join the Fun! Join the Family!**
+If you are a **new student coming this fall**, check out our [new students page](https://www.thsint.se/newstudents)!
 
 ![](/./join-us-website-page-2.jpg)
 
