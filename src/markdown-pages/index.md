@@ -1,7 +1,7 @@
 ---
 type: home-page
 title: THS INTERNATIONAL RECEPTION
-action: Get Involved
+action: Join the fun
 video: >-
   https://ths-international-reception-website.s3.eu-north-1.amazonaws.com/osqvik.mp4
 mobilp: /./kthred.png
