@@ -295,7 +295,7 @@ const IndexPage: React.FC = () => {
             <DesktopMainTitle>
               {queryResult.markdownRemark.frontmatter.title}
             </DesktopMainTitle>
-            <DesktopGetInvolved to="/join-us">
+            <DesktopGetInvolved to="/newstudents">
               {queryResult.markdownRemark.frontmatter.action}
             </DesktopGetInvolved>
           </DesktopTitleContainer>
@@ -325,8 +325,8 @@ const IndexPage: React.FC = () => {
         </PictureFrame>
 
         <Aline>
-          <Button1 to="/join-us">Get involved</Button1>
-          <Button2 to="/events">Events</Button2>
+          <Button1 to="/newstudents">New Student</Button1>
+          <Button2 to="/about">About Us</Button2>
 
           <Subtitle>
             <Markdown
