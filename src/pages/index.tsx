@@ -325,7 +325,7 @@ const IndexPage: React.FC = () => {
         </PictureFrame>
 
         <Aline>
-          <Button1 to="/newstudents">New Student</Button1>
+          <Button1 to="/newstudents">Join the fun!</Button1>
           <Button2 to="/about">About Us</Button2>
 
           <Subtitle>
