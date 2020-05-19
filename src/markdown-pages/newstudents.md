@@ -26,6 +26,6 @@ Information about the **sign up for events will come later** on our Facebook gro
 
 # Who organizes the THS International Reception?
 
-The THS International Reception is a project run by THS International, specifically under the Head of International and Social Relations at THS (the KTH Student Union). THS stands for Tekniska Högskolans Studentkår, meaning KTH’s Student Union. THS has a multitude of roles, including organizing social events for students, maintaining the educational quality of the university, and serving as representation for students. THS International is a subsection of the Student Union and organizes the Reception with the Project Managers leading it, Project Team organizing it, and the Buddies volunteering at the events.
+The THS International Reception is a project run by students at KTH. The project is under THS International, which is an organization run by the Head of International and Social Relations at THS (the KTH Student Union). THS stands for Tekniska Högskolans Studentkår, meaning KTH’s Student Union. THS has a multitude of roles, including organizing social events for students, maintaining the educational quality of the university, and serving as representation for students. THS International is a subsection of the Student Union and organizes the Reception with the Project Managers leading it, Project Team organizing it, and the Buddies volunteering at the events.
 
 - - -
