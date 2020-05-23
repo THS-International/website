@@ -50,7 +50,7 @@ The positions' workload is flexible according to the effort and creativity you w
 
 **MARKETING MANAGER**
 
-* Responsible for handling matters related to communication, such as Facebook groups and Instagram
+* Responsible for handling matters related to communication, such as Facebook groups, Instagram, and website
 * Managing channels towards students, such as our event sign-up page
 
 **FINANCIAL MANAGER**
