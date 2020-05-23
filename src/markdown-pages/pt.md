@@ -21,7 +21,7 @@ All Project Team members will also:
 
 # **The Positions**
 
-The positions' workload is flexible according to the effort and creativity you want to invest. The following positions explain different kinds of work involved in the planning and execution of the Spring Reception 2020. Positions may vary across Receptions. 
+The positions' workload is flexible according to the effort and creativity you want to invest. The following positions explain different kinds of work involved in the planning and execution of past Receptions. Positions may vary across Receptions. 
 
 **EVENT MANAGER**
 
