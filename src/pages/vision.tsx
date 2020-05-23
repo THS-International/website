@@ -16,8 +16,8 @@ const Vision: React.FC = () => {
   const queryResult = useStaticQuery(query)
   return (
     <Layout>
-      <SEO title="Vision" />
-      <h1>Vision</h1>
+      <SEO title="Mission & Vision" />
+      <h1>VMission & Vision</h1>
       <div dangerouslySetInnerHTML={{__html: queryResult.markdownRemark.html}} />
     </Layout>
   )
