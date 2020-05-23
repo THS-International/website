@@ -13,8 +13,6 @@ We aim to be able to provide these annual 2,500 new students the space to feel i
 
 In other words, we will make sure that this is the best possible start for our new students.
 
- 
-
 # Vision
 
 Our vision for the future is that **everyone is included in the KTH community**. 
@@ -29,4 +27,4 @@ We believe that as part of the experience of being at KTH, all students should b
 
 In order to do so, we believe that the THS International Reception should be a platform for students to connect with all chapters, clubs, associations, and groups at THS. Our future vision is to coordinate a Reception, in which events are hosted _by everyone, for everyone_, meaning that Chapters, KTH/THS associations, and the THS International Reception work together to create events for everyone. 
 
-By offering this platform we move one step closer to the vision, decreasing language barriers and making the student life more open to everyone along the way. We want to create an environment where everyone feels welcomed, integrated, and included in the KTH community. We strongly believe that we can achieve this task, but only together.
+By offering this platform we move one step closer to the vision, decreasing language barriers and making the student life more open to everyone along the way. We want to create an environment where everyone feels welcomed, integrated, and included in the KTH community. We strongly believe that we can achieve this task, but _only together_.
