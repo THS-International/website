@@ -17,7 +17,7 @@ const Vision: React.FC = () => {
   return (
     <Layout>
       <SEO title="Mission & Vision" />
-      <h1>VMission & Vision</h1>
+      <h1>Mission & Vision</h1>
       <div dangerouslySetInnerHTML={{__html: queryResult.markdownRemark.html}} />
     </Layout>
   )
