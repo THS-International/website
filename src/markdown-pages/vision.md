@@ -1,7 +1,7 @@
 ---
 type: vision-page
 ---
-## Mission
+## Our Mission
 
 The THS International Reception’s goal is to **make people feel a sense of belonging in their new environment**. We support every new masters, exchange, PhD and international student at the start of their new, exciting stage of life at KTH. 
 
@@ -13,7 +13,7 @@ We aim to be able to provide these annual 2,500 new students the space to feel i
 
 In other words, we will make sure that this is the best possible start for our new students.
 
-## Vision
+## Our Vision
 
 Our vision for the future is that **everyone is included in the KTH community**. 
 
