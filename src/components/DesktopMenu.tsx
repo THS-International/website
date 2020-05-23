@@ -133,7 +133,7 @@ const DesktopMenu: React.FC = () => {
           <span>
             <ul>
               <li>
-                <SubLink to="/vision">Mission & Vision</SubLink>
+                <SubLink to="/mission&vision">Mission & Vision</SubLink>
               </li>
               {/*    <li>
                 <SubLink to="/archive">Archive</SubLink>
