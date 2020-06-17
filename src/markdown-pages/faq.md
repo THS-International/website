@@ -202,7 +202,9 @@ categories:
           information to your KTH profile. Before you add this information,
           there will be no card created for you, and they will have no way of
           sending any information to you. It usually takes a few days for KTH to
-          send the updated information to Mecenat. You can check it here.
+          send the updated information to Mecenat. You can check for more info
+          here
+          [here](https://www.kth.se/en/student/studentliv/studentlegitimation/legitimation-1.64343).
         title: How do I get the Student Card (Mecenat Card)?
   - category: KTH and My Studies
     questions:
