@@ -8,17 +8,9 @@ categories:
           with further instructions.
         title: How do I sign up for the events?
       - description: >-
-          Most of the events are only for new masters and international
-          students, since we cannot accomodate more people due to space and
-          budget. 
-
-
-          However, there are a few parties open to the public so follow the [THS
-          International Facebook page](https://www.facebook.com/thsint/) for
-          updates as this is where we will post info about our public events!
-        title: >-
-          Do I have to be a new masters or international student at KTH to
-          attend?
+          Most of the events are only for new masters and exchange students,
+          since we cannot accomodate more people due to space and budget.
+        title: Do I have to be a new masters or exchange student at KTH to attend?
       - description: >-
           You can find the Fall 2020 Reception rules
           [here](https://bit.ly/RulesIntRecFall2020). By using our signup system
@@ -30,12 +22,11 @@ categories:
           Reception!
         title: When do I get my Buddy?
       - description: >-
-          We do not have any planned additional wristband handout/payment desk
-          days, but stay tuned in the Facebook group to see if there are any
-          announced days.
+          We do not have any planned payment desk days, but stay tuned in the
+          Facebook group to see if there are any announced days.
         title: >-
-          I don’t arrive on an Arrival Day. Where can I get the wristband and
-          pay for my events?
+          I don’t arrive on an Arrival Day. Where can I pay for my events that
+          have a fee?
       - description: >-
           Usually one or two days before the event you will receive an e-mail
           from us. This one is sent to the e-mail address you used in our signup
