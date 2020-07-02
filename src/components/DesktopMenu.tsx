@@ -120,6 +120,9 @@ const DesktopMenu: React.FC = () => {
           <span>
             <ul>
               <li>
+                <SubLink to="/howReceptionWorks">How Reception Works</SubLink>
+              </li>
+              <li>
                 <SubLink to="/events">Events</SubLink>
               </li>
               <li>
