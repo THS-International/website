@@ -287,6 +287,23 @@ collections:
               widget: "markdown",
               required: true,
             }
+      - file: "src/markdown-pages/aboutTHS.md"
+        label: "About THS"
+        name: aboutTHS
+        fields:
+          - {
+              name: "type",
+              label: "Type",
+              widget: "hidden",
+              default: "join-page",
+            }
+          - { name: "title", label: "Title", widget: "string", required: true }
+          - {
+              name: "body",
+              label: "Content",
+              widget: "markdown",
+              required: true,
+            }
       - file: "src/markdown-pages/newstudents.md"
         label: "For new students"
         name: newstudents
