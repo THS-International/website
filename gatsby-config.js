@@ -50,11 +50,11 @@ module.exports = {
     {
       resolve: `gatsby-source-instagram`,
       options: {
-        username: `ths_international_reception`,
+        username: `5387282036`,
       },
     },
     `gatsby-plugin-typescript`,
     `gatsby-plugin-styled-components`,
-    `gatsby-plugin-netlify-cms`
+    `gatsby-plugin-netlify-cms`,
   ],
 }

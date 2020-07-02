@@ -16,7 +16,7 @@ const Maps: React.FC = () => {
   const queryResult = useStaticQuery(query)
   return (
     <Layout>
-      <SEO title="About" />
+      <SEO title="Maps" />
       <h1>MAPS</h1>
       <div
         dangerouslySetInnerHTML={{ __html: queryResult.markdownRemark.html }}
