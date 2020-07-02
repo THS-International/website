@@ -48,6 +48,7 @@ const drawer: React.FC<{ isOpen: boolean }> = ({ isOpen }) => {
         <HeadLink to="/">Home</HeadLink>
         <HeadLink to="/newstudents">For New Students</HeadLink>
         <SubLink to="/events">Events</SubLink>
+        <SubLink to="/maps">Maps</SubLink>
         {/* <SubLink to="/guide">Guide for new students</SubLink> */}
         <HeadLink to="/about">About us</HeadLink>
         <SubLink to="/mission&vision">Mission & Vision</SubLink>

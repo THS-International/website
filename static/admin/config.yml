@@ -12,11 +12,31 @@ collections:
     identifier_field: title
     fields:
       - { name: "title", label: "Title", widget: "string", required: true }
-      - { name: "thumbnail", label: "Featured Image", widget: "image", default:"/images/kthnews.png" }
-      - { name: "description", label: "Description", widget: "markdown", required: true }
-      - { name: "preview", label: "Preview", widget: "markdown", required: true }
+      - {
+          name: "thumbnail",
+          label: "Featured Image",
+          widget: "image",
+          default:"/images/kthnews.png",
+        }
+      - {
+          name: "description",
+          label: "Description",
+          widget: "markdown",
+          required: true,
+        }
+      - {
+          name: "preview",
+          label: "Preview",
+          widget: "markdown",
+          required: true,
+        }
       - { name: "type", label: "Type", widget: "hidden", default: "news" }
-      - { name: "date", label: "Date", widget: "datetime", format: "YYYY-MM-DD"}
+      - {
+          name: "date",
+          label: "Date",
+          widget: "datetime",
+          format: "YYYY-MM-DD",
+        }
 
   - name: "pages"
     label: "Pages"
@@ -25,96 +45,278 @@ collections:
         label: "FAQ"
         name: faq
         fields:
-          - { name: "type", label: "Type", widget: "hidden", default: "faq-page"}
+          - {
+              name: "type",
+              label: "Type",
+              widget: "hidden",
+              default: "faq-page",
+            }
           - label: Categories
             name: categories
             widget: list
             fields:
-              - { name: "category", label: "Category", widget: "string", required: true }
+              - {
+                  name: "category",
+                  label: "Category",
+                  widget: "string",
+                  required: true,
+                }
               - label: Question
                 name: questions
                 widget: list
                 fields:
-                  - { name: "title", label: "Title", widget: "string", required: true }
-                  - { name: "description", label: "Description", widget: "markdown", required: true }
+                  - {
+                      name: "title",
+                      label: "Title",
+                      widget: "string",
+                      required: true,
+                    }
+                  - {
+                      name: "description",
+                      label: "Description",
+                      widget: "markdown",
+                      required: true,
+                    }
       - file: "src/markdown-pages/about.md"
         label: "About"
         name: about
         fields:
-          - { name: "type", label: "Type", widget: "hidden", default: "about-page"}
-          - { name: "body", label: "Content", widget: "markdown", required: true }
+          - {
+              name: "type",
+              label: "Type",
+              widget: "hidden",
+              default: "about-page",
+            }
+          - {
+              name: "body",
+              label: "Content",
+              widget: "markdown",
+              required: true,
+            }
       - file: "src/markdown-pages/index.md"
         label: "Home"
         name: home
         fields:
-          - { name: "type", label: "Type", widget: "hidden", default: "home-page"}
+          - {
+              name: "type",
+              label: "Type",
+              widget: "hidden",
+              default: "home-page",
+            }
           - { name: "title", label: "Title", widget: "string", required: true }
-          - { name: "action", label: "Call To Action", widget: "string", required: true }
+          - {
+              name: "action",
+              label: "Call To Action",
+              widget: "string",
+              required: true,
+            }
           - { name: "video", label: "Video", widget: "string", required: true }
-          - { name: "mobilp", label: "Mobile Picture", widget: "image", required: true }
-          - { name: "subtitle", label: "subtitle", widget: "markdown", required: true }
-          - { name: "body", label: "Content", widget: "markdown", required: false }      
+          - {
+              name: "mobilp",
+              label: "Mobile Picture",
+              widget: "image",
+              required: true,
+            }
+          - {
+              name: "subtitle",
+              label: "subtitle",
+              widget: "markdown",
+              required: true,
+            }
+          - {
+              name: "body",
+              label: "Content",
+              widget: "markdown",
+              required: false,
+            }
       - file: "src/markdown-pages/archive.md"
         label: "Archive"
         name: archive
         fields:
-          - { name: "type", label: "Type", widget: "hidden", default: "archive-page"}
-          - { name: "body", label: "Content", widget: "markdown", required: true }
+          - {
+              name: "type",
+              label: "Type",
+              widget: "hidden",
+              default: "archive-page",
+            }
+          - {
+              name: "body",
+              label: "Content",
+              widget: "markdown",
+              required: true,
+            }
       - file: "src/markdown-pages/buddies.md"
         label: "Buddies"
         name: buddies
         fields:
-          - { name: "type", label: "Type", widget: "hidden", default: "buddies-page"}
-          - { name: "body", label: "Content", widget: "markdown", required: true }
+          - {
+              name: "type",
+              label: "Type",
+              widget: "hidden",
+              default: "buddies-page",
+            }
+          - {
+              name: "body",
+              label: "Content",
+              widget: "markdown",
+              required: true,
+            }
       - file: "src/markdown-pages/team.md"
         label: "Team"
         name: team
         fields:
-          - { name: "type", label: "Type", widget: "hidden", default: "team-page"}
-          - { name: "body", label: "Content", widget: "markdown", required: true }
+          - {
+              name: "type",
+              label: "Type",
+              widget: "hidden",
+              default: "team-page",
+            }
+          - {
+              name: "body",
+              label: "Content",
+              widget: "markdown",
+              required: true,
+            }
       - file: "src/markdown-pages/vision.md"
         label: "Vision"
         name: vision
         fields:
-          - { name: "type", label: "Type", widget: "hidden", default: "vision-page"}
-          - { name: "body", label: "Content", widget: "markdown", required: true }
+          - {
+              name: "type",
+              label: "Type",
+              widget: "hidden",
+              default: "vision-page",
+            }
+          - {
+              name: "body",
+              label: "Content",
+              widget: "markdown",
+              required: true,
+            }
       - file: "src/markdown-pages/pt.md"
         label: "PT"
         name: pt
         fields:
-          - { name: "type", label: "Type", widget: "hidden", default: "pt-page"}
-          - { name: "body", label: "Content", widget: "markdown", required: true }
+          - {
+              name: "type",
+              label: "Type",
+              widget: "hidden",
+              default: "pt-page",
+            }
+          - {
+              name: "body",
+              label: "Content",
+              widget: "markdown",
+              required: true,
+            }
       - file: "src/markdown-pages/pm.md"
         label: "PM"
         name: pm
         fields:
-          - { name: "type", label: "Type", widget: "hidden", default: "pm-page"}
-          - { name: "body", label: "Content", widget: "markdown", required: true }
+          - {
+              name: "type",
+              label: "Type",
+              widget: "hidden",
+              default: "pm-page",
+            }
+          - {
+              name: "body",
+              label: "Content",
+              widget: "markdown",
+              required: true,
+            }
       - file: "src/markdown-pages/events.md"
         label: "Events"
         name: events
         fields:
-          - { name: "type", label: "Type", widget: "hidden", default: "events-page"}
-          - { name: "body", label: "Content", widget: "markdown", required: true }
-          - { name: "calendarid", label: "Calendar ID", widget: "string", required: true }
-          - { name: "calendarapi", label: "Calendar API KEY", widget: "string", required: true }
+          - {
+              name: "type",
+              label: "Type",
+              widget: "hidden",
+              default: "events-page",
+            }
+          - {
+              name: "body",
+              label: "Content",
+              widget: "markdown",
+              required: true,
+            }
+          - {
+              name: "calendarid",
+              label: "Calendar ID",
+              widget: "string",
+              required: true,
+            }
+          - {
+              name: "calendarapi",
+              label: "Calendar API KEY",
+              widget: "string",
+              required: true,
+            }
+      - file: "src/markdown-pages/maps.md"
+        label: "Maps"
+        name: maps
+        fields:
+          - {
+              name: "type",
+              label: "Type",
+              widget: "hidden",
+              default: "join-page",
+            }
+          - { name: "title", label: "Title", widget: "string", required: true }
+          - {
+              name: "body",
+              label: "Content",
+              widget: "markdown",
+              required: true,
+            }
       - file: "src/markdown-pages/newstudents.md"
         label: "For new students"
         name: newstudents
         fields:
-          - { name: "type", label: "Type", widget: "hidden", default: "newstudents-page"}
-          - { name: "body", label: "Content", widget: "markdown", required: true }
+          - {
+              name: "type",
+              label: "Type",
+              widget: "hidden",
+              default: "newstudents-page",
+            }
+          - {
+              name: "body",
+              label: "Content",
+              widget: "markdown",
+              required: true,
+            }
       - file: "src/markdown-pages/join.md"
         label: "Join Us"
         name: join
         fields:
-          - { name: "type", label: "Type", widget: "hidden", default: "join-page"}
+          - {
+              name: "type",
+              label: "Type",
+              widget: "hidden",
+              default: "join-page",
+            }
           - { name: "title", label: "Title", widget: "string", required: true }
-          - { name: "body", label: "Content", widget: "markdown", required: true }
+          - {
+              name: "body",
+              label: "Content",
+              widget: "markdown",
+              required: true,
+            }
       - file: "src/markdown-pages/partners.md"
         label: "Partners"
         name: partners
         fields:
-          - { name: "type", label: "Type", widget: "hidden", default: "partners-page"}
+          - {
+              name: "type",
+              label: "Type",
+              widget: "hidden",
+              default: "partners-page",
+            }
           - { name: "title", label: "Title", widget: "string", required: true }
-          - { name: "body", label: "Content", widget: "markdown", required: true }
+          - {
+              name: "body",
+              label: "Content",
+              widget: "markdown",
+              required: true,
+            }
