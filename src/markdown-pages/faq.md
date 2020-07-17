@@ -12,6 +12,13 @@ categories:
           since we cannot accomodate more people due to space and budget.
         title: Do I have to be a new masters or exchange student at KTH to attend?
       - description: >-
+          Unfortunately, you cannot bring a guest to our events. This is due to
+          making sure that all of our students get a fair chance to attend
+          events.
+        title: >-
+          Can I bring a guest (ex. significant other, sibling, or parent) to
+          events?
+      - description: >-
           You can find the Fall 2020 Reception rules
           [here](https://bit.ly/RulesIntRecFall2020). By using our signup system
           and participating in Reception events you automatically agree to these
@@ -156,6 +163,33 @@ categories:
           registered with the wrong field of study. Please contact our Facebook
           Page or write <mailto:info@thsint.se> so we can correct that.
         title: Why can’t I see events from my Chapter?
+  - category: Payment for Events
+    questions:
+      - description: >-
+          Yes, but not all events. These are marked in the bottom of our event
+          description as well as on our sign up page. \
+
+          \
+
+          If an event requires a payment, please attend the payment desk on one
+          of our Arrival Days. We will have other payment desks during the
+          Reception, but these will be announced on our Facebook group a few
+          days before they are held.
+        title: 'Do some events require payment? '
+      - description: >-
+          In the calendars that we have below, we have some of the prices marked
+          as Price X/Price Y, showcasing the non-alcoholic/alcoholic ticket
+          price. In our sign up system, all prices will be marked as the
+          non-alcoholic ticket. For the events titled Gasque, Osqvik, and Sauna
+          Night, we will ask you at our payment desk if you would like to pay an
+          additional fee for a ticket with alcohol.
+        title: What do Price X/Price Y mean?
+      - description: >-
+          If an event requires a payment, please attend the payment desk on one
+          of our Arrival Days. We will have other payment desks during the
+          Reception, but these will be announced on our Facebook group a few
+          days before they are held.
+        title: 'When will there be payment desks? '
   - category: THS Membership and Student Card
     questions:
       - description: >-
