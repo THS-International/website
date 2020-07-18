@@ -43,13 +43,6 @@ categories:
           What is the difference between THS and the THS International
           Reception?
       - description: >-
-          Unfortunately, you cannot bring a guest to our events. This is due to
-          making sure that all of our students get a fair chance to attend
-          events.
-        title: >-
-          Can I bring a guest (ex. significant other, sibling, or parent) to
-          events?
-      - description: >-
           You can find the Fall 2020 Reception rules
           [here](https://bit.ly/RulesIntRecFall2020). By using our signup system
           and participating in Reception events you automatically agree to these
