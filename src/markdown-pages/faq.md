@@ -168,9 +168,7 @@ categories:
           [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vRBIcNbmG1vW0L47mWMuLZHwui7QHFuIz8RlkTrKtgIUh21nwcyDRdkFi56i1O2j1EvkmFlEqJ4yw0i/pubhtml). 
 
 
-          If you cannot see your Chapter events, it means that you have
-          registered with the wrong field of study. Please contact our Facebook
-          Page or write <mailto:info@thsint.se> so we can correct that.
+          Also check to see what study field you have registered to.
         title: Why can’t I see events from my Chapter?
   - category: Payment for Events
     questions:
