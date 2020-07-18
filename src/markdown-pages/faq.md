@@ -60,6 +60,17 @@ categories:
           How are you planning the Reception amidst the ongoing COVID-19
           pandemic?
       - description: >-
+          Great question! We have a "Team" page on our website that has more
+          information about our various roles: Buddies, Project Team, and
+          Project Manager. In the "Join Us" subpage, we have approximitate
+          timelines of when these roles will be recruited.
+
+
+          We also recommend that you follow our [Facebook
+          page](https://www.facebook.com/thsint) to get updates on when we start
+          recruitment!
+        title: How can I help out in the upcoming International Receptions?
+      - description: >-
           There are several ways of contacting us:
 
 
