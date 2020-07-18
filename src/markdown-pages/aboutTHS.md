@@ -6,4 +6,6 @@ title: About THS
 
 THS also has its own building called Nymble, where you can find a cafe, restaurant, bookstore, event and study spaces, and so much more! 
 
+![](/./nymble.jpeg "Nymble")
+
 For more information, please check out their [website](https://ths.kth.se/en).
