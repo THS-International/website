@@ -55,20 +55,6 @@ categories:
       - description: Your Buddy wil contact you soon!
         title: When do I get my Buddy?
       - description: >-
-          Usually one or two days before the event you will receive an e-mail
-          from us. This one is sent to the e-mail address you used in our signup
-          system. Please check your spam folder as well, sometimes it goes in
-          there.
-        title: How do I receive information about an event I signed up for?
-      - description: >-
-          Usually one or two days before the event you will receive an e-mail
-          from us. This one is sent to the e-mail address you used in our signup
-          system. Please check your spam folder as well, sometimes it goes in
-          there. If you really can’t find it, contact us.
-        title: >-
-          I didn’t receive an e-mail about an event I signed up for. What do I
-          do?
-      - description: >-
           We put the health and safety of our students and community first. We
           do not know exactly how this situation will impact our Reception, but
           we have alternative plans and are willing to adjust to the situation
@@ -221,6 +207,40 @@ categories:
         title: >-
           I don’t arrive on an Arrival Day. Where can I pay for my events that
           have a fee?
+  - category: Attending the Events
+    questions:
+      - description: >-
+          Usually one or two days before the event you will receive an e-mail
+          from us. This one is sent to the e-mail address you used in our signup
+          system. Please check your spam folder as well, sometimes it goes in
+          there.
+        title: >-
+          I've signed up for an event! How do I receive information about an
+          event I signed up for?
+      - description: >-
+          Usually one or two days before the event you will receive an e-mail
+          from us. This one is sent to the e-mail address you used in our signup
+          system. Please check your spam folder as well, sometimes it goes in
+          there. If you really can’t find it, contact us.
+        title: >-
+          I've signed up for an event, but I didn’t receive an e-mail about an
+          event I signed up for. What do I do?
+      - description: 'Yes, we will not accept any drop-ins.'
+        title: Do I have to have signed up to attend the event?
+  - category: KTH and My Studies
+    questions:
+      - description: >-
+          Please contact [info@kth.se](<mailto: info@kth.se>) They will direct
+          you to the right people.
+        title: Whom do I contact for questions about my study programme?
+      - description: >-
+          Please have a look
+          [here](https://www.kth.se/en/student/kurs/kursregistrering-1.317058).
+        title: When does course Registration start?
+      - description: >-
+          No, these services are not offered by KTH or by THS. Please use public
+          transportation or call a taxi.
+        title: Can anyone help me move my luggage?
   - category: THS Membership and Student Card
     questions:
       - description: >-
@@ -262,19 +282,5 @@ categories:
           here
           [here](https://www.kth.se/en/student/studentliv/studentlegitimation/legitimation-1.64343).
         title: How do I get the Student Card (Mecenat Card)?
-  - category: KTH and My Studies
-    questions:
-      - description: >-
-          Please contact [info@kth.se](<mailto: info@kth.se>) They will direct
-          you to the right people.
-        title: Whom do I contact for questions about my study programme?
-      - description: >-
-          Please have a look
-          [here](https://www.kth.se/en/student/kurs/kursregistrering-1.317058).
-        title: When does course Registration start?
-      - description: >-
-          No, these services are not offered by KTH or by THS. Please use public
-          transportation or call a taxi.
-        title: Can anyone help me move my luggage?
 ---
 
