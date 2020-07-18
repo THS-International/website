@@ -11,9 +11,8 @@ categories:
           We are responsible for new to KTH masters, exchange, and international
           bachelor's students. We cannot accomodate more people due to space and
           budget. That inclues guests of those who are eligible to participate,
-          such as significant others, friends, or parents. \
+          such as significant others, friends, or parents. 
 
-          \
 
           Please note, you **do not** need to be a THS member to attend our
           events. THS is our central Student Union, and we are a project group
