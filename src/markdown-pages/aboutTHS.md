@@ -12,7 +12,7 @@ THS also has seveal student associations and Chapters (study field-specific asso
 
 ## Becoming a THS Member
 
-There are various perks of becoming a THS member, but please check out their website below to figure out what those are. 
+There are various perks of becoming a THS member, but please check out their website below to figure out what those are. Just as a reminder, as a participant of the THS International Reception, you **do not** need to be a member of THS. 
 
 In order to become a student member of THS, you need to have an active course registration at KTH. If you are only admitted to a course/program, but not registered, then it is not sufficient. You can check your registrations here. You can pay the membership fee [here](https://login.kth.se/login?service=https%3A%2F%2Fsaml-5.sys.kth.se%2Fidp%2FAuthn%2FExtCas%3Fconversation%3De2s1&entityId=https%3A%2F%2Fths.arcmember.net) or at [KårX](https://ths.kth.se/contact/student-union-office), THS's Office in Nymble. You cannot sign up for membership in advance.
 
