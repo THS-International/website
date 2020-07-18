@@ -34,9 +34,7 @@ categories:
           and participating in Reception events you automatically agree to these
           rules.
         title: What rules do I have to follow for the Reception?
-      - description: >-
-          Your Buddy will get in contact with you a few weeks before the
-          Reception!
+      - description: Your Buddy wil contact you soon!
         title: When do I get my Buddy?
       - description: >-
           Usually one or two days before the event you will receive an e-mail
