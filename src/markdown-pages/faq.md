@@ -152,10 +152,14 @@ categories:
           [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vRBIcNbmG1vW0L47mWMuLZHwui7QHFuIz8RlkTrKtgIUh21nwcyDRdkFi56i1O2j1EvkmFlEqJ4yw0i/pubhtml).
         title: What’s my Chapter?
       - description: >-
-          This only applies to people who belong to the following Chapters. If
-          your Chapter is not listed below, it means that they have no
-          cooperation with us and to our knowledge no events are offered for
-          you.
+          This only applies to people who belong to the following Chapters:
+          Data&Media, E&MiT, F, M, IN, S, and W. Please read the entire event
+          description before signing up. 
+
+
+          If your Chapter is not listed above, it means that your Chapter is not
+          collaborating with us this Reception, and to our knowledge no events
+          are offered for you. 
 
 
           If you are unsure what Chapter you belong, you can check
