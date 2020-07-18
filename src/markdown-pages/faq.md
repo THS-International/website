@@ -226,7 +226,7 @@ categories:
           I've signed up for an event, but I didn’t receive an e-mail about an
           event I signed up for. What do I do?
       - description: 'Yes, we will not accept any drop-ins.'
-        title: Do I have to have signed up to attend the event?
+        title: Do I have to have signed up to the event to attend?
   - category: KTH and My Studies
     questions:
       - description: >-
