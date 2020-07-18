@@ -106,14 +106,9 @@ categories:
         title: I have registered myself with the wrong study field. What can I do?
   - category: Event Sign Up
     questions:
-      - description: >-
-          This is to be determined! If you are a new masters or international
-          student, we will let you know! But hopefully in July!
+      - description: Soon! Stay tuned to your emails!
         title: 'When will the event calendar be released? '
-      - description: >-
-          Currently, we are working on finalizing our event calendar. More
-          information will come, but hopefully by July for the Fall 2020
-          Reception!
+      - description: Also soon! We haven't released the sign up yet.
         title: When will I be able to sign up for events?
       - description: >-
           We recommend to check the sign up page frequently since some students
