@@ -209,6 +209,8 @@ categories:
           have a fee?
   - category: Attending the Events
     questions:
+      - description: 'Yes, we will not accept any drop-ins.'
+        title: Do I have to have signed up to the event to attend?
       - description: >-
           Usually one or two days before the event you will receive an e-mail
           from us. This one is sent to the e-mail address you used in our signup
@@ -225,8 +227,6 @@ categories:
         title: >-
           I've signed up for an event, but I didn’t receive an e-mail about an
           event I signed up for. What do I do?
-      - description: 'Yes, we will not accept any drop-ins.'
-        title: Do I have to have signed up to the event to attend?
   - category: KTH and My Studies
     questions:
       - description: >-
