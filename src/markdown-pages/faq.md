@@ -8,19 +8,22 @@ categories:
           with further instructions.
         title: How do I sign up for the events?
       - description: >-
-          Most of the events are only for new masters and exchange students,
-          since we cannot accomodate more people due to space and budget.
-        title: Do I have to be a new masters or exchange student at KTH to attend?
-      - description: >-
-          You do not need to be a THS member to attend our events. THS is our
-          central Student Union, and we are a project group within the Student
-          Union, similar to a THS association. 
+          We are responsible for new to KTH masters, exchange, and international
+          bachelor's students. We cannot accomodate more people due to space and
+          budget. That inclues guests of those who are eligible to participate,
+          such as significant others, friends, or parents. \
+
+          \
+
+          Please note, you **do not** need to be a THS member to attend our
+          events. THS is our central Student Union, and we are a project group
+          within the Student Union, similar to a THS association. 
 
 
           We organize these events for our new students, so as long as you are
           attending KTH and fall into one of our responsible study programs,
           then you are allowed to attend!
-        title: Do I need to be a THS member to attend the events?
+        title: 'Who can attend the THS International Reception? '
       - description: >-
           THS is the Student Union at KTH. More info about them can be found
           [here](https://ths.kth.se).
