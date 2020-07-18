@@ -12,6 +12,16 @@ categories:
           since we cannot accomodate more people due to space and budget.
         title: Do I have to be a new masters or exchange student at KTH to attend?
       - description: >-
+          You do not need to be a THS member to attend our events. THS is our
+          central Student Union, and we are a project group within the Student
+          Union, similar to a THS association. 
+
+
+          We organize these events for our new students, so as long as you are
+          attending KTH and fall into one of our responsible study programs,
+          then you are allowed to attend!
+        title: Do I need to be a THS member to attend the events?
+      - description: >-
           Unfortunately, you cannot bring a guest to our events. This is due to
           making sure that all of our students get a fair chance to attend
           events.
@@ -28,12 +38,6 @@ categories:
           Your Buddy will get in contact with you a few weeks before the
           Reception!
         title: When do I get my Buddy?
-      - description: >-
-          We do not have any planned payment desk days, but stay tuned in the
-          Facebook group to see if there are any announced days.
-        title: >-
-          I don’t arrive on an Arrival Day. Where can I pay for my events that
-          have a fee?
       - description: >-
           Usually one or two days before the event you will receive an e-mail
           from us. This one is sent to the e-mail address you used in our signup
@@ -98,7 +102,9 @@ categories:
           If you have done this on the sign up system, please contact
           info@thsint.se or the Facebook Page “[THS
           International](https://www.facebook.com/thsint/)”. We can fix it for
-          you. Please do that soon because this will determine your Buddy Group.
+          you. Please provide your full name, the email address that you used,
+          and your actual study field. Please do that soon because this will
+          determine your Buddy Group.
         title: I have registered myself with the wrong study field. What can I do?
   - category: Event Sign Up
     questions:
@@ -117,8 +123,7 @@ categories:
           unregisters, their spot becomes open in the system. Out of experience
           the closer it comes to the event the more people change their activity
           plans, but keep in mind that you usually can only unregister yourself
-          two days before an event. **Please note that if you have already paid
-          for an event there will be no refund.** 
+          two days before an event. 
 
 
           You cannot join a full event, regardless of your motivation for it.
@@ -185,11 +190,11 @@ categories:
           additional fee for a ticket with alcohol.
         title: What do Price X/Price Y mean?
       - description: >-
-          If an event requires a payment, please attend the payment desk on one
-          of our Arrival Days. We will have other payment desks during the
-          Reception, but these will be announced on our Facebook group a few
-          days before they are held.
-        title: 'When will there be payment desks? '
+          We do not have any planned payment desk days, but stay tuned in the
+          Facebook group to see if there are any announced days.
+        title: >-
+          I don’t arrive on an Arrival Day. Where can I pay for my events that
+          have a fee?
   - category: THS Membership and Student Card
     questions:
       - description: >-
