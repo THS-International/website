@@ -232,7 +232,7 @@ categories:
       - description: >-
           Please have a look
           [here](https://www.kth.se/en/student/kurs/kursregistrering-1.317058).
-        title: When does course Registration start?
+        title: When does course registration start?
       - description: >-
           No, these services are not offered by KTH or by THS. Please use public
           transportation or call a taxi.
