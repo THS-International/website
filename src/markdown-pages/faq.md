@@ -22,6 +22,24 @@ categories:
           then you are allowed to attend!
         title: Do I need to be a THS member to attend the events?
       - description: >-
+          THS is the Student Union at KTH. More info about them can be found
+          [here](https://ths.kth.se).
+
+
+          We have one member of our team, the Head of Social and International
+          Relations at THS, who is part of the THS Management Team and takes off
+          one of year of their studies to work for the Student Union. This role
+          is responsible for recruiting the Project Managers for the THS
+          International Reception. 
+
+
+          The THS International Reception is a student-run project group within
+          THS that organizes the welcome reception for our set of students. The
+          Project Team consists of student volunteers.
+        title: >-
+          What is the difference between THS and the THS International
+          Reception?
+      - description: >-
           Unfortunately, you cannot bring a guest to our events. This is due to
           making sure that all of our students get a fair chance to attend
           events.
