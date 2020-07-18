@@ -106,14 +106,6 @@ categories:
 
           4. Do not use ad blockers
         title: My register button doesn't work! What do I do?
-      - description: >-
-          If you have done this on the sign up system, please contact
-          info@thsint.se or the Facebook Page “[THS
-          International](https://www.facebook.com/thsint/)”. We can fix it for
-          you. Please provide your full name, the email address that you used,
-          and your actual study field. Please do that soon because this will
-          determine your Buddy Group.
-        title: I have registered myself with the wrong study field. What can I do?
   - category: Event Sign Up
     questions:
       - description: Soon! Stay tuned to your emails!
