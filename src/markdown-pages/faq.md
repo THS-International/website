@@ -203,6 +203,20 @@ categories:
         title: >-
           I don’t arrive on an Arrival Day. Where can I pay for my events that
           have a fee?
+      - description: >-
+          Yes you can, but we will need email confirmation from both the buyer
+          and the seller that you would like to do a ticket swap. Please both of
+          you email info@thsint.se, 24 hours before your event's start time. 
+
+
+          You can post in our Facebook group to see if anyone would like to take
+          your ticket. 
+
+
+          Do not pay the seller until **after** you have gotten email
+          confirmation from us. We check the lists to make sure that the buyer
+          and the seller are both part of our student list!
+        title: 'Can I sell my ticket to another student? '
   - category: Attending the Events
     questions:
       - description: 'Yes, we will not accept any drop-ins.'
