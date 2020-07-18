@@ -47,7 +47,7 @@ categories:
           and participating in Reception events you automatically agree to these
           rules.
         title: What rules do I have to follow for the Reception?
-      - description: Your Buddy wil contact you soon!
+      - description: Your Buddy will contact you soon!
         title: When do I get my Buddy?
       - description: >-
           We put the health and safety of our students and community first. We
