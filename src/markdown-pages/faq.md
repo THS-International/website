@@ -215,7 +215,11 @@ categories:
 
           Do not pay the seller until **after** you have gotten email
           confirmation from us. We check the lists to make sure that the buyer
-          and the seller are both part of our student list!
+          and the seller are both part of our student list! 
+
+
+          Also the price must be the same amount as our own prices. In other
+          words, you are not allowed to make profit off our tickets.
         title: 'Can I sell my ticket to another student? '
   - category: Attending the Events
     questions:
