@@ -138,18 +138,19 @@ categories:
           from attending further events in the Reception.
         title: The event I wanted to attend is full. What can I do?
       - description: >-
-          We do not have a waiting list system yet (currently in the planning
-          phase). Therefore, we recommend to check the sign up system regularly
-          for open spots.
+          We do not have a waiting list system yet, but this is currently in the
+          planning phase. Therefore, we recommend to check the sign up system
+          regularly for open spots.
+
+
+          Hopefully in future Receptions we will be able to have a waiting list!
         title: Can you put me on a waiting list for a specific event?
       - description: >-
           Unfortunately this is not possible. We are aware that some events are
           very popular among new students but we cannot add more events. This is
           due to limitations in funding, the amount of people helping out, fire
           safety, booking of facilities, etc... Therefore, we are not able to
-          offer more events than what we have right now in our event calendar :(
-          Sometimes we might find a few more spots. In that case we will add
-          them in the sign up system.
+          offer more events than what we have right now in our event calendar!
         title: >-
           Can you organize additional events, e.g. another gasque, hiking or
           Osqvik?
