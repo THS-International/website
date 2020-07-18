@@ -105,6 +105,10 @@ categories:
           3. Do not use script blocker
 
           4. Do not use ad blockers
+
+
+          Also, please keep in mind that you do not have to provide your
+          personal number or your phone number.
         title: My register button doesn't work! What do I do?
   - category: Event Sign Up
     questions:
