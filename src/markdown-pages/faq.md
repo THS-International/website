@@ -195,7 +195,7 @@ categories:
           non-alcoholic ticket. For the events titled Gasque, Osqvik, and Sauna
           Night, we will ask you at our payment desk if you would like to pay an
           additional fee for a ticket with alcohol.
-        title: What do Price X/Price Y mean?
+        title: What do Price X/Price Y mean in the event calendar?
       - description: >-
           We do not have any planned payment desk days, but stay tuned in the
           Facebook group to see if there are any announced days.
