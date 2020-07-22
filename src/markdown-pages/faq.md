@@ -3,9 +3,7 @@ type: faq-page
 categories:
   - category: General Topics about the THS International Reception
     questions:
-      - description: >-
-          We will contact you about when it is time to sign up for the events
-          with further instructions.
+      - description: We use our own sign up system!
         title: How do I sign up for the events?
       - description: >-
           We are responsible for new to KTH masters, exchange, and international
@@ -47,7 +45,12 @@ categories:
           and participating in Reception events you automatically agree to these
           rules.
         title: What rules do I have to follow for the Reception?
-      - description: Your Buddy will contact you soon!
+      - description: >-
+          Your Buddy will contact you soon!
+
+
+          They will be leading the Buddy Meetings, which is a small group of new
+          students in similar study fields.
         title: When do I get my Buddy?
       - description: >-
           We put the health and safety of our students and community first. We
@@ -106,15 +109,17 @@ categories:
 
           4. Do not use ad blockers
 
+          5. Clear cookies
+
 
           Also, please keep in mind that you do not have to provide your
           personal number or your phone number.
         title: My register button doesn't work! What do I do?
   - category: Event Sign Up
     questions:
-      - description: Soon! Stay tuned to your emails!
+      - description: It has been to our new students!
         title: 'When will the event calendar be released? '
-      - description: Also soon! We haven't released the sign up yet.
+      - description: Soon! Events are closed at the moment!
         title: When will I be able to sign up for events?
       - description: >-
           We recommend to check the sign up page frequently since some students
