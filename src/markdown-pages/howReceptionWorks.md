@@ -2,7 +2,7 @@
 type: howReceptionWorks-page
 title: How Reception Works
 ---
-# Fall 2020 Reception
+## Fall 2020 Reception
 
 The THS International Reception uses our own sign up system, built by our amazing IT Team, where our new students can view all of our events and be able to book them. 
 
@@ -15,7 +15,7 @@ Our events are popular amongst students, but please keep in mind that there **ma
 
 Please keep in mind that if you cannot attend one of our events, you will be able to unregister from the event at the latest two days before the event's start date. If you suddenly cannot make the event, please contact us so that we can remove you from our system. Also, if your event requires a payment, please attend one of our payment desks. There will be payment desks on August 1st and August 15th, but we will also announce some additional onces in our Facebook group.
 
-# What is after Reception?
+## What is after Reception?
 
 Looking for stuff to do after the Reception? Join our sister organization, [THS MAIN](https://www.facebook.com/THSMAIN)! They organize various social activities from board game nights, gasques, baking nights, hikes, pubs, etc. All you need to do is attend one of their member's meetings to become a member, and then you can get the chance to help out at the events! 
 
