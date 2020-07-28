@@ -175,6 +175,15 @@ categories:
 
           Also check to see what study field you have registered to.
         title: Why can’t I see events from my Chapter?
+      - description: >-
+          Yes! If you want to swap events or give your spot to another new
+          student, please have both of you email us at info@thsint.se with the
+          name of the person and the event. Please wait for confirmation from
+          us. 
+
+
+          This needs to be conducted at least one day before the event.
+        title: 'Can I do a ticket swap? '
   - category: Payment for Events
     questions:
       - description: >-
