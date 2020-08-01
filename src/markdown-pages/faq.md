@@ -119,7 +119,9 @@ categories:
     questions:
       - description: It has been to our new students!
         title: 'When will the event calendar be released? '
-      - description: Soon! Events are closed at the moment!
+      - description: >-
+          Event sign ups are open! Keep in mind that registration for the events
+          will close ~2 days before the event starts.
         title: When will I be able to sign up for events?
       - description: >-
           We recommend to check the sign up page frequently since some students
