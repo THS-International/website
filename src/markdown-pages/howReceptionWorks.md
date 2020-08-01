@@ -21,6 +21,6 @@ Looking for stuff to do after the Reception? Join our sister organization, [THS 
 
 You can also follow our [THS International Facebook page](https://www.facebook.com/thsint) to get updates on when the next THS International Reception team will be recruited. For the Spring 2021 team, the following positions will be recruited during these time periods:
 
-* Project Manager: beginning of period 3
-* Project Team: end of period 3
-* Buddy: beginning of period 4
+* [Project Manager](https://www.thsint.se/pm): beginning of period 3
+* [Project Team](https://www.thsint.se/pt): end of period 3
+* [Buddy](https://www.thsint.se/buddies): beginning of period 4
