@@ -10,11 +10,14 @@ Every semester, we are looking for new members to join our team! We are looking 
 \
 Typical application periods:
 
-* Autumn Reception
-  * Project Manager: beginning of period 3
-  * Project Team: end of period 3
-  * Buddy: beginning of period 4
-* Spring Reception
-  * Project Manager: beginning of period 1
-  * Project Team: end of period 1
-  * Buddy: beginning of period 2
+Autumn Reception
+
+* Project Manager: beginning of period 3
+* Project Team: end of period 3
+* Buddy: beginning of period 4
+
+Spring Reception
+
+* Project Manager: beginning of period 1
+* Project Team: end of period 1
+* Buddy: beginning of period 2
