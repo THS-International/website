@@ -46,7 +46,9 @@ categories:
           rules.
         title: What rules do I have to follow for the Reception?
       - description: >-
-          Your Buddy will contact you soon!
+          Your Buddy will contact you soon if they have not already! Depending
+          on when you registered as a new student in our sign up system, you
+          will receive a Buddy. 
 
 
           They will be leading the Buddy Meetings, which is a small group of new
