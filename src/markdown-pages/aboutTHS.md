@@ -14,11 +14,11 @@ THS also has seveal student associations and Chapters (study field-specific asso
 
 In order to explain this, it is probably best to talk about the three major bodies of decision-makers at THS.
 
-The THS Union Council (THS kårfullmäktige, KF) are elected representatives from the Chapters and serve as the decision-makers. 
+The THS Union Council (_THS kårfullmäktige, KF_) are elected representatives from the Chapters and serve as the decision-makers. 
 
-The THS Union Board (Kårstyrelsen, KS) work on the long-term development of THS.  These positions are elected at the end of the year by  KF and are joined by the President and Vice President in the THS Management Team. The Union Board has Board Meetings (KSm) about 10-15 times per year, in which all THS members can attend. 
+The THS Union Board (_Kårstyrelsen, KS_) work on the long-term development of THS.  These positions are elected at the end of the year by  KF and are joined by the President and Vice President in the THS Management Team. The Union Board has Board Meetings (KSm) about 10-15 times per year, in which all THS members can attend. 
 
-The THS Management Team (Kårledning, KL). They are elected by KS, and are either elected in the fall or spring terms. They take one year off of their studies to work for the student union in a specific area ex. business relations, social and international relations, education affairs, etc. 
+The THS Management Team (_Kårledningen, KL_). They are elected by KS, and are either elected in the fall or spring terms. They take one year off of their studies to work for the student union in a specific area ex. business relations, social and international relations, education affairs, etc. 
 
 More info can be found on the THS website!
 
