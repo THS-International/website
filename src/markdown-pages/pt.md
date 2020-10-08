@@ -21,55 +21,148 @@ All Project Team members will also:
 
 # **The Positions**
 
-The positions' workload is flexible according to the effort and creativity you want to invest. The following positions explain different kinds of work involved in the planning and execution of past Receptions. Positions may vary across Receptions. 
+The positions' workload is flexible according to the effort and creativity you want to invest. Positions may vary across Receptions, and these roles may change due to COVID-19. 
 
-**EVENT MANAGER**
+**EVENT MANAGER** 
 
-* Create events and works together with Buddies to execute them
-* Activities range from museum and Skansen visits to city tours, hikes, sports activities or a pub crawl
+• ****Coordinator for specific events throughout International Reception.
+
+• Create events and works together with buddies to execute them.
+
+• Activities range from museum and Skansen visits to city tours, hikes, sports activities or gasques.
+
+• Opportunity to explore both your creative and manager sides by planning events and leading Buddies.
+
+  ****
 
 **OSQVIK MANAGER**
 
-* Manager of two Osqvik events and an additional Team Building event
-* Working closely with Buddies to create unforgettable experience at THS's cabin in the woods. It's a whole day of activities using creativity and ingenuity
+• Manager of two Osqvik events and an additional Team Building event.
 
-**BANQUET MANAGER**
+• Work closely with Buddies to create an unforgettable experience at THS's cabin in the woods.
 
-* Organising the Grand Banquet is our flagship event, the end of the Reception weeks
-* It involves ~200 attendants, features a formal dinner, live music and a theme
+• A whole day of activities provides for a wide spectrum of ideas to come to life.
 
-**PARTY MANAGER**
+• Opportunity to lead a larger group of Buddies in creating one of our most favoured events.
 
-* Managing and arranging all the party and after-party events located in Nymble
-* Working together with Buddies to create the best parties that have ever taken place in the student union
+****
+
+**BANQUET MANAGER** 
+
+• The Grand Banquet is our flagship event, the end of the reception weeks.
+
+• It involves ~200 attendants, features a formal dinner, live music, and a theme. 
+
+• You get the opportunity to create the entirety of the Banquet - from dinner menus to stage performances.
+
+• Opportunity to work closely with and lead ~30 Buddies to finish up with our most memorable event.
+
+****
+
+**PARTY/PUB MANAGER**
+
+• Manage and arrange all the pub events located in Nymble.
+
+• Work together with Buddies to create amazing evening activities for the new students.
+
+• Possibilities to let your imagination going wild to generate a variety of evening entertainment events.
+
+• Opportunity to coordinate Buddies and to become a first-hand expert on the requirements about events.
+
+****
 
 **HR MANAGER**
 
-* Role of handling matters related to Buddies - from their recruitment in Buddy Trainings to scheduling their work
-* Working closely with the Project Managers to make sure that the workforce is available
+• Role of handling matters related to Buddies - from their recruitment to scheduling their work.
+
+• Explore your social and communication skills by actual HR matters, while getting good connections with Buddies.
+
+• Work closely with Project Managers to make sure that the workforce is available.
+
+• Opportunity to coordinate ~50 Buddies.
+
+****
 
 **MARKETING MANAGER**
 
-* Responsible for handling matters related to communication, such as Facebook groups, Instagram, and website
-* Managing channels towards students, such as our event sign-up page
+• Responsible for handling matters related to communication, such as Facebook groups and Instagram.
 
-**FINANCIAL MANAGER**
+• Managing channels towards students, such as answering questions and event sign-up.
 
-* Supervisor role on financial expenses of the whole Reception
-* Working closely together with the Project Managers to advise on financial issues, and THS International for accounting
+• Opportunity to explore your skills in communication while representing the team for ~1000 students.
 
-**KITCHEN MANAGER**
+• Organise the payment desks for paid events.
 
-* Leading Buddies in prepping and serving food for both students and working Buddies
-* Creating a menu for food and drinks during Gasques & Osqviks
+• Work closely with the whole team in coordination.
 
-**LOGISTICS MANAGER**
+****
 
-* Making sure equipment required for the completion of events are available
-* Purchasing supplies required for the executions of events, such as food, alcohol and decorations
+**COLLABORATION MANAGER**
 
-**IT MANAGER**
+• Responsible for handling matters regarding communication with potential and confirmed collaborators.
 
-* Building Project Management Tools in GSuite that improve the workflow for the entire team
-* Creating a website for THS International and the International Reception.
-* Improving our Sign-Up System
+• Set up a communication plan for collaborations.
+
+• Facilitate communication between the event managers and collaborators.
+
+• Opportunity to explore your skills in communication between different interest groups.
+
+ 
+
+**FINANCIAL MANAGER** 
+
+• Supervisor role on financial expenses of the whole Reception.
+
+• Activities mainly involve accounting and analytical tasks.
+
+• Possibility to locate possible sponsors and secure good sponsorship deals for this and future receptions
+
+• Work closely together with the Project Managers to advise on financial issues, and THS International for accounting.
+
+• Work closely with the head of THS International and Project manager to establish corporate relations.
+
+• Opportunity to improve both your systematic approach to work and to develop a basic knowledge of accounting.
+
+****
+
+**CATERING MANAGER** 
+
+• Supervisor role of the kitchen during Gasques & Osqviks.
+
+• Leading buddies in prepping and serving food for both students and working buddies.
+
+• Create a menu for food and drinks during Gasques & Osqviks.
+
+• Work closely with the logistics manager to purchase the required ingredients.
+
+• Opportunity to challenge your leadership and coordinate buddies.
+
+****
+
+**LOGISTICS MANAGER** 
+
+• Make sure the equipment required for the completion of events is available.
+
+• Purchase supplies required for the executions of events, such as food, alcohol and the decorations.
+
+• Rent a car to transport everything needed to the correct location. A driver's license is mandatory.
+
+• Manage inventory of supplies.
+
+• Work closely with the whole Project Team
+
+• Opportunity to improve your communication and cooperation skills.
+
+****
+
+**IT MANAGER** 
+
+• Possibility to shape this position the way you want it as the tasks are so widely spread
+
+• Build Project Management Tools in GSuite that improve the workflow for the entire team for years to come
+
+• Work on the new Sign-Up System that will be used by over 1 000 people
+
+• Work closely with the whole Project Team
+
+• The position requires coding. We work with React, Go, Postgres and GApps Script. Extensive prior knowledge is not required; you learn on the job.
