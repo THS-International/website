@@ -14,7 +14,8 @@ description: >-
   Sounds like something for you?
 
 
-  Notify your interest here: bit.ly/BuddyVT21\
+  Notify your interest here: [bit.ly/BuddyVT21](bit.ly/BuddyVT21)
+
 
   Deadline: Sat, Nov 14 at 23.59
 
@@ -22,10 +23,8 @@ description: >-
   More info can be found in the interest form! We will also be hosting a Zoom
   Buddy info session in which you as an interested applicant can hear about the
   project and ask your questions. It will take place on Wednesday, November 11th
-  at 18.00 at bit.ly/VT21Zoom !
+  at 18.00 at [bit.ly/VT21Zoom](bit.ly/VT21Zoom) !
 
-
-  \
 
   Thanks Paul (IG handle: @jpeg714) for the pic!
 preview: Help us welcome new students!
