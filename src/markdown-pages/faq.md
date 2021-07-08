@@ -9,7 +9,7 @@ categories:
           sign up system will be sent via email.
         title: How do I sign up for the events?
       - description: >-
-          We are responsible for new KTH masters and exchange students. We
+          We are responsible for new KTH masters, exchange, and PhD students. We
           cannot accommodate more people due to space and budget. That includes
           guests of those who are eligible to participate, such as significant
           others, friends, or parents. 
