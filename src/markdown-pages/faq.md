@@ -277,7 +277,7 @@ categories:
           [here](https://www.student.ladok.se/student/#/aktuell). You can pay
           the membership fee [here](https://ths.kth.se/login) or at
           [KårX](https://ths.kth.se/contact/student-union-office) (Student Union
-          Office). You cannot sign up for membership in advances.
+          Office). You cannot sign up for membership in advance.
         title: How do I become a THS Member?
       - description: >-
           Every active student at KTH is entitled to a student card. This card
