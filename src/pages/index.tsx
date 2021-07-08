@@ -9,7 +9,8 @@ import Logo from "../images/logowhite.png"
 import NewsGenerator from "../components/NewsGenerator"
 import Markdown from "react-markdown"
 import ImageLoader from "../components/ImageLoader"
-import PictureSlider from "../components/pictureSlider"
+// Temporarily removes instagram comp. due to auth issues
+//import PictureSlider from "../components/pictureSlider"
 
 
 const TopImageStyle = styled.span`
@@ -342,11 +343,7 @@ const IndexPage: React.FC = () => {
             }}
           />
         </Aline>
-        <Center id="test">
-          <SliderBox>
-              <PictureSlider/>
-          </SliderBox>
-        </Center>
+        <Center id="test" />
         <Footer />
       </IndexLayout>
     </>

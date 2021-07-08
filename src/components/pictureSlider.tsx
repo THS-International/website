@@ -123,4 +123,4 @@ const Pictures = () => {
         
       )
   }
-export default Pictures
+//export default Pictures
