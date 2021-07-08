@@ -48,6 +48,7 @@ module.exports = {
       },
     },
     {
+      // FIXME: this solution for scraping insta is deprecated
       resolve: `gatsby-source-instagram`,
       options: {
         username: `5387282036`,
