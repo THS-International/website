@@ -3,13 +3,16 @@ type: faq-page
 categories:
   - category: General Topics about the THS International Reception
     questions:
-      - description: We use our own sign up system!
+      - description: >-
+          We use our own sign up system, built by our own IT team of student
+          volunteers, where students can sign up for events. The link to the
+          sign up system will be sent via email.
         title: How do I sign up for the events?
       - description: >-
-          We are responsible for new to KTH masters, exchange, and international
-          bachelor's students. We cannot accomodate more people due to space and
-          budget. That inclues guests of those who are eligible to participate,
-          such as significant others, friends, or parents. 
+          We are responsible for new KTH masters and exchange students. We
+          cannot accommodate more people due to space and budget. That includes
+          guests of those who are eligible to participate, such as significant
+          others, friends, or parents. 
 
 
           Please note, you **do not** need to be a THS member to attend our
@@ -22,15 +25,9 @@ categories:
           then you are allowed to attend!
         title: 'Who can attend the THS International Reception? '
       - description: >-
-          THS is the Student Union at KTH. More info about them can be found
+          THS is the Student Union at KTH, which works with education quality,
+          student life, and other work. More info about them can be found
           [here](https://ths.kth.se).
-
-
-          We have one member of our team, the Head of Social and International
-          Relations at THS, who is part of the THS Management Team and takes off
-          one of year of their studies to work for the Student Union. This role
-          is responsible for recruiting the Project Managers for the THS
-          International Reception. 
 
 
           The THS International Reception is a student-run project group within
@@ -40,26 +37,30 @@ categories:
           What is the difference between THS and the THS International
           Reception?
       - description: >-
-          You can find the Fall 2020 Reception rules
-          [here](https://bit.ly/RulesIntRecFall2020). By using our signup system
-          and participating in Reception events you automatically agree to these
-          rules.
+          You can find the Fall 2021 Reception rules
+          [here](https://docs.google.com/document/d/13XoaDP_IUl7qDDHbR-7A4ydePEn8SizJDKPRCvVo9kA/edit).
+          By using our signup system and participating in Reception events you
+          automatically agree to these rules.
         title: What rules do I have to follow for the Reception?
       - description: >-
-          Your Buddy will contact you soon if they have not already! Depending
-          on when you registered as a new student in our sign up system, you
-          will receive a Buddy. 
+          To receive a Buddy, you will need to register to our sign up system.
+          Once you have done so, we will assign you to a Buddy, who will contact
+          you via the email that you have used in our sign up system. 
 
 
-          They will be leading the Buddy Meetings, which is a small group of new
-          students in similar study fields.
+          Buddies are student volunteers who will be leading the Buddy Meetings,
+          which is a small group of new students in similar study fields. In our
+          sign up system, you will see that there are Buddy Meetings that can be
+          booked in the system, but please note that this is more to serve as a
+          reminder that these are the dates that we usually have the Buddy
+          Meetings, depending on your arrival date.
         title: When do I get my Buddy?
       - description: >-
           We put the health and safety of our students and community first. We
           do not know exactly how this situation will impact our Reception, but
           we have alternative plans and are willing to adjust to the situation
-          in accordance to the information provided by THS, KTH, and the Swedish
-          Health Institute.
+          in accordance with the information provided by THS, KTH, and the
+          Swedish Health Institute.
         title: >-
           How are you planning the Reception amidst the ongoing COVID-19
           pandemic?
@@ -78,11 +79,11 @@ categories:
           There are several ways of contacting us:
 
 
-          * General questions or unspecific questions: [Facebook
-          Group](https://www.facebook.com/groups/kthinternationalstudentsautumn2020/)
+          * **General questions or unspecific questions:** our Facebook group
+          that we have sent to you via email
 
-          * Personal inquiries or problems with your registration or signup:
-          [E-Mail](<mailto: info@thsint.se>) or the [Facebook
+          * **Personal inquiries or problems with your registration or signup:**
+          email info@thsint.se or contact us through our [Facebook
           page](https://www.facebook.com/thsint/)
         title: How can I contact you?
   - category: Registration Issues
