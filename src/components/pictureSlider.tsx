@@ -1,3 +1,5 @@
+
+/*
 import React, {useState} from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
@@ -29,6 +31,7 @@ const responsive = {
   },
 };
 
+
 const query = graphql`
 query{
   allInstaNode {
@@ -49,6 +52,7 @@ query{
   }
 }
 `
+
 const ImageContainer = styled.div`
   text-align: center;
   width: 100%;
@@ -71,12 +75,12 @@ const Box = styled.div`
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
   overflow: hidden;
   display: inline-block;
-  /* display: inline-block;
+  display: inline-block;
     background: black;
     padding: 0;
   &:hover {
     opacity: 0.7;
-    } */
+    } 
   @media screen and (max-width: 464px) {
     width:90%;
   } 
@@ -124,3 +128,4 @@ const Pictures = () => {
       )
   }
 //export default Pictures
+*/
