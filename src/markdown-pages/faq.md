@@ -120,14 +120,12 @@ categories:
         title: My register button doesn't work! What do I do?
   - category: Event Sign Up
     questions:
-      - description: It has been to our new students!
+      - description: It will be soon! We are in the process of fixing some small details.
         title: 'When will the event calendar be released? '
-      - description: >-
-          Event sign ups are open! Keep in mind that registration for the events
-          will close ~2 days before the event starts.
+      - description: They will open up soon!
         title: When will I be able to sign up for events?
       - description: >-
-          We recommend to check the sign up page frequently since some students
+          We recommend checking the sign up page frequently since some students
           will unregister themselves from some events. As soon as someone
           unregisters, their spot becomes open in the system. Out of experience
           the closer it comes to the event the more people change their activity
@@ -138,7 +136,7 @@ categories:
           You cannot join a full event, regardless of your motivation for it.
           The event limitations are in place due to restrictions in the size of
           the event location, available material (like food) and our own
-          organisational capacity. If you join a full event without our explicit
+          organizational capacity. If you join a full event without our explicit
           consent, we will remove you from the event. In severe cases we ban you
           from attending further events in the Reception.
         title: The event I wanted to attend is full. What can I do?
@@ -173,9 +171,8 @@ categories:
           [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vRBIcNbmG1vW0L47mWMuLZHwui7QHFuIz8RlkTrKtgIUh21nwcyDRdkFi56i1O2j1EvkmFlEqJ4yw0i/pubhtml).
         title: What’s my Chapter?
       - description: >-
-          This only applies to people who belong to the following Chapters:
-          Data&Media, E&MiT, F, M, IN, S, and W. Please read the entire event
-          description before signing up. 
+          This only applies to people who belong to the following Chapters: A,
+          D, E & MiT, F, K, S, T, and W. 
 
 
           If your Chapter is not listed above, it means that your Chapter is not
@@ -183,7 +180,8 @@ categories:
           are offered for you. 
 
 
-          If you are unsure what Chapter you belong, you can check
+          Please read the entire event description before signing up, and if you
+          are unsure what Chapter you belong to, you can check
           [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vRBIcNbmG1vW0L47mWMuLZHwui7QHFuIz8RlkTrKtgIUh21nwcyDRdkFi56i1O2j1EvkmFlEqJ4yw0i/pubhtml). 
 
 
@@ -193,14 +191,16 @@ categories:
     questions:
       - description: >-
           Yes, but not all events. These are marked in the bottom of our event
-          description as well as on our sign up page. \
+          description as well as on our sign up page. 
 
-          \
 
-          If an event requires a payment, please attend the payment desk on one
-          of our Arrival Days. We will have other payment desks during the
-          Reception, but these will be announced on our Facebook group a few
-          days before they are held.
+          It is mandatory to check-in **at least one day prior** to your first
+          event at one of our Check-In Desks. Keep this in mind when booking
+          your tickets. You will also be able to pay for your tickets that
+          require a payment at the Check-In Desk. These will be announced in our
+          Facebook Group and will be held throughout the Reception. You must pay
+          for your event ticket at one of these Check-In Desks before attending
+          the event.
         title: 'Do some events require payment? '
       - description: >-
           In the calendars that we have below, we have some of the prices marked
@@ -211,8 +211,13 @@ categories:
           additional fee for a ticket with alcohol.
         title: What do Price X/Price Y mean in the event calendar?
       - description: >-
-          We do not have any planned payment desk days, but stay tuned in the
-          Facebook group to see if there are any announced days.
+          It is mandatory to check-in **at least one day prior** to your first
+          event at one of our Check-In Desks. Keep this in mind when booking
+          your tickets. You will also be able to pay for your tickets that
+          require a payment at the Check-In Desk. These will be announced in our
+          Facebook Group and will be held throughout the Reception. You must pay
+          for your event ticket at one of these Check-In Desks before attending
+          the event.
         title: >-
           I don’t arrive on an Arrival Day. Where can I pay for my events that
           have a fee?
@@ -236,24 +241,50 @@ categories:
         title: 'Can I sell my ticket to another student? '
   - category: Attending the Events
     questions:
-      - description: 'Yes, we will not accept any drop-ins.'
+      - description: >-
+          Yes, we will not accept any drop-ins. It is also mandatory to check-in
+          **at least one day prior** to your first event at one of our Check-In
+          Desks.
         title: Do I have to have signed up to the event to attend?
       - description: >-
-          Usually one or two days before the event you will receive an e-mail
+          Usually one or two days before the event you will receive an email
           from us. This one is sent to the e-mail address you used in our signup
           system. Please check your spam folder as well, sometimes it goes in
           there.
+
+
+          Also make sure that you attend one of our Check-In Desks. It is
+          mandatory to check-in **at least one day prior** to your first event
+          at one of our Check-In Desks.
         title: >-
           I've signed up for an event! How do I receive information about an
           event I signed up for?
       - description: >-
-          Usually one or two days before the event you will receive an e-mail
+          Usually one or two days before the event you will receive an email
           from us. This one is sent to the e-mail address you used in our signup
           system. Please check your spam folder as well, sometimes it goes in
           there. If you really can’t find it, contact us.
         title: >-
           I've signed up for an event, but I didn’t receive an e-mail about an
           event I signed up for. What do I do?
+      - description: >-
+          If you cannot attend an event it is important and necessary to cancel
+          your booked ticket in the sign up system. This is possible up to 24
+          hours before the event starts.  A refund for paid tickets is only
+          possible if the cancellation is due to a confirmed or suspected 
+          Covid-19 infection. In this case please inform us by sending an email
+          to info@thsint.se. This will also automatically lead to an exclusion
+          from Reception events for the following 7 days to ensure the health of
+          everyone involved in the reception.
+
+
+          In addition, ticket swaps are allowed and encouraged. For these to be
+          confirmed, both parties must send an email to info@thsint.se with the
+          swap request at least 48 hours prior to the event. We encourage you to
+          not send money before receiving confirmation of the swap from us.
+        title: >-
+          I've signed up for an event , but I am not able to attend it. What do
+          I do?
   - category: KTH and My Studies
     questions:
       - description: >-
