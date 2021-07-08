@@ -47,13 +47,13 @@ module.exports = {
         ],
       },
     },
-    {
-      // FIXME: this solution for scraping insta is deprecated
-      resolve: `gatsby-source-instagram`,
-      options: {
-        username: `5387282036`,
-      },
-    },
+    // FIXME: this solution for scraping insta is deprecated
+    //{
+    //  resolve: `gatsby-source-instagram`,
+    //  options: {
+    //    username: `5387282036`,
+    //  },
+   // },
     `gatsby-plugin-typescript`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-netlify-cms`,
