@@ -12,8 +12,12 @@ The following diagram visualizes the relationship with our partners.
 \
 **THS Sports** is a multisport association with the goal of encouraging playing sports and competing on campus. In the past, there have been squash, badminton, floorball, volleyball, basketball, and football tournaments! More information can be found on the [THS Sports Facebook page](https://www.facebook.com/thssportskth/).
 
-
-
 ## Collaborations
 
 The THS International Reception aims to collaborate with THS and KTH associations in order to showcase student life at KTH to the best of our ability. Therefore, we contact THS student associations early into planning the Reception, so that we can schedule events accordingly.
+
+## Sponsorships
+
+![](/./resize-16262763122139017379lmlogo.jpg)
+
+The THS International Reception has partnered with **Lycamobile** to distribute free SIM cards precharged with 1 month worth of traffic during the Reception. Come talk to us during the Arrival Days and our payment desks to receive one and know more! New students will be prioritized, but if supplies allow we will distribute also to existing students. Lycamobile offers Pay As You Go International SIM with over 15 million customers enjoying the Lycamobile brand and a new customer joining every 2 seconds! Learn more on the [Lycamobile website](https://www.lycamobile.se/en/)!
