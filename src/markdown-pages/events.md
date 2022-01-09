@@ -1,6 +1,6 @@
 ---
 type: events-page
-calendarid: thskth.se_feidmt2b13bletnv34fuabgiu0@group.calendar.google.com
+calendarid: c_6tobbg076lpk4pdkkji22k0a4s@group.calendar.google.com
 calendarapi: AIzaSyCyZUWpxBhRobfoHrMMcKH8J_1CrFZOqVs
 ---
 At the THS International Reception, we organize a lot of events for new students. We aim to provide multiple kinds of events, catering to different interests. 
@@ -22,4 +22,4 @@ These are examples of past events that we have had:
 
 If you have any cool event ideas, feel free to suggest them!
 
-Right now we are in the process of planning our events, so **our calendar is empty**, but more info will be coming soon!
+We are ready to share with you our Calendar of events! Please see below all the events we have planned for Spring 2022
