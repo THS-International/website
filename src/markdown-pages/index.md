@@ -4,7 +4,7 @@ title: THS INTERNATIONAL RECEPTION
 action: Join the fun
 video: >-
   https://ths-international-reception-website.s3.eu-north-1.amazonaws.com/osqvik.mp4
-mobilp: /./banquet_int_pj-7.jpg
+mobilp: /./19s_campustreasurehunt.jpg
 subtitle: >-
   **Be a part of KTH’s largest student reception!**
 
