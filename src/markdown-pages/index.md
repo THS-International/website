@@ -2,7 +2,7 @@
 type: home-page
 title: THS INTERNATIONAL RECEPTION
 action: Join the fun
-video: 'https://www.youtube.com/embed/4uOKGPd3scY'
+video: 'https://irpublic.blob.core.windows.net/thsint-se/fränko.png'
 mobilp: /./19s_campustreasurehunt.jpg
 subtitle: >-
   **Be a part of KTH’s largest student reception!**
