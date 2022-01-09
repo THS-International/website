@@ -37,8 +37,8 @@ categories:
           What is the difference between THS and the THS International
           Reception?
       - description: >-
-          You can find the Fall 2021 Reception rules
-          [here](https://docs.google.com/document/d/13XoaDP_IUl7qDDHbR-7A4ydePEn8SizJDKPRCvVo9kA/edit).
+          You can find the Spring 2022 Reception rules
+          [here](https://docs.google.com/document/d/1PsjCwyyCwoPCrktIbzaEohfkA9DSdT7zka8PeFJAOzg/edit?usp=sharing).
           By using our signup system and participating in Reception events you
           automatically agree to these rules.
         title: What rules do I have to follow for the Reception?
@@ -122,7 +122,10 @@ categories:
     questions:
       - description: It will be soon! We are in the process of fixing some small details.
         title: 'When will the event calendar be released? '
-      - description: They will open up soon!
+      - description: >-
+          You'll be informed via e-mail on when the booking of events opens. If
+          you have not recieved an email, contact info@thsint.se and they will
+          be able to help.
         title: When will I be able to sign up for events?
       - description: >-
           We recommend checking the sign up page frequently since some students
