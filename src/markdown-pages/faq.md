@@ -133,7 +133,7 @@ categories:
           unregisters, their spot becomes open in the system. Out of experience
           the closer it comes to the event the more people change their activity
           plans, but keep in mind that you usually can only unregister yourself
-          two days before an event. 
+          up to one day before an event. 
 
 
           You cannot join a full event, regardless of your motivation for it.
@@ -174,8 +174,8 @@ categories:
           [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vRBIcNbmG1vW0L47mWMuLZHwui7QHFuIz8RlkTrKtgIUh21nwcyDRdkFi56i1O2j1EvkmFlEqJ4yw0i/pubhtml).
         title: What’s my Chapter?
       - description: >-
-          This only applies to people who belong to the following Chapters: A,
-          D, E & MiT, F, K, S, T, and W. 
+          This only applies to people who belong to the following Chapters: E &
+          MiT, IN, F and K. 
 
 
           If your Chapter is not listed above, it means that your Chapter is not
@@ -197,13 +197,13 @@ categories:
           description as well as on our sign up page. 
 
 
-          It is mandatory to check-in **at least one day prior** to your first
-          event at one of our Check-In Desks. Keep this in mind when booking
-          your tickets. You will also be able to pay for your tickets that
-          require a payment at the Check-In Desk. These will be announced in our
-          Facebook Group and will be held throughout the Reception. You must pay
-          for your event ticket at one of these Check-In Desks before attending
-          the event.
+          It is mandatory to check-in and collect your wristband **at least one
+          day prior** to your first event at one of our Check-In Desks. Keep
+          this in mind when booking your tickets. You will also be able to pay
+          for your tickets that require a payment at the Check-In Desk. These
+          will be announced in our Facebook Group and will be held throughout
+          the Reception. You must pay for your event ticket at one of these
+          Check-In Desks before attending the event.
         title: 'Do some events require payment? '
       - description: >-
           In the calendars that we have below, we have some of the prices marked
@@ -214,13 +214,13 @@ categories:
           additional fee for a ticket with alcohol.
         title: What do Price X/Price Y mean in the event calendar?
       - description: >-
-          It is mandatory to check-in **at least one day prior** to your first
-          event at one of our Check-In Desks. Keep this in mind when booking
-          your tickets. You will also be able to pay for your tickets that
-          require a payment at the Check-In Desk. These will be announced in our
-          Facebook Group and will be held throughout the Reception. You must pay
-          for your event ticket at one of these Check-In Desks before attending
-          the event.
+          It is mandatory to check-in and collect your wristband **at least one
+          day prior** to your first event at one of our Check-In Desks. Keep
+          this in mind when booking your tickets. You will also be able to pay
+          for your tickets that require a payment at the Check-In Desk. These
+          will be announced in our Facebook Group and will be held throughout
+          the Reception. You must pay for your event ticket at one of these
+          Check-In Desks before attending the event.
         title: >-
           I don’t arrive on an Arrival Day. Where can I pay for my events that
           have a fee?
@@ -246,8 +246,9 @@ categories:
     questions:
       - description: >-
           Yes, we will not accept any drop-ins. It is also mandatory to check-in
-          **at least one day prior** to your first event at one of our Check-In
-          Desks.
+          and collect your wristband **at least one day prior** to your first
+          event at one of our Check-In Desks. Without the wristband, you will
+          not be allowed to attend any event.
         title: Do I have to have signed up to the event to attend?
       - description: >-
           Usually one or two days before the event you will receive an email
@@ -257,8 +258,8 @@ categories:
 
 
           Also make sure that you attend one of our Check-In Desks. It is
-          mandatory to check-in **at least one day prior** to your first event
-          at one of our Check-In Desks.
+          mandatory to check-in and collect your wristband **at least one day
+          prior** to your first event at one of our Check-In Desks.
         title: >-
           I've signed up for an event! How do I receive information about an
           event I signed up for?
