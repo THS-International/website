@@ -23,7 +23,7 @@ const HeaderBoxMobile = styled.header`
   }
 `
 const HeaderBoxDesktop = styled.header`
-  position: absolute;
+  background-color: white !important;
   width: 100%;
   display: flex;
   top: 0;
