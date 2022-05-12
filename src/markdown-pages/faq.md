@@ -37,7 +37,7 @@ categories:
           What is the difference between THS and the THS International
           Reception?
       - description: >-
-          You can find the Spring 2022 Reception rules
+          You can find the Fall 2022 Reception rules
           [here](https://docs.google.com/document/d/1PsjCwyyCwoPCrktIbzaEohfkA9DSdT7zka8PeFJAOzg/edit?usp=sharing).
           By using our signup system and participating in Reception events you
           automatically agree to these rules.
