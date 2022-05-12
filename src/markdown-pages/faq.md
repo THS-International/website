@@ -120,7 +120,9 @@ categories:
         title: My register button doesn't work! What do I do?
   - category: Event Sign Up
     questions:
-      - description: It will be soon! We are in the process of fixing some small details.
+      - description: >-
+          It will be out soon! We are in the process of fixing some small
+          details.
         title: 'When will the event calendar be released? '
       - description: >-
           You'll be informed via e-mail on when the booking of events opens. If
