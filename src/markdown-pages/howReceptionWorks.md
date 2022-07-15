@@ -2,14 +2,14 @@
 type: howReceptionWorks-page
 title: How Reception Works
 ---
-## Spring 2022 Reception
+## Fall 2022 Reception
 
 The THS International Reception uses our own sign up system, built by our amazing IT Team, where our new students can view all of our events and be able to book them. 
 
 For the reception, you will have events divided into a couple categories, that limit how many of them you can book and attend! We have split them according to the categories below:
 
 * **Paid**: Students are allowed to sign up for a **maximum of 2 Paid events**.
-* **Free**: Students are allowed to sign up for a **maximum of 3 Free Events.**
+* **Free**: Students are allowed to sign up for a **maximum of 2 Free Events.**
 * **Unlimited:** Students are allowed to sign up for how many Unlimited Events they want.
 
 Our events are popular amongst students, but please keep in mind that there **may be spots that open up suddenly**. If a student does not show up to a payment  desk after being reminded to attend it, we will remove them from our event list and open the spot up for new students. Also, students may decide to unregister for events due to other commitments. 
