@@ -227,9 +227,11 @@ categories:
           I don’t arrive on an Arrival Day. Where can I pay for my events that
           have a fee?
       - description: >-
-          Yes you can, but we will need email confirmation from both the buyer
-          and the seller that you would like to do a ticket swap. Please both of
-          you email info@thsint.se, 24 hours before your event's start time. 
+          Yes you can, more information on how to swap your tickets can be found
+          on our Signup System. Please note that, if you paid already for this
+          event, you will handle the payment independently and that the buyer
+          has to have collected their wristband. The Reception is not to be held
+          accountable for payments resulting from or related to ticket swaps.
 
 
           You can post in our Facebook group to see if anyone would like to take
@@ -284,10 +286,12 @@ categories:
           everyone involved in the reception.
 
 
-          In addition, ticket swaps are allowed and encouraged. For these to be
-          confirmed, both parties must send an email to info@thsint.se with the
-          swap request at least 48 hours prior to the event. We encourage you to
-          not send money before receiving confirmation of the swap from us.
+          In addition, ticket swaps are allowed and encouraged. More details on
+          how the ticket swap works can be found in our Signup System. Please
+          note that, if you paid already for this event, you will handle the
+          payment independently and that the buyer has to have collected their
+          wristband. The Reception is not to be held accountable for payments
+          resulting from or related to ticket swaps"
         title: >-
           I've signed up for an event , but I am not able to attend it. What do
           I do?
