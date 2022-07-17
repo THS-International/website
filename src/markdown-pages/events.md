@@ -1,6 +1,6 @@
 ---
 type: events-page
-calendarid: c_6tobbg076lpk4pdkkji22k0a4s@group.calendar.google.com
+calendarid: c_nhgmkj6b6tc36dh7un4016hv5s@group.calendar.google.com
 calendarapi: AIzaSyCyZUWpxBhRobfoHrMMcKH8J_1CrFZOqVs
 ---
 At the THS International Reception, we organize a lot of events for new students. We aim to provide multiple kinds of events, catering to different interests. 
