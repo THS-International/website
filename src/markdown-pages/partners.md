@@ -18,6 +18,6 @@ The THS International Reception aims to collaborate with THS and KTH association
 
 ## Sponsors
 
-The THS International Reception is an event involving a series of Volunteers and support from all of the Community at THS and KTH, but also with the support from other companies. For this year, the THS International Reception has been able to count with the support from Lyca Mobile. This has enabled us to distribute SIM Cards for every new International Student at KTH and make sure they can still connect to their families back home without an issue. 
+The THS International Reception is an event involving a series of Volunteers and support from all of the Community at THS and KTH, but also with the support from other companies. For this year, the THS International Reception has been able to count with the support from [Lyca Mobile](https://www.lycamobile.se/en/). This has enabled us to distribute SIM Cards for every new International Student at KTH and make sure they can still connect to their families back home without an issue. 
 
 ![](/./lyca_mobile_ocean.png)
