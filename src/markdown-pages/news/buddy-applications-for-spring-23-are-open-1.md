@@ -1,9 +1,0 @@
----
-title: Buddy Applications for Spring 23 are Open!
-thumbnail: /./20220827_172830.jpg
-description: "Do you want to be the first to meet a ton of awesome people from all over the world? Do you want to help make their arrival in Sweden absolutely amazing? Wait no more and sign up here to be part of the International Reception, taking place from the 16th of January.\r\n\n\r\n\nEach year, about 2,000 and 500 new masters/exchange students, during the Fall and Spring Reception respectively, arrive to study at KTH. THS hosts the International Reception to make these newcomers feel welcome. We are looking for you to be part of this massive, exciting experience by helping out as a Buddy.\r\n\n\r\n\nAs a Buddy, you will be part of organizing events and showing the new students KTH. You will aid the Project Team in helping out during the events. You will also be assigned a group of students with a similar study field, who you will have to contact, and for whom you will organize some meetings. Apart from that, we want you to socialize, get to know the international students, and give them the warmest welcome possible during their first time in Sweden.\r\n\n\r\n\nYou will have the possibility of participating in all kinds of amazing events. There will be Gasques, Osqviks, museum tours, sports events, hiking trips, a massive concluding Banquet, and so many more!\n\nOur Buddy applications are now open! You can take the chance to welcome new people and become more and more close with the IntRec Team! It's an amazing chance to meet new people and to have fun in the process! Applications close on the 23rd of November and you can apply [HERE](https://docs.google.com/forms/d/e/1FAIpQLSd_g6U9c2vxhGW_f2JH-tqv21z3olnSMBAwABZfxCuvvgkjBQ/viewform?usp=sf_link)!"
-preview: Help us welcome the new Students to KTH!
-type: news
-date: '2022-11-16'
----
-
