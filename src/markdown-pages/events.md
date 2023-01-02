@@ -23,4 +23,4 @@ These are examples of past events that we have had:
 
 If you have any cool event ideas, feel free to suggest them!
 
-We are ready to share with you our Calendar of events! Please see below all the events we have planned for Spring 2023
+We are ready to share with you our Calendar of events! Please see below all the events we have planned for Spring 2023!
