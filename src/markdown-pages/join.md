@@ -2,7 +2,7 @@
 type: join-page
 title: Join Us
 ---
-If you are a **new student coming this fall 2022**, check out our [new students page](https://www.thsint.se/newstudents)!
+If you are a **new student coming this fall 2023**, check out our [new students page](https://www.thsint.se/newstudents)!
 
 ![](/./join-us-website-page-2.jpg)
 
