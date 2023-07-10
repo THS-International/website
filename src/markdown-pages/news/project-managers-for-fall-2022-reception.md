@@ -1,11 +1,11 @@
 ---
-title: Project Managers for Fall 2022 Reception
-thumbnail: /./1234.jpg
-description: "With one Reception done, it is time to start planning for the next one! \r\n\n\r\n\nMeet Marin and Luna, our new Project Managers for the THS International Reception Fall 2022!\U0001F973\r\n\n\r\n\n“We are very thrilled to have the chance to lead this one of a kind project! We have both been in the PT of the Spring Reception and it was one of the most fun things we did during that time, with quotes we will take for life. We are looking forward to having you on our Project Team to help us give more students an introduction as amazing as the one we had!”\U0001F419"
+title: Project Manager for Fall 2023 Reception
+thumbnail: /./vrashabh-pm.jpg
+description: "With the launch of the applications for the Fall 2023 project team, it's about time to meet the person who will lead this one-of-a-kind project!\n\nMeet Vrashabh, the Project Manager of the THS International Reception of Fall 2023!\U0001F973\n\n\"I am very happy to be able to lead a project at such a scale! Being a project team member myself during the Spring reception created a bond with the project so strong that I was thrilled to see that I'm selected as PM!\U0001F60A\n\nWith the new structure being implemented to create a better atmosphere for the team, I hope to lead a new beginning for reception, and most importantly, create an unforgettable experience for the new students enrolling during fall! Looking forward to having a wonderful PT, and to have you join me to help create the best reception\_ever!\""
 preview: >-
-  With one Reception done, it is time to start the planning for the next one!
-  Meet our Project Managers, Marin and Luna!
+  With one Reception done, it is time to start planning for the next one! Meet
+  our Project Manager, Vrashabh!
 type: news
-date: '2022-05-12'
+date: '2023-04-14'
 ---
 
