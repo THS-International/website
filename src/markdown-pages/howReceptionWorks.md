@@ -2,14 +2,14 @@
 type: howReceptionWorks-page
 title: How Reception Works
 ---
-## Spring 2023 Reception
+## Fall 2023 Reception
 
 At the THS International Reception, we use our own Signup System, built by our amazing IT Team, where our new students can view all of our events and be able to book them.
 
 For the reception, you will have events divided into a couple of categories, that limit how many of them you can book and attend! We have split them according to the categories below:
 
-* **Paid**: Students are allowed to sign up for a **maximum of 3 Paid events**.
-* **Free**: Students are allowed to sign up for a **maximum of 3 Free Events.**
+* **Paid**: Students are allowed to sign up for a **maximum of 4 Paid events**.
+* **Free**: Students are allowed to sign up for a **maximum of 4 Free Events.**
 * **Unlimited:** Students are allowed to sign up for how many Unlimited Events they want.
 
 Our events are popular amongst students, but please keep in mind that there **may be spots that open up suddenly**. If a student does not show up to a payment  desk after being reminded to attend it, we will remove them from our event list and open the spot up for new students. Also, students may decide to unregister for events due to other commitments.
@@ -22,7 +22,7 @@ Do not forget that the THS International Reception Spring 2023 has a wristband t
 
 Looking for stuff to do after the Reception? Join our sister organization, [THS MAIN](https://www.facebook.com/THSMAIN)! They organize various social activities from board game nights, gasques, baking nights, hikes, pubs, etc. All you need to do is attend one of their member's meetings to become a member, and then you can get the chance to help out at the events!
 
-You can also follow our [THS International Facebook page](https://www.facebook.com/thsint) to get updates on when the next THS International Reception team will be recruited. For the Fall 2023 team, the following positions will be recruited:
+You can also follow our [THS International Facebook page](https://www.facebook.com/thsint) to get updates on when the next THS International Reception team will be recruited. For the Spring 2024 team, the following positions will be recruited:
 
 * [Project Manager](https://www.thsint.se/pm)
 * [Project Team](https://www.thsint.se/pt)
