@@ -8,8 +8,8 @@ At the THS International Reception, we use our own Signup System, built by our a
 
 For the reception, you will have events divided into a couple of categories, that limit how many of them you can book and attend! We have split them according to the categories below:
 
-* **Paid**: Students are allowed to sign up for a **maximum of 4 Paid events**.
-* **Free**: Students are allowed to sign up for a **maximum of 4 Free Events.**
+* **Paid**: Students are allowed to sign up for a **maximum of 2 Paid events**.
+* **Free**: Students are allowed to sign up for a **maximum of 3 Free Events.**
 * **Unlimited:** Students are allowed to sign up for how many Unlimited Events they want.
 
 Our events are popular amongst students, but please keep in mind that there **may be spots that open up suddenly**. If a student does not show up to a payment  desk after being reminded to attend it, we will remove them from our event list and open the spot up for new students. Also, students may decide to unregister for events due to other commitments.
