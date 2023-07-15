@@ -21,16 +21,66 @@ All Project Team members will also:
 
 # **The Positions**
 
-The positions' workload is flexible according to the effort and creativity you want to invest. Positions may vary across Receptions, and these roles may change due to COVID-19. The roles below are the ones for Spring 2021.
+The positions' workload is flexible according to the effort and creativity you want to invest. Positions may vary across Receptions, and these roles may change due to COVID-19. The roles below are the ones for Fall 2023.
+
+**EVENTS LEAD**
+
+* Coordinator for events throughout International Reception.
+* Head a group of 4-5 Event managers
+* Create events and work with the team to execute them
+* Activities range from museum and Skansen visits to city tours, hikes or sports activities.
+* Opportunity to explore your leadership, creative and manager sides by planning events and leading Buddies.
+
+
+
+- - -
+
+**PARTIES & ENTERTAINMENT LEAD**
+
+* Lead a group of 6 project team managers to create an unforgettable experience during the reception 
+* Work with Osqvik, Party and Banquet/Gasque Managers.
+* Coordinate information between different groups and provide guidance to your team.
+* Be responsible for all the Osqviks, Parties and Gasques/Banquets. 
+* Work closely with buddies and PT and explore your creative side. 
+
+
+
+- - -
+
+**COMMUNICATIONS LEAD**
+
+* Lead a group of 2~3 project team managers, consisting of marketing, communications and collaborations manager.
+* Responsible for handling matters related to communication, such as Facebook groups and Instagram.
+* Be responsible for communications with other THS organizations and chapters and smoothen the process between organizations and IntRec. 
+* Managing channels towards students and being their main point of contact.
+* Be at the frontier of creating identity and brand value for the THS International Reception.
+* Opportunity to explore your skills in communication while representing the team for ~2000 students.
+* Work closely with the whole project team in coordination.
+
+
+
+- - -
+
+**SERVICE & FINANCE LEAD**
+
+* Lead for the financial, catering and logistics front of the reception.
+* Activities mainly involve accounting and analytical tasks.
+* Work closely together with the Project Managers to advise on financial issues and the Head of THS International for accounting.
+* Advise the catering and logistics manager about what they require and be a backup support role for them.
+* A driver's license is mandatory as it involves renting a car to transport required items with the logistics manager.
+* Work closely with the Project Team. 
+
+- - -
+
+- - -
 
 **EVENT MANAGER** 
 
 * Coordinator for specific events throughout International Reception.
 * Create events and works together with buddies to execute them.
 * Activities range from museum and Skansen visits to city tours, hikes, sports activities or gasques.
-* Opportunity to explore both your creative and manager sides by planning events and leading Buddies.
-
-  ****
+* Opportunity to explore both your creative and managerial sides by planning events and leading Buddies.
+  - - -
 
 **OSQVIK MANAGER**
 
@@ -39,16 +89,16 @@ The positions' workload is flexible according to the effort and creativity you w
 * A whole day of activities provides for a wide spectrum of ideas to come to life.
 * Opportunity to lead a larger group of Buddies in creating one of our most favoured events.
 
-****
+- - -
 
 **BANQUET MANAGER** 
 
 * The Grand Banquet is our flagship event, the end of the reception weeks.
-* It involves ~200 attendants, features a formal dinner, live music, and a theme. 
+* It involves ~200 attendants, and features a formal dinner, live music, and a theme. 
 * You get the opportunity to create the entirety of the Banquet - from dinner menus to stage performances.
 * Opportunity to work closely with and lead ~30 Buddies to finish up with our most memorable event.
 
-****
+- - -
 
 **PARTY/PUB MANAGER**
 
@@ -57,7 +107,7 @@ The positions' workload is flexible according to the effort and creativity you w
 * Possibilities to let your imagination going wild to generate a variety of evening entertainment events.
 * Opportunity to coordinate Buddies and to become a first-hand expert on the requirements about events.
 
-****
+- - -
 
 **HR MANAGER**
 
@@ -66,7 +116,7 @@ The positions' workload is flexible according to the effort and creativity you w
 * Work closely with Project Managers to make sure that the workforce is available.
 * Opportunity to coordinate ~50 Buddies.
 
-****
+- - -
 
 **MARKETING MANAGER**
 
@@ -76,7 +126,7 @@ The positions' workload is flexible according to the effort and creativity you w
 * Organise the payment desks for paid events.
 * Work closely with the whole team in coordination.
 
-****
+- - -
 
 **COLLABORATION MANAGER**
 
@@ -84,8 +134,6 @@ The positions' workload is flexible according to the effort and creativity you w
 * Set up a communication plan for collaborations.
 * Facilitate communication between the event managers and collaborators.
 * Opportunity to explore your skills in communication between different interest groups.
-
- 
 
 **FINANCIAL MANAGER** 
 
@@ -96,7 +144,7 @@ The positions' workload is flexible according to the effort and creativity you w
 * Work closely with the head of THS International and Project manager to establish corporate relations.
 * Opportunity to improve both your systematic approach to work and to develop a basic knowledge of accounting.
 
-****
+- - -
 
 **CATERING MANAGER** 
 
@@ -106,7 +154,7 @@ The positions' workload is flexible according to the effort and creativity you w
 * Work closely with the logistics manager to purchase the required ingredients.
 * Opportunity to challenge your leadership and coordinate buddies.
 
-****
+- - -
 
 **LOGISTICS MANAGER** 
 
@@ -117,7 +165,7 @@ The positions' workload is flexible according to the effort and creativity you w
 * Work closely with the whole Project Team
 * Opportunity to improve your communication and cooperation skills.
 
-****
+- - -
 
 **IT MANAGER** 
 
