@@ -1,7 +1,7 @@
 ---
 type: events-page
 calendarid: >-
-  https://calendar.google.com/calendar/embed?src=c_3611bc4b5bdc182b79de912a164e72759ea98599416280ec9a946c6b5165502b%40group.calendar.google.com&ctz=Europe%2FStockholm
+  https://calendar.google.com/calendar/u/0?cid=Y18zNjExYmM0YjViZGMxODJiNzlkZTkxMmExNjRlNzI3NTllYTk4NTk5NDE2MjgwZWM5YTk0NmM2YjUxNjU1MDJiQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20
 calendarapi: AIzaSyCLA06RPpatzYtA4rYYcTQJAKk913a1ARc
 ---
 At the THS International Reception, we organize a lot of events for new students. We aim to provide multiple kinds of events, catering to different interests. 
