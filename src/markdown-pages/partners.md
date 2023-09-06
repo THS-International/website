@@ -22,4 +22,4 @@ The THS International Reception is an event involving a series of Volunteers and
 
 This year, we are continuing our partnership with Lyca Mobile Sweden! All international students are provided with a free Lyca Mobile SIM card with 8GB of data, free calls & SMS in Sweden, and 100 international minutes, valid for 30 days. Connect your world with Lyca Mobile and make the most of your time in Stockholm! Stay connected, make memories. “
 
-![LycaMobile GIF](/./lm_se_kth-gif_1583x613px_aug_23_v2-fast.gif "LycaMobile")
+![LycaMobile GIF 2](/./lm_se_kth-gif_1583x613px_aug_23_v2-fast.gif "LycaMobile")
