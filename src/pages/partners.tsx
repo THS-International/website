@@ -27,7 +27,7 @@ const Partners: React.FC = () => {
       <SEO title="Partners" />
       <h1>{queryResult.markdownRemark.frontmatter.title}</h1>
       <div dangerouslySetInnerHTML={{__html: queryResult.markdownRemark.html}} />
-      <Img style="width: 100%;" src="https://irpublic.blob.core.windows.net/thsint-se/LM_SE_KTH-GIF_1583x613px_Aug_23.gif" alt="LycaMobile GIF" />
+      <Img src="https://irpublic.blob.core.windows.net/thsint-se/LM_SE_KTH-GIF_1583x613px_Aug_23.gif" alt="LycaMobile GIF"></Img>
     </Layout>
   )
 }
