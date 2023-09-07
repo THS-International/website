@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { graphql, useStaticQuery } from "gatsby"
 import styled from "styled-components"
+import LycaGIF from "../images/lyca.gif"
 
 const query = graphql`
   query {
@@ -27,7 +28,7 @@ const Partners: React.FC = () => {
       <SEO title="Partners" />
       <h1>{queryResult.markdownRemark.frontmatter.title}</h1>
       <div dangerouslySetInnerHTML={{__html: queryResult.markdownRemark.html}} />
-      <Img src="https://irpublic.blob.core.windows.net/thsint-se/LM_SE_KTH-GIF_1583x613px_Aug_23.gif" alt="LycaMobile GIF"></Img>
+      <Img src={LycaGIF} alt="LycaMobile GIF"></Img>
     </Layout>
   )
 }
